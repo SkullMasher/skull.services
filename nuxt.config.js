@@ -27,6 +27,10 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://google-fonts.nuxtjs.org/
+    '@nuxtjs/google-fonts',
+    // https://github.com/nuxt-community/svg-module
+    '@nuxtjs/svg',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -49,4 +53,22 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Tailwind configuration: https://tailwindcss.nuxtjs.org/options
+  tailwindcss: {
+    jit: true,
+  },
+
+  // Google font configuration: https://google-fonts.nuxtjs.org/options
+  googleFonts: {
+    display: 'swap',
+    download: true,
+    base64: false,
+    subsets: 'latin',
+    families: {
+      Heebo: {
+        wght: [100, 400, 700],
+      },
+    },
+  },
 }
