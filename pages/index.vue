@@ -1,6 +1,7 @@
 <template>
   <div class="bg-gray-700">
     <Header />
+    <MainAtYourService />
   </div>
 </template>
 
