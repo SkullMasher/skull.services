@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-700">
-    <Header />
-    <MainAtYourService />
+    <header />
+    <main-kek />
   </div>
 </template>
 
