@@ -8,8 +8,11 @@
       systématiquement appel à ses services qualifiés ! Il fait partie de notre
       équipe.
     </p>
+    <p class="text-right text-2xl font-extralight">
+      Stéphane Médina
+    </p>
     <p class="mb-10 text-right">
-      Stéphane Médina, agence web
+      agence web
       <a class="underline" href="https://infinitygraphic.fr">
         Infinity Graphic
       </a>

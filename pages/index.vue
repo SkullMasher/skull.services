@@ -1,8 +1,10 @@
 <template>
-  <div class="bg-gray-700">
+  <div class="flow-root bg-gray-700">
     <Header />
     <MainAtYourService />
     <MainRecommended />
+    <MainQuoteNow />
+    <MainShortAboutMe />
   </div>
 </template>
 
