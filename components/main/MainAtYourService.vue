@@ -1,5 +1,5 @@
 <template>
-  <div class="flow-root mb-14 mx-5 text-lg text-gray-200">
+  <div class="flow-root mb-20 mx-5 text-lg text-gray-200">
     <h2 class="text-4xl mb-10">À votre service</h2>
     <div class="mb-14 ml-5">
       <p class="mb-5 font-bold">Corriger un bug sur mon site</p>
@@ -10,7 +10,7 @@
     </div>
     <NuxtLink
       to="/services"
-      class="ml-5 px-7 py-3 rounded-full bg-blue-500 uppercase"
+      class="inline-block ml-5 px-7 py-3 rounded-full bg-blue-500 uppercase"
     >
       Tous les Services
     </NuxtLink>
