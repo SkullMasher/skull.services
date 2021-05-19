@@ -55,9 +55,9 @@ export default {
   build: {},
 
   // Tailwind configuration: https://tailwindcss.nuxtjs.org/options
-  tailwindcss: {
-    jit: true,
-  },
+  // tailwindcss: {
+  //   jit: true,
+  // },
 
   // Google font configuration: https://google-fonts.nuxtjs.org/options
   googleFonts: {
