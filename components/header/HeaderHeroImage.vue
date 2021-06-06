@@ -2,7 +2,7 @@
   <img
     src="~/assets/florian-ledru-skullmasher-small.jpg"
     alt="Florian Ledru au calanques de Cassis"
-    class="clip-hero-image"
+    class="clip-hero-image ml-auto mr-auto"
   />
 </template>
 

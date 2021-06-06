@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="mx-0.5 flex relative -top-10 justify-evenly items-center font-bold transform-gpu -rotate-6"
+    class="max-w-lg ml-auto mr-auto flex relative -top-10 sm:-top-14 justify-evenly items-center font-bold transform-gpu -rotate-6"
   >
     <nuxtLink
       to="/services"
