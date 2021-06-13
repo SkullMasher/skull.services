@@ -1,13 +1,17 @@
 <template>
-  <img
-    src="~/assets/florian-ledru-skullmasher-small.jpg"
-    alt="Florian Ledru au calanques de Cassis"
-    class="clip-hero-image ml-auto mr-auto"
+  <nuxt-picture
+    src="/img/florian-skullmasher-ledru.jpg"
+    class="hero-image"
   />
 </template>
 
 <style>
-.clip-hero-image {
+.hero-image {
   clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+}
+
+/* max-width does not fill the container entirely on desktop  */
+.hero-image img {
+  width: 100%;
 }
 </style>
