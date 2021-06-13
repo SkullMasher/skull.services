@@ -5,8 +5,9 @@
       <p class="mb-5 font-bold">Corriger un bug sur mon site</p>
       <p class="mb-5 font-bold">Booster la vitesse de mon site</p>
       <p class="mb-5 font-bold">Améliorer ma visibilité sur Google</p>
-      <p class="mb-5 font-bold">Développement sur meure</p>
+      <p class="mb-5 font-bold">Développement sur mesure</p>
       <p class="mb-5 font-bold">Intervenir sur mon serveur linux</p>
+      <p class="mb-5 font-bold">Un freelance pour mon Agence</p>
     </div>
     <NuxtLink
       to="/services"
