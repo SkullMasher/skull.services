@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div>
+  <div class="sm:flex">
+    <div class="sm:mr-4">
       <NuxtLink
         to="/services"
-        class="inline-block mb-6 py-4 px-7 bg-blue-500 rounded-lg uppercase font-bold tracking-wider"
+        class="inline-block mb-6 py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors"
       >
         Consulter les services
       </NuxtLink>
@@ -11,9 +11,9 @@
     <div>
       <NuxtLink
         to="/portfolio"
-        class="inline-block py-4 px-7 border-2 border-blue-500 rounded-lg uppercase font-bold tracking-wider"
+        class="inline-block py-3 px-6 uppercase font-bold tracking-wider hover:ring-2 ring-inset ring-white rounded-lg transition-shadow"
       >
-        Voir le portfolio
+        Voir le portfolio →
       </NuxtLink>
     </div>
   </div>

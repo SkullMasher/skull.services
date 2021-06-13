@@ -1,5 +1,5 @@
 <template>
-  <div class="flow-root bg-gray-700">
+  <div class="flow-root bg-elegiac">
     <Header />
     <MainAtYourService />
     <MainRecommended />
@@ -14,3 +14,8 @@ import Vue from 'vue'
 
 export default Vue.extend({})
 </script>
+<style>
+.bg-elegiac {
+  background-color: hsl(214,38%,36%);
+}
+</style>

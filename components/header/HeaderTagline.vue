@@ -1,10 +1,10 @@
 <template>
   <div class="mb-14">
-    <h2 class="mb-4 text-2xl">Florian Ledru</h2>
-    <h1 class="text-4xl font-thin leading-relaxed">
-      Informaticien <strong class="font-bold">freelance</strong> au service des
+    <h2 class="mb-4 sm:mb-8 text-2xl sm:text-3xl tracking-wide">Florian Ledru</h2>
+    <h1 class="text-4xl sm:text-5xl font-thin leading-relaxed tracking-wide">
+      Informaticien <strong class="">freelance</strong> au service des
       <abbr title="Petite et moyenne entreprise">
-        <strong class="font-bold">PME</strong>
+        <strong class="">PME</strong>
       </abbr>
     </h1>
   </div>

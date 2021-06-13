@@ -2,7 +2,7 @@
   <header class="text-gray-200">
     <HeaderHeroImage />
     <HeaderNavigation />
-    <div class="px-5 mb-20">
+    <div class="max-w-xl mx-auto px-5 mb-20">
       <HeaderTagline />
       <HeaderCallToAction />
     </div>
