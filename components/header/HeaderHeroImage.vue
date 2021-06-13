@@ -12,6 +12,6 @@
 
 /* max-width does not fill the container entirely on desktop  */
 .hero-image img {
-  width: 100%;
+  /* width: 100%; */
 }
 </style>

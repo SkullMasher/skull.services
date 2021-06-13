@@ -14,8 +14,3 @@ import Vue from 'vue'
 
 export default Vue.extend({})
 </script>
-<style>
-.bg-elegiac {
-  background-color: hsl(214,38%,36%);
-}
-</style>
