@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-xl mx-5 sm:mx-auto mb-28 text-lg">
-    <h2 class="text-4xl mb-10">
+    <h2 class="text-3xl mb-10">
       Recommander par les entreprises locales et les agences web
     </h2>
     <div>

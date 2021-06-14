@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-xl mx-auto mb-20 text-lg">
-    <h2 class="mb-10 mx-5 text-4xl">
+    <h2 class="mb-10 mx-5 text-3xl">
       Demander un devis gratuit !
     </h2>
     <div
