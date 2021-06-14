@@ -21,9 +21,6 @@
 </template>
 <style>
 .about-image img {
-  @apply shadow-lg ring-4 hover:ring-8 ring-indigo-100 ring-opacity-70 hover:ring-opacity-100 transition-all transform transform-gpu hover:-rotate-2;
-
-  border-radius: 9999px;
-  margin-bottom: 10px;
+  @apply shadow-lg ring-4 rounded-full mb-5 hover:ring-8 ring-elegiac-light hover:ring-elegiac dark:ring-indigo-100 hover:dark:ring-indigo-200 ring-opacity-60 hover:ring-opacity-100 transition-all transform transform-gpu hover:-rotate-2;
 }
 </style>
