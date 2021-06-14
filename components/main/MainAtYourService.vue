@@ -33,7 +33,7 @@
 
 @media (min-width: 640px) {
   .service-line {
-    left: -70px;
+    left: -90px;
     top: -5rem;
   }
 }

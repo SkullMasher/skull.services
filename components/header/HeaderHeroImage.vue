@@ -1,9 +1,15 @@
 <template>
-  <nuxt-picture
-    src="/img/florian-skullmasher-ledru.jpg"
-    class="hero-image shadow-lg transition-all"
-    sizes="lg:100vw xl:45vw"
-  />
+  <div>
+    <nuxt-picture
+      src="/img/florian-skullmasher-ledru.jpg"
+      class="hero-image lg:hidden shadow-lg transition-all"
+    />
+    <nuxt-picture
+      src="/img/florian-skullmasher-ledru-square.jpg"
+      class="hidden lg:block hero-image-desktop rounded-full shadow-lg transition-all"
+      sizes="lg:40vw"
+    />
+  </div>
 </template>
 
 <style>
@@ -11,20 +17,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
 }
 
-@media (min-width: 1025px) {
-  .hero-image {
-    clip-path: polygon(0 0, 60% 0, 69% 66%, 0% 100%);
-  }
-}
-
-/* max-width does not fill the container entirely on desktop  */
-.hero-image img {
-  /* width: 100%; */
-}
-
-@media (min-width: 1025px) {
-  .hero-image img {
-    /* border-radius: 50%; */
-  }
+.hero-image-desktop img {
+  @apply rounded-full;
 }
 </style>
