@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex mx-5 mb-20 text-lg text-gray-200">
+  <div class="md:flex mx-5 mb-20 text-lg">
     <nuxt-picture
       src="/img/florian-skullmasher-ledru-kek.jpg"
       class="about-image transition-all"
@@ -11,12 +11,6 @@
         Issu de la banlieue parisienne, je peux me déplacer dans les villes de
         Paris, Nantes, Toulouse, Montpellier, Nimes, Saragosse ou Madrid.
       </p>
-      <NuxtLink
-        to="/about"
-        class="inline-block mx-5 ml-5 px-7 py-3 rounded-full bg-blue-500 uppercase text-gray-200"
-      >
-        En savoir plus
-      </NuxtLink>
     </div>
   </div>
 </template>

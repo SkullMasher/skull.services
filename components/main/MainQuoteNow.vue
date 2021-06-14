@@ -1,10 +1,10 @@
 <template>
-  <div class="mb-20 text-lg">
-    <h2 class="mb-10 mx-5 text-4xl text-gray-200">
+  <div class="max-w-xl mx-auto mb-20 text-lg">
+    <h2 class="mb-10 mx-5 text-4xl">
       Demander un devis gratuit !
     </h2>
     <div
-      class="mx-3 mb-10 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl"
+      class="max-w-sm mx-3 sm:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl"
     >
       <div class="flex items-center mb-5">
         <div
@@ -18,18 +18,20 @@
         </div>
       </div>
       <div class="ml-5">
-        <h4 class="">Intervention urgente Wordpress</h4>
-        <p class="mb-5 text-sm">
+        <h4 class="mb-2">Intervention urgente Wordpress</h4>
+        <p class="max-w-xs mb-5 text-sm">
           Désactivation d'un plugin qui empeche le chargement du site.
         </p>
         <p class="mr-10 text-right text-2xl font-bold">50 €</p>
       </div>
     </div>
-    <NuxtLink
-      to="/contact"
-      class="inline-block mx-5 ml-5 px-7 py-3 rounded-full bg-blue-500 uppercase text-gray-200"
-    >
-      Me contacter
-    </NuxtLink>
+    <div class="max-w-sm mx-3 sm:mx-auto">
+      <NuxtLink
+        to="/services"
+        class="inline-block py-3 px-6 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac hover:text-indigo-100 dark:hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
+      >
+        Me contacter →
+      </NuxtLink>
+    </div>
   </div>
 </template>

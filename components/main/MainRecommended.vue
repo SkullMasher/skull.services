@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-20 mx-5 text-lg text-gray-200">
+  <div class="max-w-xl mx-5 sm:mx-auto mb-28 text-lg">
     <h2 class="text-4xl mb-10">
       Recommander par les entreprises locales et les agences web
     </h2>
@@ -58,9 +58,9 @@
     </div>
     <NuxtLink
       to="/services"
-      class="inline-block ml-5 px-7 py-3 rounded-full bg-blue-500 uppercase"
+      class="inline-block py-3 px-6 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac hover:text-indigo-100 dark:hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
     >
-      Voir le portfolio
+      Voir le portfolio →
     </NuxtLink>
   </div>
 </template>
