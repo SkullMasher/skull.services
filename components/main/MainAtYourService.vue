@@ -1,19 +1,50 @@
 <template>
-  <div class="flow-root mb-20 mx-5 text-lg text-gray-200">
-    <h2 class="text-4xl mb-10">À votre service</h2>
-    <div class="mb-14 ml-5">
-      <p class="mb-5 font-bold">Corriger un bug sur mon site</p>
-      <p class="mb-5 font-bold">Booster la vitesse de mon site</p>
-      <p class="mb-5 font-bold">Améliorer ma visibilité sur Google</p>
-      <p class="mb-5 font-bold">Développement sur mesure</p>
-      <p class="mb-5 font-bold">Intervenir sur mon serveur linux</p>
-      <p class="mb-5 font-bold">Un freelance pour mon Agence</p>
+  <div class="flex flex-col items-center">
+    <div class="flow-root mx-5 text-lg">
+      <div
+        class="mb-24 ml-5 relative sm:text-2xl sm:tracking-wider font-light"
+      >
+        <nuxt-picture
+          src="/img/service-line.svg"
+          class="service-line"
+        />
+        <h2 class="mb-7 sm:mb-9">Corriger un bug sur mon site</h2>
+        <h2 class="mb-7 sm:mb-9">Booster la vitesse de mon site</h2>
+        <h2 class="mb-7 sm:mb-9">Améliorer ma visibilité sur Google</h2>
+        <h2 class="mb-7 sm:mb-9">Développement sur mesure</h2>
+        <h2 class="mb-7 sm:mb-9">Intervenir sur mon serveur linux</h2>
+        <h2 class="mb-7 sm:mb-9">Un freelance pour mon Agence</h2>
+      </div>
     </div>
     <NuxtLink
       to="/services"
-      class="inline-block ml-5 px-7 py-3 rounded-full bg-blue-500 uppercase"
+      class="inline-block py-3 px-6 mb-20 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-white rounded-lg transition-shadow hover:bg-gray-200 hover:text-elegiac transition shadow-lg"
     >
-      Tous les Services
+      Consulter les services →
     </NuxtLink>
   </div>
 </template>
+<style>
+.service-line {
+  position: absolute;
+  left: -25px;
+  top: -4rem;
+}
+
+@media (min-width: 640px) {
+  .service-line {
+    left: -70px;
+    top: -5rem;
+  }
+}
+
+.service-line img {
+  height: 455px;
+}
+
+@media (min-width: 640px) {
+  .service-line img {
+    height: 560px;
+  }
+}
+</style>

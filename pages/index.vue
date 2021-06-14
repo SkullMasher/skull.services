@@ -1,5 +1,5 @@
 <template>
-  <div class="flow-root bg-elegiac">
+  <div class="flow-root bg-elegiac text-gray-200">
     <Header />
     <MainAtYourService />
     <MainRecommended />
