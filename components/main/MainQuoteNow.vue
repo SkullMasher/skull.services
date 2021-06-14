@@ -28,7 +28,7 @@
     <div class="max-w-sm mx-3 sm:mx-auto">
       <NuxtLink
         to="/services"
-        class="inline-block py-3 px-6 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac hover:text-indigo-100 dark:hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
+        class="inline-block py-3 px-6 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
       >
         Me contacter →
       </NuxtLink>

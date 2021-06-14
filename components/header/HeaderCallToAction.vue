@@ -11,7 +11,7 @@
     <div>
       <NuxtLink
         to="/portfolio"
-        class="inline-block py-3 px-6 uppercase font-bold tracking-wider text-elegiac hover:ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow"
+        class="inline-block py-3 px-6 uppercase font-bold tracking-wider text-elegiac dark:text-indigo-100 hover:ring-2 ring-inset ring-elegiac dark:ring-indigo-100 rounded-lg transition-shadow"
       >
         Voir le portfolio →
       </NuxtLink>
