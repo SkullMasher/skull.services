@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xl mx-5 sm:mx-auto mb-28 text-lg">
+  <div class="max-w-xl xl:max-w-prose mx-5 sm:mx-auto mb-28 text-lg xl:text-xl">
     <h2 class="text-3xl mb-10">
       Recommander par les entreprises locales et les agences web
     </h2>
@@ -41,8 +41,8 @@
     </div>
     <div>
       <p class="mb-5 ml-5">
-      </p>
         Toujours un plaisir de travailler avec Florian avec qui tout devient possible&nbsp;! Efficace et professionnel, à l’écoute de toutes les demandes, Florian cerne parfaitement vos besoins et contraintes et planche pour vous apporter des solutions.
+      </p>
       <div class="text-right">
         <p class="text-2xl font-extralight">Yohan Antoine</p>
         <p>
@@ -58,7 +58,7 @@
     </div>
     <NuxtLink
       to="/services"
-      class="inline-block py-3 px-6 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
+      class="inline-block py-3 px-6 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg text-lg"
     >
       Voir le portfolio →
     </NuxtLink>
