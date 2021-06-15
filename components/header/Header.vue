@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="max-w-screen-2xl mx-auto lg:mt-20 lg:ml-20">
+    <div class="max-w-screen-2xl mx-auto">
       <div>
         <HeaderHeroImage />
         <HeaderNavigation />

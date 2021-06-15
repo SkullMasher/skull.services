@@ -1,13 +1,10 @@
 <template>
   <div>
-    <nuxt-picture
+    <nuxt-img
       src="/img/florian-skullmasher-ledru.jpg"
-      class="hero-image lg:hidden shadow-lg transition-all"
-    />
-    <nuxt-picture
-      src="/img/florian-skullmasher-ledru-square.jpg"
-      class="hidden lg:block hero-image-desktop rounded-full shadow-lg transition-all"
-      sizes="lg:40vw"
+      srcset="/img/florian-skullmasher-ledru.jpg 1024w, /img/florian-skullmasher-ledru-square.jpg"
+      sizes="lg:100vw"
+      class="hero-image shadow-lg transition-all"
     />
   </div>
 </template>
