@@ -19,6 +19,6 @@
 }
 
 .hero-image-desktop img {
-  @apply max-w-xs xl:max-w-sm ml-20 mt-20 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3;
+  @apply max-w-xs xl:max-w-sm ml-10 xl:ml-16 mt-24 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3;
 }
 </style>
