@@ -1,5 +1,5 @@
 <template>
-  <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 halos transition duration-500">
+  <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 halos-light dark:halos transition duration-500">
     <Header />
     <MainAtYourService />
     <MainRecommended />
