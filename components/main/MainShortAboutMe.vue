@@ -14,14 +14,23 @@
         <h2 class="mb-6 text-3xl">Geek nomade &nbsp;!</h2>
         <div class="ml-5 mb-10">
           <p class="mb-5">
-            Actuelement, j'opère exclusivement en ligne depuis <a class="link-pretty" target="_blank" href="https://www.camargue.fr/site/levillagecamarguais/">un village de vacance</a> à Arles dans lequel je transforme vos problème en solution informatique.
+            Actuellement, j'opère exclusivement en ligne depuis
+            <a
+              class="link-pretty"
+              target="_blank"
+              href="https://www.camargue.fr/site/levillagecamarguais/"
+            >
+              un village de vacance
+            </a>
+            à Arles.
           </p>
           <p>
-            De nature active je change souvent mon lieu de vie. Je profite de
-            cette vie nomade pour rencontrer mes clients sur le téritoire ainsi
-            que mes amis et ma famille éparpillé entre la france et
-            l'espagne. Je peux me déplacer dans les villes de Paris, Nantes,
-            Toulouse, Montpellier, Nimes, Lyon, Saragosse et Madrid.
+            De nature active, je change souvent mon lieu de vie. Je profite de
+            cette vie nomade pour rencontrer mes clients sur le territoire ainsi
+            que mes amis et ma famille éparpillé entre la France et l'Espagne
+            (en dehors des périodes de pandémie mondial bien sûr). Je peux me
+            déplacer dans les villes de Paris, Nantes, Toulouse, Montpellier,
+            Nîmes, Lyon, Saragosse et Madrid.
           </p>
         </div>
       </div>

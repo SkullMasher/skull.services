@@ -1,5 +1,27 @@
 <template>
-  <header>
+  <header class="relative">
+    <button
+      v-show="$colorMode.value === 'light'"
+      @click="$colorMode.preference = 'dark'"
+      class="absolute top-10 right-20"
+    >
+      <nuxt-img
+        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100"
+        format="svg"
+        src="/img/moon.svg"
+      />
+    </button>
+    <button
+      v-show="$colorMode.value === 'dark'"
+      @click="$colorMode.preference = 'light'"
+      class="absolute top-10 right-20"
+    >
+      <nuxt-img
+        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 opacity-75 hover:opacity-100 filter drop-shadow-lg sun-shine"
+        format="svg"
+        src="/img/sun.svg"
+      />
+    </button>
     <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-10">
       <div>
         <HeaderHeroImage />

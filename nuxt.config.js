@@ -31,6 +31,8 @@ export default {
     '@nuxtjs/google-fonts',
     // https://github.com/nuxt-community/svg-module
     '@nuxtjs/svg',
+    // https://color-mode.nuxtjs.org/#setup
+    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -59,6 +61,11 @@ export default {
   // Nuxt images configuration: https://image.nuxtjs.org/api/options
   image: {
     domains: ['https://skullmasher.io']
+  },
+
+  // https://color-mode.nuxtjs.org/#tailwind-v2
+  colorMode: {
+    classSuffix: ''
   },
 
   // Google font configuration: https://google-fonts.nuxtjs.org/options

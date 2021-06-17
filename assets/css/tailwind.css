@@ -10,7 +10,7 @@
       radial-gradient(31.5% 10% at 350px 160px, hsla(223, 36%, 60%, 1) 0%, rgba(86, 97, 123, 0.4) 51.04%, rgba(0, 0, 0, 0) 100%),
       radial-gradient(31.62% 10% at 5% 3%,rgba(85, 231, 196, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
       radial-gradient(95% 28% at 105% -3%, #1D437C 0%, rgba(23, 66, 130, 0) 100%),
-      #39577F;
+      color.theme.elegiac;
   }
 
   .link-pretty {
@@ -31,5 +31,13 @@
   .link-pretty:hover::before {
     transform: translateY(0);
     transition: transform .15s ease;
+  }
+
+  .sun-shine {
+    filter: drop-shadow(0 0px 6px rgb(191, 168, 48));
+  }
+
+  .sun-shine:hover {
+    filter: drop-shadow(0 0px 11px rgb(191, 168, 48));
   }
 }
