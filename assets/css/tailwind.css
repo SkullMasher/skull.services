@@ -24,7 +24,7 @@
     content: "";
     z-index: -1;
     transform: translateY(calc(100% - 2px));
-    background-image: linear-gradient(60deg,#f53b00,#be0e00);
+    background-image: linear-gradient(60deg,theme('colors.blue.500'),theme('colors.blue.600'));
     transition: transform .15s ease;
   }
 
