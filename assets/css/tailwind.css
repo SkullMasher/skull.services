@@ -50,4 +50,12 @@
   .sun-shine:hover {
     filter: drop-shadow(0 0px 11px rgb(191, 168, 48));
   }
+
+  .moon-shine {
+    filter: drop-shadow(0 0px 6px rgb(0, 0, 50));
+  }
+
+  .moon-shine:hover {
+    filter: drop-shadow(0 0px 11px rgb(0, 0, 50));
+  }
 }

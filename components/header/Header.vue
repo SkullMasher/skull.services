@@ -3,10 +3,10 @@
     <button
       v-show="$colorMode.value === 'light'"
       @click="$colorMode.preference = 'dark'"
-      class="absolute top-10 right-20"
+      class="absolute z-10 top-5 right-5 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
     >
       <nuxt-img
-        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100"
+        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine"
         format="svg"
         src="/img/moon.svg"
       />
@@ -14,10 +14,10 @@
     <button
       v-show="$colorMode.value === 'dark'"
       @click="$colorMode.preference = 'light'"
-      class="absolute top-10 right-20"
+      class="absolute z-10 top-5 right-5 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
     >
       <nuxt-img
-        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 opacity-75 hover:opacity-100 filter drop-shadow-lg sun-shine"
+        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine"
         format="svg"
         src="/img/sun.svg"
       />
