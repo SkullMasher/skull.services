@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xl xl:max-w-prose mx-5 sm:mx-auto mb-28 text-lg xl:text-xl">
+  <div class="max-w-xl xl:max-w-prose mx-5 sm:mx-auto mb-28 text-lg xl:text-xl kek">
     <h2 class="text-3xl mb-10">
       Recommander par les entreprises locales et les agences web
     </h2>

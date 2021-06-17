@@ -1,22 +1,29 @@
 <template>
   <div>
     <div class="max-w-4xl lg:mx-auto md:flex mx-5 mb-20 text-lg">
-      <figure class="mb-10 max-w-xs mx-auto flex-grow">
+      <figure class="mb-10 w-4/5 sm:w-1/3 mx-auto">
         <nuxt-picture
-          src="/img/florian-skullmasher-ledru-kek.jpg"
+          src="/img/florian-skullmasher-ledru-alpilles.jpg"
           class="about-image"
         />
-        <figcaption class="w-32 mx-auto text-sm text-center italic">
-          Florian au parc naturel des Alpilles en juin 2021
+        <figcaption class="max-w-xs mx-auto text-sm text-center italic">
+          Photo non professionnel durant une randonnée au parc naturel des Alpilles en juin 2021
         </figcaption>
       </figure>
-      <div class="flex-shrink md:ml-10 md:mr-5">
-        <h2 class="mb-6 text-3xl">Geek à plein temps&nbsp;!</h2>
-        <p class="ml-5 mb-10">
-          Actuelement, j'opère exclusivement en ligne puisque je suis <a href="">situé en campagne d'Arles</a>.
-          Issu de la banlieue parisienne, je peux me déplacer dans les villes de
-          Paris, Nantes, Toulouse, Montpellier, Nimes, Saragosse ou Madrid.
-        </p>
+      <div class="md:ml-10 md:mr-5 w-full sm:w-2/3">
+        <h2 class="mb-6 text-3xl">Geek nomade &nbsp;!</h2>
+        <div class="ml-5 mb-10">
+          <p class="mb-5">
+            Actuelement, j'opère exclusivement en ligne depuis <a class="link-pretty" target="_blank" href="https://www.camargue.fr/site/levillagecamarguais/">un village de vacance</a> à Arles dans lequel je transforme vos problème en solution informatique.
+          </p>
+          <p>
+            De nature active je change souvent mon lieu de vie. Je profite de
+            cette vie nomade pour rencontrer mes clients sur le téritoire ainsi
+            que mes amis et ma famille éparpillé entre la france et
+            l'espagne. Je peux me déplacer dans les villes de Paris, Nantes,
+            Toulouse, Montpellier, Nimes, Lyon, Saragosse et Madrid.
+          </p>
+        </div>
       </div>
     </div>
   </div>

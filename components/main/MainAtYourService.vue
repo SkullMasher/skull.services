@@ -1,8 +1,9 @@
 <template>
   <div class="flex flex-col items-center">
-    <div class="flow-root mx-5 text-lg">
+    <div class="flow-root max-w-md mx-5 sm:mx-auto text-lg">
+      <h2 class="text-3xl mb-20 font-light leading-normal">Un seul interlocuteur pour vos problèmes informatiques</h2>
       <div
-        class="mb-24 ml-5 relative sm:text-2xl sm:tracking-wider font-light"
+        class="mb-24 ml-5 xs:ml-12 relative sm:text-2xl sm:tracking-wider font-light"
       >
         <nuxt-picture
           src="/img/service-line.svg"
@@ -27,13 +28,13 @@
 <style>
 .service-line {
   position: absolute;
-  left: -25px;
+  left: -42px;
   top: -4rem;
 }
 
 @media (min-width: 640px) {
   .service-line {
-    left: -90px;
+    left: -115px;
     top: -5rem;
   }
 }

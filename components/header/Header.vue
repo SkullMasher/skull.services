@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-32">
+    <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-10">
       <div>
         <HeaderHeroImage />
         <HeaderNavigation />

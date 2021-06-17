@@ -4,6 +4,9 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        'xs': '340px',
+      },
       colors: {
         elegiac: {
           light: 'hsl(214, 38%, 45%)',

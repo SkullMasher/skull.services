@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .halos {
+    background:
+      radial-gradient(20% 7% at 0% 12%, #7644B6 0%, rgba(255, 255, 255, 0) 100%),
+      radial-gradient(180px 160px at 310px 350px, hsla(194.5, 76.1%, 54.1%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+      radial-gradient(31.5% 10% at 350px 160px, hsla(223, 36%, 60%, 1) 0%, rgba(86, 97, 123, 0.4) 51.04%, rgba(0, 0, 0, 0) 100%),
+      radial-gradient(31.62% 10% at 5% 3%,rgba(85, 231, 196, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
+      radial-gradient(95% 28% at 105% -3%, #1D437C 0%, rgba(23, 66, 130, 0) 100%),
+      #39577F;
+  }
+
+  .link-pretty {
+    @apply relative z-0 inline-block overflow-hidden align-bottom;
+    transition:  color .015s ease;
+  }
+
+  .link-pretty::before {
+    @apply absolute top-0 w-full h-full;
+
+    content: "";
+    z-index: -1;
+    transform: translateY(calc(100% - 2px));
+    background-image: linear-gradient(60deg,#f53b00,#be0e00);
+    transition: transform .15s ease;
+  }
+
+  .link-pretty:hover::before {
+    transform: translateY(0);
+    transition: transform .15s ease;
+  }
+}

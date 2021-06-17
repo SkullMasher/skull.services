@@ -56,10 +56,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-  // Tailwind configuration: https://tailwindcss.nuxtjs.org/options
-  // tailwindcss: {
-  //   jit: true,
-  // },
+  // Nuxt images configuration: https://image.nuxtjs.org/api/options
+  image: {
+    domains: ['https://skullmasher.io']
+  },
 
   // Google font configuration: https://google-fonts.nuxtjs.org/options
   googleFonts: {
