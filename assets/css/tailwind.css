@@ -52,10 +52,10 @@
   }
 
   .moon-shine {
-    filter: drop-shadow(0 0px 6px rgb(0, 0, 50));
+    filter: drop-shadow(0 0px 5px hsla(272.5, 59.6%, 19.4%, 0.7));
   }
 
   .moon-shine:hover {
-    filter: drop-shadow(0 0px 11px rgb(0, 0, 50));
+    filter: drop-shadow(0 0px 11px hsla(272.5, 59.6%, 19.4%, 0.7));
   }
 }
