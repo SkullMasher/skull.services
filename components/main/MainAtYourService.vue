@@ -19,7 +19,7 @@
     </div>
     <NuxtLink
       to="/services"
-      class="inline-block py-3 px-6 mb-20 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg transition-shadow hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
+      class="inline-block py-3 px-6 mb-20 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
     >
       Consulter les services →
     </NuxtLink>
