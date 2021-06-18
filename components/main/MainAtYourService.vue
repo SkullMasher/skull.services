@@ -1,20 +1,44 @@
 <template>
   <div class="flex flex-col items-center">
-    <div class="flow-root max-w-md mx-5 sm:mx-auto text-lg">
-      <h2 class="text-3xl mb-20 font-light leading-normal">Un seul interlocuteur pour vos problèmes informatiques</h2>
+    <div class="text-lg">
+      <h2 class="max-w-md mx-5 sm:mx-auto text-3xl font-light leading-normal">Un seul interlocuteur pour vos problèmes informatiques</h2>
       <div
-        class="mb-24 ml-5 xs:ml-12 relative sm:text-2xl sm:tracking-wider font-light"
+        class="mx-5 sm:mx-0 sm:mb-0 relative sm:text-2xl sm:tracking-wider font-light"
       >
         <nuxt-picture
           src="/img/service-line.svg"
           class="service-line"
         />
-        <h2 class="mb-7 sm:mb-9">Corriger un bug sur mon site</h2>
-        <h2 class="mb-7 sm:mb-9">Booster la vitesse de mon site</h2>
-        <h2 class="mb-7 sm:mb-9">Améliorer ma visibilité sur Google</h2>
-        <h2 class="mb-7 sm:mb-9">Développement sur mesure</h2>
-        <h2 class="mb-7 sm:mb-9">Intervenir sur mon serveur linux</h2>
-        <h2 class="mb-7 sm:mb-9">Un freelance pour mon Agence</h2>
+        <h2
+          class="pt-16 sm:pt-20 pb-3 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110"
+        >
+          Corriger un bug sur mon site
+        </h2>
+        <h2
+          class="pt-3 sm:pt-4 pb-4 sm:pb-6 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110"
+        >
+          Booster la vitesse de mon site
+        </h2>
+        <h2
+          class="pt-3 sm:pt-4 pb-4 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110"
+        >
+          Améliorer ma visibilité sur Google
+        </h2>
+        <h2
+          class="pt-3 sm:pt-4 pb-4 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110"
+        >
+          Développement sur mesure
+        </h2>
+        <h2
+          class="pt-3 sm:pt-4 pb-5 sm:pb-6 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110"
+        >
+          Intervenir sur mon serveur linux
+        </h2>
+        <h2
+          class="pt-3 sm:pt-5 pb-20 sm:pb-28 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110"
+        >
+          Un freelance pour mon Agence
+        </h2>
       </div>
     </div>
     <NuxtLink
@@ -25,27 +49,3 @@
     </NuxtLink>
   </div>
 </template>
-<style>
-.service-line {
-  position: absolute;
-  left: -42px;
-  top: -4rem;
-}
-
-@media (min-width: 640px) {
-  .service-line {
-    left: -115px;
-    top: -5rem;
-  }
-}
-
-.service-line img {
-  height: 455px;
-}
-
-@media (min-width: 640px) {
-  .service-line img {
-    height: 560px;
-  }
-}
-</style>

@@ -58,4 +58,46 @@
   .moon-shine:hover {
     filter: drop-shadow(0 0px 11px hsla(272.5, 59.6%, 19.4%, 0.7));
   }
+
+  .service-line {
+    position: absolute;
+    left: -8px;
+  }
+
+  @media (min-width: 640px) {
+    .service-line {
+      left: 30px;
+      top: 5px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .service-line {
+      left: 24px;
+      top: 5px;
+    }
+  }
+
+  .service-line img {
+    height: 455px;
+  }
+
+  @media (min-width: 640px) {
+    .service-line img {
+      height: 560px;
+    }
+  }
+
+  .text-neon {
+    backface-visibility: hidden;
+  }
+
+  .text-neon:hover {
+    text-shadow:
+      0 0 20px theme('colors.indigo.300'),
+      0 0 30px theme('colors.indigo.300'),
+      0 0 40px theme('colors.indigo.300'),
+      0 0 50px theme('colors.indigo.300')
+      ;
+  }
 }
