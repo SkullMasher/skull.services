@@ -10,15 +10,3 @@
     />
   </div>
 </template>
-
-<style>
-.hero-image {
-  @apply shadow-lg transition-all lg:hidden;
-
-  clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
-}
-
-.hero-image-desktop img {
-  @apply max-w-xs xl:max-w-sm ml-10 xl:ml-16 mt-24 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3;
-}
-</style>

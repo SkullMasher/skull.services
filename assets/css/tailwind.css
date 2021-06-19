@@ -23,26 +23,6 @@
       theme('colors.indigo.100');
   }
 
-  .link-pretty {
-    @apply relative z-0 inline-block overflow-hidden align-bottom;
-    transition:  color .015s ease;
-  }
-
-  .link-pretty::before {
-    @apply absolute top-0 w-full h-full;
-
-    content: "";
-    z-index: -1;
-    transform: translateY(calc(100% - 2px));
-    background-image: linear-gradient(60deg,theme('colors.blue.500'),theme('colors.blue.600'));
-    transition: transform .15s ease;
-  }
-
-  .link-pretty:hover::before {
-    transform: translateY(0);
-    transition: transform .15s ease;
-  }
-
   .sun-shine {
     filter: drop-shadow(0 0px 6px rgb(191, 168, 48));
   }
@@ -97,7 +77,37 @@
       0 0 20px theme('colors.indigo.300'),
       0 0 30px theme('colors.indigo.300'),
       0 0 40px theme('colors.indigo.300'),
-      0 0 50px theme('colors.indigo.300')
-      ;
+      0 0 50px theme('colors.indigo.300');
+  }
+
+  .hero-image {
+    @apply shadow-lg transition-all lg:hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+  }
+
+  .hero-image-desktop img {
+    @apply max-w-xs xl:max-w-sm ml-10 xl:ml-16 mt-24 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3;
+  }
+}
+
+@layer utilities {
+  .link-pretty {
+    @apply relative z-0 inline-block overflow-hidden align-bottom;
+    transition:  color .015s ease;
+  }
+
+  .link-pretty::before {
+    @apply absolute top-0 w-full h-full;
+
+    content: "";
+    z-index: -1;
+    transform: translateY(calc(100% - 2px));
+    background-image: linear-gradient(60deg,theme('colors.blue.500'),theme('colors.blue.600'));
+    transition: transform .15s ease;
+  }
+
+  .link-pretty:hover::before {
+    transform: translateY(0);
+    transition: transform .15s ease;
   }
 }
