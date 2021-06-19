@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+@layer components {
   .halos {
     background:
       radial-gradient(20% 7% at 0% 12%, #7644B6 0%, rgba(255, 255, 255, 0) 100%),
