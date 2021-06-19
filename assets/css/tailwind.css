@@ -44,14 +44,14 @@
     left: -8px;
   }
 
-  @media (min-width: 640px) {
+  @screen sm {
     .service-line {
       left: 30px;
       top: 5px;
     }
   }
 
-  @media (min-width: 1024px) {
+  @screen lg {
     .service-line {
       left: 24px;
       top: 5px;
@@ -62,7 +62,7 @@
     height: 455px;
   }
 
-  @media (min-width: 640px) {
+  @screen sm {
     .service-line img {
       height: 560px;
     }
