@@ -1,69 +1,63 @@
 <template>
-  <div class="max-w-xl xl:max-w-prose mx-5 sm:mx-auto mb-28 text-lg xl:text-xl">
-    <h2 class="max-w-lg text-3xl mb-10">
+  <div class="mb-20 text-lg xl:text-xl pt-20 pb-20 clippath-recommendation bg-indigo-200 dark:bg-elegiac-dark">
+    <h2 class="text-3xl mx-5 mb-12 text-left lg:text-center font-light">
       Recommander par les entreprises locales et les agences web
     </h2>
-    <div>
+    <div class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto pb-10 grid grid-flow-col grid-cols-recommendation gap-5 xl:gap-10 2xl:gap-20 overflow-x-auto overscroll-x-contain scroll-snap-x-proximity">
       <div>
-        <p class="mb-5 ml-5">
+        <p class="mb-5 scroll-snap-align-start">
           Florian est très réactif et très disponible. Notre entreprise fait
           systématiquement appel à ses services qualifiés ! Il fait partie de notre
           équipe.
         </p>
-        <div class="text-right">
-          <p class="text-2xl font-extralight">Stéphane Médina</p>
+        <div>
+          <p class="text-2xl font-light italic">Stéphane Médina</p>
           <p class="mb-1">
             <a class="link-pretty" href="https://infinitygraphic.fr" target="_blank">
               Infinity Graphic
             </a>
           </p>
-          <p class="mb-10 text-right text-sm w-40 ml-auto">
+          <p class="text-sm w-40">
             Agence web
             à Gaillac dans le Tarn
           </p>
         </div>
       </div>
       <div>
-        <p class="mb-5 ml-5">
-          Déjà cinq ans que le site de mon entreprise Seb Services Auto à vu le jour sous l'impulsion de Flo. Cinq ans d'échanges, de corrections, d'évolutions, de propositions pertinentes, au service de ma vitrine. Il reste en veille, débloque les situations compliquées et urgente afin que tous fonctionne parfaitement. Flo m'a apporter bien plus qu'un site web, il est mon partenaire... Merci beaucoup pour ton dévouement.
+        <p class="mb-5 scroll-snap-align-start">
+          5 ans d'échanges, de corrections, d'évolutions, de propositions pertinentes, au service de ma vitrine. Il reste en veille, débloque les situations compliquées et urgente afin que tous fonctionne parfaitement. Flo est mon partenaire... Merci beaucoup pour ton dévouement.
         </p>
-        <div class="text-right">
-          <p class="text-2xl font-extralight">Sebastien Philippe</p>
+        <div>
+          <p class="text-2xl font-light italic">Sebastien Philippe</p>
           <p class="mb-1">
             <a class="link-pretty" href="https://www.sebservicesauto.fr/" target="_blank">
               Seb Services Auto
             </a>
           </p>
-          <p class="mb-10 text-sm w-40 ml-auto">
+          <p class="text-sm w-40">
             Mécanicien automobile à domicile
             à Voiron en Isère
           </p>
         </div>
       </div>
       <div>
-        <p class="mb-5 ml-5">
+        <p class="mb-5 scroll-snap-align-start">
           Toujours un plaisir de travailler avec Florian avec qui tout devient possible&nbsp;! Efficace et professionnel, à l’écoute de toutes les demandes, Florian cerne parfaitement vos besoins et contraintes et planche pour vous apporter des solutions.
         </p>
-        <div class="text-right">
-          <p class="text-2xl font-extralight">Yohan Antoine</p>
+        <div>
+          <p class="text-2xl font-light italic">Yohan Antoine</p>
           <p class="mb-1">
             <a class="link-pretty" href="https://infinitygraphic.fr" target="_blank">
               Auzars
             </a>
           </p>
-          <p class="mb-10 text-sm w-40 ml-auto">
+          <p class="text-sm w-40">
             Vente et encadrement de photo en ligne
             à Vannes dans le Morbihan
           </p>
         </div>
       </div>
     </div>
-    <NuxtLink
-      to="/services"
-      class="inline-block py-3 px-6 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg text-lg"
-    >
-      Voir le portfolio <ArrowRight class="w-6 h-6 inline" />
-    </NuxtLink>
   </div>
 </template>
 <script>

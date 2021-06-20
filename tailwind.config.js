@@ -34,6 +34,9 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
+      gridTemplateColumns: {
+        'recommendation': 'repeat(3, minmax(280px, 480px))',
+      },
     },
   },
   variants: {
