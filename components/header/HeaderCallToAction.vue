@@ -13,8 +13,16 @@
         to="/portfolio"
         class="inline-block py-3 px-6 uppercase font-bold tracking-wider text-elegiac dark:text-indigo-100 hover:ring-2 ring-inset ring-elegiac dark:ring-indigo-100 rounded-lg transition-shadow"
       >
-        Voir le portfolio →
+        Voir le portfolio <ArrowRight class="w-6 h-6 inline" />
       </NuxtLink>
     </div>
   </div>
 </template>
+<script>
+import Vue from 'vue'
+import ArrowRight from "~/static/img/arrow-right.svg?inline";
+
+export default Vue.extend({
+  components: { ArrowRight },
+})
+</script>

@@ -45,7 +45,15 @@
       to="/services"
       class="inline-block py-3 px-6 mb-20 ml-7 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
     >
-      Consulter les services →
+      Consulter les services <ArrowRight class="w-6 h-6 inline" />
     </NuxtLink>
   </div>
 </template>
+<script>
+import Vue from 'vue'
+import ArrowRight from "~/static/img/arrow-right.svg?inline";
+
+export default Vue.extend({
+  components: { ArrowRight },
+})
+</script>

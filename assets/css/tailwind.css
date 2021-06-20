@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-  .halos {
+  /* Halos of light used on the index header */
+  .halos-dark {
     background:
-      radial-gradient(20% 7% at 0% 12%, #7644B6 0%, rgba(255, 255, 255, 0) 100%),
-      radial-gradient(180px 160px at 310px 350px, hsla(194.5, 76.1%, 54.1%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
-      radial-gradient(31.5% 10% at 350px 160px, hsla(223, 36%, 60%, 1) 0%, rgba(86, 97, 123, 0.4) 51.04%, rgba(0, 0, 0, 0) 100%),
+      radial-gradient(150px 150px at 0% 200px, #7644B6 0%, rgba(255, 255, 255, 0) 100%),
+      radial-gradient(50px 50px at 88% 155px, hsla(194.5, 76.1%, 54.1%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+      radial-gradient(200px 200px at 70% 150px, hsla(223, 36%, 60%, 1) 0%, rgba(86, 97, 123, 0.4) 51.04%, rgba(0, 0, 0, 0) 100%),
       radial-gradient(31.62% 10% at 5% 3%,rgba(85, 231, 196, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
       radial-gradient(95% 28% at 105% -3%, hsla(216, 62.1%, 30%, 1) 0%, rgba(23, 66, 130, 0) 100%),
       theme('colors.elegiac.DEFAULT');
@@ -21,6 +22,28 @@
       radial-gradient(31.62% 10% at 5% 3%,rgba(85, 231, 196, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
       radial-gradient(95% 28% at 105% -3%, theme('colors.indigo.200') 0%, rgba(23, 66, 130, 0) 100%),
       theme('colors.indigo.100');
+  }
+
+  @screen lg {
+    .halos-dark {
+      background:
+        radial-gradient(20% 7% at 0% 12%, #7644B6 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(180px 160px at 310px 350px, hsla(194.5, 76.1%, 54.1%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(31.5% 10% at 350px 160px, hsla(223, 36%, 60%, 1) 0%, rgba(86, 97, 123, 0.4) 51.04%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(31.62% 10% at 5% 3%,rgba(85, 231, 196, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(95% 28% at 105% -3%, hsla(216, 62.1%, 30%, 1) 0%, rgba(23, 66, 130, 0) 100%),
+        theme('colors.elegiac.DEFAULT');
+    }
+
+    .halos-light {
+      background:
+        radial-gradient(20% 7% at 0% 12%, hsla(266.3, 45.6%, 65%, 1) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(180px 160px at 310px 350px, hsla(194.5, 76.1%, 50%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(31.5% 10% at 350px 160px, hsla(223, 36%, 80%, 0.4) 0%, hsla(222.2, 60%, 75%, 0.1) 51.04%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(31.62% 10% at 5% 3%,rgba(85, 231, 196, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(95% 28% at 105% -3%, theme('colors.indigo.200') 0%, rgba(23, 66, 130, 0) 100%),
+        theme('colors.indigo.100');
+    }
   }
 
   .sun-shine {

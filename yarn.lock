@@ -1692,7 +1692,7 @@
 
 "@nuxtjs/svg@^0.1.12":
   version "0.1.12"
-  resolved "https://registry.npmjs.org/@nuxtjs/svg/-/svg-0.1.12.tgz"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/svg/-/svg-0.1.12.tgz#a5b2a66070a36e3c5c5183db9e3d89485ef3eb1c"
   integrity sha512-QJjArXOcQzDn7gzc/pFr960NTediubeZ5djtqV3BkOnZnANSOvtxFp2LnHF6e4rFq9CTEabPr89WZUwrVDemEQ==
   dependencies:
     file-loader "^6.0.0"
