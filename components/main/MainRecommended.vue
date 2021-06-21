@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-20 text-lg xl:text-xl pt-20 pb-20 clippath-recommendation bg-indigo-200 dark:bg-elegiac-dark">
+  <section class="mb-20 text-lg xl:text-xl pt-20 pb-20 clippath-recommendation bg-indigo-200 dark:bg-elegiac-dark">
     <h2 class="text-3xl mx-5 mb-12 text-left lg:text-center font-light">
       Recommander par les entreprises locales et les agences web
     </h2>
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 import Vue from 'vue'

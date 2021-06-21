@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center mb-14">
+  <section class="flex flex-col items-center mb-14">
     <div class="text-lg">
       <h2 class="max-w-md mx-5 sm:mx-auto text-3xl font-light leading-normal">
         <span class="font-medium">Un seul interlocuteur</span> pour vos problèmes informatiques
@@ -7,10 +7,7 @@
       <div
         class="mx-5 sm:mx-0 sm:mb-0 relative sm:text-2xl sm:tracking-wider font-light"
       >
-        <nuxt-picture
-          src="/img/service-line.svg"
-          class="service-line"
-        />
+        <nuxt-picture src="/img/service-line.svg" class="service-line" />
         <h3
           class="pt-16 sm:pt-20 pb-3 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
@@ -49,7 +46,7 @@
     >
       Consulter les services <ArrowRight class="w-6 h-6 inline" />
     </NuxtLink>
-  </div>
+  </section>
 </template>
 <script>
 import Vue from 'vue'

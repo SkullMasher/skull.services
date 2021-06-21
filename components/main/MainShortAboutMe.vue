@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <div class="max-w-4xl lg:mx-auto md:flex mx-5 mb-20 text-lg">
       <figure class="mb-10 w-4/5 sm:w-1/3 mx-auto">
         <nuxt-picture
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <style>
 .about-image img {

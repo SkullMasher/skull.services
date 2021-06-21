@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xl mx-auto mb-20 text-lg">
+  <section class="max-w-xl mx-auto mb-20 text-lg">
     <h2 class="mb-10 mx-5 text-3xl">
       Demander un devis gratuit !
     </h2>
@@ -33,7 +33,7 @@
         Me contacter <ArrowRight class="w-6 h-6 inline" />
       </NuxtLink>
     </div>
-  </div>
+  </section>
 </template>
 <script>
   import Vue from 'vue'
