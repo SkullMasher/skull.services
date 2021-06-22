@@ -71,8 +71,8 @@
   @screen xl {
     .halos-dark {
       background:
-        radial-gradient(40% 40% at 5% 60%, hsla(266.3, 45.6%, 49%, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
-        radial-gradient(150px 150px at 420px 430px, hsla(194.5, 76%, 50%, 0.65) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(35% 40% at 5% 60%, hsla(266.3, 45.6%, 49%, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(150px 150px at 420px 430px, hsla(194.5, 76%, 50%, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(25% 40% at 5% 7%,hsla(165, 75%, 62%, 0.60) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(400px 400px at 400px 140px, hsla(223, 50%, 60%, 0.75) 0%, hsla(260, 80%, 50%, 0.3) 50%, rgba(0, 0, 0, 0) 100%),
         radial-gradient(100% 100% at 100% 0%, hsla(216, 62%, 25%, 1) 0%, rgba(23, 66, 130, 0) 100%),
@@ -81,8 +81,8 @@
 
     .halos-light {
       background:
-        radial-gradient(40% 40% at 5% 60%, hsla(270, 90%, 70%, 1) 0%, rgba(255, 255, 255, 0) 100%),
-        radial-gradient(150px 150px at 420px 430px, hsla(194, 76%, 50%, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(35% 40% at 5% 60%, hsla(270, 90%, 70%, 1) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(150px 150px at 420px 430px, hsla(194, 76%, 50%, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(25% 40% at 5% 7%,hsla(30, 60%, 60%, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(400px 400px at 400px 140px, hsla(240, 40%, 75%, 1) 0%, hsla(260, 80%, 80%, 1) 50%, rgba(0, 0, 0, 0) 100%),
         radial-gradient(100% 100% at 100% 0%, theme('colors.indigo.400') 0%, rgba(23, 66, 130, 0) 100%),
@@ -93,8 +93,8 @@
   @screen 2xl {
     .halos-dark {
       background:
-        radial-gradient(40% 40% at 7vw 60%, hsla(266.3, 45.6%, 49%, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
-        radial-gradient(150px 150px at 30vw 430px, hsla(194.5, 76%, 50%, 0.65) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(35% 40% at 7vw 60%, hsla(266.3, 45.6%, 49%, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(150px 150px at 30vw 430px, hsla(194.5, 76%, 50%, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(25% 40% at 6vw 12%,hsla(165, 75%, 62%, 0.60) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(400px 400px at 30vw 140px, hsla(223, 50%, 60%, 0.75) 0%, hsla(260, 80%, 50%, 0.3) 50%, rgba(0, 0, 0, 0) 100%),
         radial-gradient(100% 100% at 100% 0%, hsla(216, 62%, 25%, 1) 0%, rgba(23, 66, 130, 0) 100%),
@@ -103,8 +103,8 @@
 
     .halos-light {
       background:
-        radial-gradient(40% 40% at 7vw 60%, hsla(270, 90%, 70%, 1) 0%, rgba(255, 255, 255, 0) 100%),
-        radial-gradient(150px 150px at 30vw 430px, hsla(194, 76%, 50%, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(35% 40% at 7vw 60%, hsla(270, 90%, 70%, 1) 0%, rgba(255, 255, 255, 0) 100%),
+        radial-gradient(150px 150px at 30vw 430px, hsla(194, 76%, 50%, 0.9) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(25% 40% at 6vw 12%,hsla(30, 60%, 60%, 0.8) 0%, rgba(255, 255, 255, 0) 100%),
         radial-gradient(400px 400px at 30vw 140px, hsla(240, 40%, 75%, 1) 0%, hsla(260, 80%, 80%, 1) 50%, rgba(0, 0, 0, 0) 100%),
         radial-gradient(100% 100% at 100% 0%, theme('colors.indigo.400') 0%, rgba(23, 66, 130, 0) 100%),
