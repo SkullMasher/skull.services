@@ -6,7 +6,7 @@
       class="absolute z-10 top-8 right-8 md:top-16 md:right-16 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
     >
       <nuxt-img
-        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine"
+        class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine"
         format="svg"
         src="/img/moon.svg"
       />
@@ -17,7 +17,7 @@
       class="absolute z-10 top-8 right-8 md:top-16 md:right-16 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
     >
       <nuxt-img
-        class="w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine"
+        class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine"
         format="svg"
         src="/img/sun.svg"
       />
@@ -27,7 +27,7 @@
         <HeaderHeroImage />
         <HeaderNavigation />
       </div>
-      <div class="lg:mb-0 relative z-10 max-w-xl mx-auto px-5 lg:flex flex-col justify-center">
+      <div class="lg:mb-0 relative max-w-xl mx-auto px-5 lg:flex flex-col justify-center">
         <HeaderTagline />
         <HeaderCallToAction />
       </div>

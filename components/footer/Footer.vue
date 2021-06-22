@@ -7,7 +7,7 @@
         <em class="text-black">dark mode</em>.
         <button @click="setDarkMode()">
           <nuxt-img
-            class="w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine"
+            class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine"
             format="svg"
             src="/img/moon.svg"
           />
@@ -19,7 +19,7 @@
         et t'exploser les yeux !
         <button @click="setLightMode()">
           <nuxt-img
-            class="w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine"
+            class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine"
             format="svg"
             src="/img/sun.svg"
           />
