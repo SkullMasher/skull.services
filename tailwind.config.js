@@ -9,9 +9,9 @@ module.exports = {
       },
       colors: {
         elegiac: {
-          light: 'hsl(214, 38%, 45%)',
-          DEFAULT: 'hsl(214, 38%, 30%)',
-          dark: 'hsl(214, 38%, 25%)',
+          light: 'hsl(214, 45%, 45%)',
+          DEFAULT: 'hsl(214, 45%, 30%)',
+          dark: 'hsl(214, 45%, 25%)',
         },
         ytred: '#d42627',
         ttvpurple: '#663398',

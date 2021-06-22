@@ -1,5 +1,5 @@
 <template>
-  <header class="relative halos-light dark:halos-dark">
+  <header class="relative halos-light dark:halos-dark pb-24">
     <button
       v-show="$colorMode.value === 'light'"
       @click="$colorMode.preference = 'dark'"
@@ -27,7 +27,7 @@
         <HeaderHeroImage />
         <HeaderNavigation />
       </div>
-      <div class="mb-24 lg:mb-0 relative z-10 max-w-xl mx-auto px-5 mb-20 lg:flex flex-col justify-center">
+      <div class="lg:mb-0 relative z-10 max-w-xl mx-auto px-5 lg:flex flex-col justify-center">
         <HeaderTagline />
         <HeaderCallToAction />
       </div>
