@@ -3,7 +3,7 @@
     <div class="max-w-4xl lg:mx-auto md:flex mx-5 mb-20 text-lg">
       <figure class="mb-10 w-4/5 sm:w-1/3 mx-auto">
         <nuxt-picture
-          src="/img/florian-skullmasher-ledru-alpilles.jpg"
+          src="/florian-skullmasher-ledru-alpilles.jpg"
           class="about-image"
         />
         <figcaption class="max-w-xs mx-auto text-sm text-center italic">

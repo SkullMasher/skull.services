@@ -1,11 +1,11 @@
 <template>
   <div>
     <nuxt-picture
-      src="/img/florian-skullmasher-ledru.jpg"
+      src="/florian-skullmasher-ledru.jpg"
       class="hero-image"
     />
     <nuxt-picture
-      src="/img/florian-skullmasher-ledru-square.jpg"
+      src="/florian-skullmasher-ledru-square.jpg"
       class="hero-image-desktop"
     />
   </div>

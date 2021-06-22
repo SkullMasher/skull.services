@@ -1,5 +1,5 @@
 <template>
-  <header class="relative halos-light dark:halos-dark pb-24">
+  <header class="relative halos-light dark:halos-dark pb-24 transition duration-500">
     <button
       v-show="$colorMode.value === 'light'"
       @click="$colorMode.preference = 'dark'"
@@ -8,7 +8,7 @@
       <nuxt-img
         class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine"
         format="svg"
-        src="/img/moon.svg"
+        src="/moon.svg"
       />
     </button>
     <button
@@ -19,7 +19,7 @@
       <nuxt-img
         class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine"
         format="svg"
-        src="/img/sun.svg"
+        src="/sun.svg"
       />
     </button>
     <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-10">

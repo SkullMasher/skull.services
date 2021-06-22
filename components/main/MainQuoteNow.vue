@@ -37,7 +37,7 @@
 </template>
 <script>
   import Vue from 'vue'
-  import ArrowRight from "~/static/img/arrow-right.svg?inline";
+  import ArrowRight from "~/assets/img/arrow-right.svg?inline";
 
   export default Vue.extend({
     components: { ArrowRight },

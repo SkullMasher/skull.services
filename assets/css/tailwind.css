@@ -131,12 +131,14 @@
   .service-line {
     position: absolute;
     left: -8px;
+    height: 455px;
   }
 
   @screen sm {
     .service-line {
       left: 30px;
       top: 5px;
+      height: 560px;
     }
   }
 
@@ -144,16 +146,6 @@
     .service-line {
       left: 24px;
       top: 5px;
-    }
-  }
-
-  .service-line img {
-    height: 455px;
-  }
-
-  @screen sm {
-    .service-line img {
-      height: 560px;
     }
   }
 

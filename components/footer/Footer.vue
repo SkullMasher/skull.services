@@ -10,7 +10,7 @@
             <nuxt-img
               class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine"
               format="svg"
-              src="/img/moon.svg"
+              src="/moon.svg"
             />
           </button>
         </p>
@@ -22,7 +22,7 @@
             <nuxt-img
               class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine"
               format="svg"
-              src="/img/sun.svg"
+              src="/sun.svg"
             />
           </button>
         </p>
@@ -45,7 +45,7 @@
 </template>
 <script>
 import Vue from 'vue'
-import Hl2Born from "~/static/img/hl2-born.svg?inline";
+import Hl2Born from "~/assets/img/hl2-born.svg?inline";
 
 export default Vue.extend({
   components: { Hl2Born },
