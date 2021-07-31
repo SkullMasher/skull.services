@@ -1,10 +1,12 @@
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header />
-    <MainAtYourService />
-    <MainRecommended />
-    <MainQuoteNow />
-    <MainShortAboutMe />
+    <main>
+      <MainAtYourService />
+      <MainRecommended />
+      <MainQuoteNow />
+      <MainShortAboutMe />
+    </main>
     <Footer />
   </div>
 </template>
