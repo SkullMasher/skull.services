@@ -7,8 +7,6 @@
     <nuxt-picture
       src="/florian-skullmasher-ledru-square.jpg"
       class="hero-image-desktop"
-      width="320"
-      height="320"
     />
   </div>
 </template>
