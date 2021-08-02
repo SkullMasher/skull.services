@@ -19,7 +19,7 @@
           </button>
         </p>
         <p>
-          Si vous regarder
+          Si vous regardez
           <a
             href="https://github.com/SkullMasher/skull.services"
             class="link-pretty"
@@ -28,8 +28,8 @@
           </a>
           vous remarquez que je n'ai pas utilisé wordpress.
         </p>
-        <p>Ce site n'utilise pas de cookie &#127850;, car il fais un régime keto &#129361;.</p>
-        <p>Normalement ici je met une citation d'un rocker mort à 27 ans.</p>
+        <p>Ce site n'utilise pas de cookie &#127850;, car il fait un régime keto &#129361;.</p>
+        <p>Normalement ici je mets une citation d'un rocker mort à 27 ans.</p>
       </div>
       <hl2Born class="w-28 mx-auto fill-current text-gray-700 transition duration-1000 hover:text-yellow-500" />
     </div>

@@ -7,7 +7,7 @@
           class="about-image"
         />
         <figcaption class="max-w-xs mx-auto text-sm text-center italic">
-          Photo non professionnel durant une randonnée au parc naturel des Alpilles en juin 2021
+          Photo non professionnelle durant une randonnée au parc naturel des Alpilles en juin 2021
         </figcaption>
       </figure>
       <div class="md:ml-10 md:mr-5 w-full sm:w-2/3">
@@ -20,15 +20,15 @@
               target="_blank"
               href="https://www.camargue.fr/site/levillagecamarguais/"
             >
-              un village de vacance
+              un village de vacances
             </a>
             à Arles.
           </p>
           <p>
             De nature active, je change souvent mon lieu de vie. Je profite de
             cette vie nomade pour rencontrer mes clients sur le territoire ainsi
-            que mes amis et ma famille éparpillé entre la France et l'Espagne
-            (en dehors des périodes de pandémie mondial bien sûr). Je peux me
+            que mes amis et ma famille éparpillée entre la France et l'Espagne
+            (en dehors des périodes de pandémie mondiale bien sûr). Je peux me
             déplacer dans les villes de Paris, Nantes, Toulouse, Montpellier,
             Nîmes, Lyon, Saragosse et Madrid.
           </p>
