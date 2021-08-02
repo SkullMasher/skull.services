@@ -4,12 +4,13 @@
       src="/florian-skullmasher-ledru.jpg"
       provider="static"
       class="hero-image"
+      loading="lazy"
     />
     <nuxt-picture
       src="/florian-skullmasher-ledru-square.jpg"
       provider="static"
       class="hero-image-desktop"
-
+      loading="lazy"
     />
   </div>
 </template>

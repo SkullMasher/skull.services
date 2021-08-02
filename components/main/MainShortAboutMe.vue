@@ -5,6 +5,7 @@
         <nuxt-picture
           src="/florian-skullmasher-ledru-alpilles.jpg"
           class="about-image"
+          loading="lazy"
         />
         <figcaption class="max-w-xs mx-auto text-sm text-center italic">
           Photo non professionnelle durant une randonnée au parc naturel des Alpilles en juin 2021
