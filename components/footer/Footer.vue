@@ -7,11 +7,7 @@
           Deviens un vrai hacker et appuie sur la lune pour activer le
           <em class="text-black">dark mode</em>.
           <button @click="setDarkMode()">
-            <nuxt-img
-              class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine"
-              format="svg"
-              src="/moon.svg"
-            />
+            <moon class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine" />
           </button>
         </p>
         <p v-show="$colorMode.value === 'dark'">
@@ -19,11 +15,7 @@
           <em class="text-white">light mode</em>
           et t'exploser les yeux !
           <button @click="setLightMode()">
-            <nuxt-img
-              class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine"
-              format="svg"
-              src="/sun.svg"
-            />
+            <sun class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine" />
           </button>
         </p>
         <p>
@@ -46,9 +38,11 @@
 <script>
 import Vue from 'vue'
 import Hl2Born from "~/assets/img/hl2-born.svg?inline";
+import Moon from "~/assets/img/moon.svg?inline";
+import Sun from "~/assets/img/sun.svg?inline";
 
 export default Vue.extend({
-  components: { Hl2Born },
+  components: { Hl2Born, Moon, Sun },
   methods: {
     setLightMode() {
       this.$colorMode.preference = 'light'

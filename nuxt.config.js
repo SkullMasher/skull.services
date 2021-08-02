@@ -1,5 +1,7 @@
 export default {
   server: { port: 3001 },
+  target: 'static',
+  modern: 'client',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
