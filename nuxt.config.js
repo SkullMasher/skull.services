@@ -1,7 +1,5 @@
 export default {
   server: { port: 3001 },
-  target: 'static',
-  modern: 'client',
   loading: {
     color: '#2563eb',
   },
