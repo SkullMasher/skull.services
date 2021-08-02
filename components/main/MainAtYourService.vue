@@ -7,7 +7,7 @@
       <div
         class="mx-5 sm:mx-0 sm:mb-0 relative sm:text-2xl sm:tracking-wider font-light"
       >
-        <nuxt-img src="/service-line.svg" format="svg" class="service-line" />
+        <serviceLine src="/service-line.svg" class="service-line" />
         <h3
           class="pt-16 sm:pt-20 pb-3 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
@@ -50,9 +50,10 @@
 </template>
 <script>
 import Vue from 'vue'
-import ArrowRight from "~/assets/img/arrow-right.svg?inline";
+import ArrowRight from "~/assets/img/arrow-right.svg?inline"
+import ServiceLine from "~/assets/img/service-line.svg?inline"
 
 export default Vue.extend({
-  components: { ArrowRight },
+  components: { ArrowRight, ServiceLine },
 })
 </script>
