@@ -2,7 +2,9 @@ export default {
   server: { port: 3001 },
   target: 'static',
   modern: 'client',
-
+  loading: {
+    color: '#2563eb',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'skull.services',
@@ -64,12 +66,14 @@ export default {
 
   // Nuxt images configuration: https://image.nuxtjs.org/api/options
   image: {
-    domains: ['https://skullmasher.io'],
-    dir: 'assets/img'
+    // domains: ['https://skullmasher.io'],
+    // dir: 'assets/img'
   },
 
   // https://color-mode.nuxtjs.org/#tailwind-v2
   colorMode: {
+    preference: 'system',
+    fallback: 'light',
     classSuffix: ''
   },
 
