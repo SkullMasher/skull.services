@@ -1,7 +1,7 @@
 export default {
   server: { port: 3001 },
   loading: {
-    color: '#2563eb',
+    color: 'blue',
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
