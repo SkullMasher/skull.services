@@ -19,7 +19,7 @@
         <HeaderHeroImage />
         <HeaderNavigation />
       </div>
-      <div class="lg:mb-0 relative max-w-xl mx-auto px-5 lg:flex flex-col justify-center">
+      <div class="lg:mb-0 xl:mt-8 relative max-w-xl mx-auto px-5 lg:flex flex-col">
         <HeaderTagline />
         <HeaderCallToAction />
       </div>
