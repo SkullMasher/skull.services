@@ -3,15 +3,6 @@
     <Header />
     <main class="max-w-sm mx-5 sm:mx-auto my-10">
       <section>
-        <p class="text-2xl sm:text-4xl mb-5">Page en construction</p>
-        <NuxtLink
-          to="/"
-          class="inline-block mb-6 py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200"
-        >
-          Retour à l'accueil
-        </NuxtLink>
-      </section>
-      <section>
         <h2>Auzars</h2>
         <h3>Vendre en ligne les produits d'une entreprise local</h3>
         <div><span>wordpress</span> <span>woocommerce</span> <span>SEO</span> <span>performance</span> <span>UX</span> <span>UI</span></div>
