@@ -37,7 +37,7 @@
       </section>
       <section>
         <h2>Seb Services Auto</h2>
-        <h3>Rendre une entreprise local visible face à la concurence.</h3>
+        <h3>Rendre une entreprise local visible face à la concurence</h3>
         <div><span>site complet</span> <span>wordpress</span> <span>SEO</span> <span>performance</span> <span>design</span> <span>hébergement</span> <span>mail</span></div>
         <p>Site vitrine complet assurant une très bonne présance en ligne, face à la concurance. Fort taux de conversion sous la forme d'apell téléphonique, grace à un référencement localisé à la zone d'activité définie de l'entreprise.</p>
       </section>
