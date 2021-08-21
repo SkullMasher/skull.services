@@ -3,8 +3,8 @@
     <figure class="hero-image">
       <nuxt-picture
         src="/florian-skullmasher-ledru.jpg"
-        loading="lazy"
         sizes="xs:100vw sm:100vw md:100vw"
+        loading="lazy"
       />
     </figure>
     <nuxt-picture

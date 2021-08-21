@@ -2,28 +2,45 @@
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header />
     <main class="max-w-sm mx-5 sm:mx-auto my-10">
-      <p class="text-2xl sm:text-4xl mb-5">Page en construction</p>
-      <NuxtLink
-        to="/"
-        class="inline-block mb-6 py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200"
-      >
-        Retour à l'accueil
-      </NuxtLink>
-<!--       <section>
-        <h2>Auzars - Simplifier les achats en ligne</h2>
-        <div><span>wordpress</span> <span>woocommerce</span> <span>SEO</span> <span>performance</span> <span>design</span></div>
-        <p>Simplifier l'achat et la personalisation de photographies pour augmenter les ventes en ligne. Booster la vitesse des pages et le référencement.</p>
+      <section>
+        <p class="text-2xl sm:text-4xl mb-5">Page en construction</p>
+        <NuxtLink
+          to="/"
+          class="inline-block mb-6 py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200"
+        >
+          Retour à l'accueil
+        </NuxtLink>
       </section>
       <section>
+        <h2>Auzars</h2>
+        <h3>Vendre en ligne les produits d'une entreprise local</h3>
+        <div><span>wordpress</span> <span>woocommerce</span> <span>SEO</span> <span>performance</span> <span>UX</span> <span>UI</span></div>
+        <p>Design sur mesure pour simplifier l'achat et la personalisation des produits. Booster la vitesse des pages et le référencement.</p>
+      </section>
+      <section>
+        <h2>Infinity Graphic</h2>
+        <h3>répondre au besoin d'une agence web</h3>
+        <div><span>wordpress</span> <span>woocommerce</span> <span>performance</span> <span>administration système</span> <span>performance</span> <span>réparation après piratage</span> <span>sécurité</span></div>
+        <p>Résoudre les bugs sur une sur une centaine de site, sécurisé des sites pirater.</p>
+      </section>
+      <section>
+        <h2>Eden Lutherie</h2>
+        <h3>Changement complet du système de comptabilité</h3>
+        <div><span>wordpress</span> <span>woocommerce</span> <span>performance</span> <span>administration système</span> <span>performance</span> <span>réparation après piratage</span> <span>sécurité</span></div>
+        <p>Nétoyer et sécuriser des sites piraté. Faire face à des pique de traffic. Rester disponible pour répondre aux urgences. Résoudre des bugs sur des sites wordpress.</p>
+      </section>
+      <section>
+        <h2>Heartless Gaming</h2>
+        <h3>10ans de jeux vidéo en communauté</h3>
         <div><span>site complet</span> <span>wordpress</span> <span>SEO</span> <span>performance</span> <span>design</span> <span>hébergement</span> <span>mail</span></div>
         <p>Site vitrine complet assurant une très bonne présance en ligne, face à la concurance. Fort taux de conversion sous la forme d'apell téléphonique, grace à un référencement localisé à la zone d'activité définie de l'entreprise.</p>
       </section>
       <section>
-        <p>Projet Infinity graphic</p>
+        <h2>Seb Services Auto</h2>
+        <h3>Rendre une entreprise local visible face à la concurence.</h3>
+        <div><span>site complet</span> <span>wordpress</span> <span>SEO</span> <span>performance</span> <span>design</span> <span>hébergement</span> <span>mail</span></div>
+        <p>Site vitrine complet assurant une très bonne présance en ligne, face à la concurance. Fort taux de conversion sous la forme d'apell téléphonique, grace à un référencement localisé à la zone d'activité définie de l'entreprise.</p>
       </section>
-      <section>
-        <p>Projet Didier</p>
-      </section> -->
     </main>
     <Footer />
   </div>

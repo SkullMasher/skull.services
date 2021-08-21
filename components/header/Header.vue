@@ -14,7 +14,7 @@
     >
       <sun class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
     </button>
-    <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-10">
+    <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-10 lg:pt-24">
       <div>
         <HeaderHeroImage />
         <HeaderNavigation />
