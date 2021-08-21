@@ -26,14 +26,14 @@
       <section>
         <h2>Eden Lutherie</h2>
         <h3>Changement complet du système de comptabilité</h3>
-        <div><span>wordpress</span> <span>woocommerce</span> <span>performance</span> <span>administration système</span> <span>performance</span> <span>réparation après piratage</span> <span>sécurité</span></div>
-        <p>Nétoyer et sécuriser des sites piraté. Faire face à des pique de traffic. Rester disponible pour répondre aux urgences. Résoudre des bugs sur des sites wordpress.</p>
+        <div><span>comptabilité</span></div>
+        <p>Coincé avec une solution de comptabilité propriétaire, nous avons transférer la comptabilité vers un système open-source moderne et évolutif.</p>
       </section>
       <section>
         <h2>Heartless Gaming</h2>
         <h3>10ans de jeux vidéo en communauté</h3>
-        <div><span>site complet</span> <span>wordpress</span> <span>SEO</span> <span>performance</span> <span>design</span> <span>hébergement</span> <span>mail</span></div>
-        <p>Site vitrine complet assurant une très bonne présance en ligne, face à la concurance. Fort taux de conversion sous la forme d'apell téléphonique, grace à un référencement localisé à la zone d'activité définie de l'entreprise.</p>
+        <div><span>serveurs de jeux</span> <span>donation</span> <span>Vue</span> <span>Nuxt</span> <span>Redis</span> <span>API</span> <span>performance</span> <span>sécurité</span> <span>youtube</span> <span>twitch</span></div>
+        <p>Fatigué de ne pas trouver des serveurs de jeux et un espace de communication, un groupe de gamer ce décide de se lancer dans l'aventure de l'auto hébergement.</p>
       </section>
       <section>
         <h2>Seb Services Auto</h2>
