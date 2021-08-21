@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="max-w-4xl lg:mx-auto md:flex mx-5 mb-24 text-lg">
+    <div class="max-w-4xl lg:mx-auto md:flex mx-5 mb-20 text-lg">
       <figure class="mb-10 w-4/5 md:w-1/3 mx-auto">
         <nuxt-picture
           src="/florian-skullmasher-ledru-alpilles.jpg"

@@ -1,5 +1,5 @@
 <template>
-  <section class=" pt-20 pb-20 text-lg bg-purple-100 dark:bg-elegiac-light">
+  <section class=" pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
     <div class="max-w-xl mx-auto">
       <h2 class="mb-10 mx-5 text-3xl">
         Demander un devis gratuit !
