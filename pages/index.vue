@@ -4,8 +4,8 @@
     <main>
       <MainAtYourService />
       <MainRecommended />
-      <MainQuoteNow />
       <MainShortAboutMe />
+      <MainQuoteNow />
     </main>
     <Footer />
   </div>

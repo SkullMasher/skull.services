@@ -166,7 +166,7 @@
   }
 
   .hero-img-desktop img {
-    @apply w-80 h-80 xl:w-96 xl:h-96 ml-10 xl:ml-16 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3;
+    @apply w-80 h-80 xl:w-96 xl:h-96 ml-10 xl:ml-16 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3 bg-gray-200;
   }
 }
 

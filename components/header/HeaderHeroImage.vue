@@ -4,7 +4,6 @@
       <nuxt-picture
         src="/florian-skullmasher-ledru.jpg"
         sizes="xs:100vw sm:100vw md:100vw"
-        class="hero-img"
       />
     </figure>
     <nuxt-picture
