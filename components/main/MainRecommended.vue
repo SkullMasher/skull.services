@@ -25,7 +25,7 @@
       </div>
       <div>
         <p class="mb-5 scroll-snap-align-start">
-          5 ans d'échanges, de corrections, d'évolutions, de propositions pertinentes, au service de ma vitrine. Il reste en veille, débloque les situations compliquées et urgente afin que tous fonctionne parfaitement. Flo est mon partenaire... Merci beaucoup pour ton dévouement.
+          5 ans d'échanges, de corrections, d'évolutions, de propositions pertinentes, au service de ma vitrine. Il reste en veille, débloque les situations compliquées et urgentes afin que tout fonctionne parfaitement. Flo est mon partenaire... Merci beaucoup pour ton dévouement.
         </p>
         <div>
           <p class="text-2xl font-light italic">Sebastien Philippe</p>
