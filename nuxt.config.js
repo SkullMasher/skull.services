@@ -2,7 +2,6 @@ export default {
   server: { port: 3001 },
   render: {
     asyncScripts : true,
-    injectScripts: false,
     static: {
       maxAge: 60 * 60 * 24 * 365 * 1000,
     },

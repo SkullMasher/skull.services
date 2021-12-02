@@ -7,7 +7,7 @@
           <p v-show="$colorMode.value === 'light'">
             Deviens un vrai hacker et appuie sur la lune pour activer le
             <em class="text-black">dark mode</em>.
-            <button @click="setDarkMode()">
+            <button @click="$colorMode.preference = 'dark'">
               <moon class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine" />
             </button>
           </p>
@@ -15,7 +15,7 @@
             Appuie sur le soleil pour activer le
             <em class="text-white">light mode</em>
             et t'exploser les yeux !
-            <button @click="setLightMode()">
+            <button @click="$colorMode.preference = 'light'">
               <sun class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine" />
             </button>
           </p>
@@ -44,13 +44,5 @@ import Sun from "~/assets/img/sun.svg?inline";
 
 export default Vue.extend({
   components: { Hl2Born, Moon, Sun },
-  methods: {
-    setLightMode() {
-      this.$colorMode.preference = 'light'
-    },
-    setDarkMode() {
-      this.$colorMode.preference = 'dark'
-    }
-  }
 })
 </script>
