@@ -37,6 +37,8 @@ export default {
     '@nuxtjs/svg',
     // https://color-mode.nuxtjs.org/#setup
     '@nuxtjs/color-mode',
+    // https://github.com/nuxt/postcss8
+    '@nuxt/postcss8'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
