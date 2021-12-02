@@ -4,7 +4,7 @@ export default {
     asyncScripts : true,
     injectScripts: false,
     static: {
-      maxAge: '1y'
+      maxAge: 60 * 60 * 24 * 365 * 1000
     }
   },
   modern: true,
