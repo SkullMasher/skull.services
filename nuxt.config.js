@@ -1,5 +1,13 @@
 export default {
   server: { port: 3001 },
+  render: {
+    asyncScripts : true,
+    injectScripts: false,
+    static: {
+      maxAge: '1y'
+    }
+  },
+  modern: true,
   loading: {
     color: 'blue',
   },
