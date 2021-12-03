@@ -37,6 +37,20 @@ module.exports = {
       gridTemplateColumns: {
         'recommendation': 'repeat(3, minmax(280px, 480px))',
       },
+      animation: {
+        'skew': 'skew 3s cubic-bezier(.68,-0.55,.27,1.55) infinite',
+        'wiggle': 'wiggle 2s cubic-bezier(.68,-0.55,.27,1.55) infinite',
+      },
+      keyframes: {
+        skew: {
+         '0%, 100%': { transform: 'skewX(0deg)' },
+         '50%': { transform: 'skewX(-25deg)' },
+        },
+        wiggle: {
+         '0%, 100%': { transform: 'rotate(-3deg)' },
+         '50%': { transform: 'rotate(3deg)' },
+        }
+      },
     },
   },
   variants: {

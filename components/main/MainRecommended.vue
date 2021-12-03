@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <p class="max-w-screen-md mx-auto px-5">Voir d'autres recommandations sur <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations">codeur.com</a></p>
+    <p class="max-w-screen-md mx-auto px-5">Voir d'autres recommandations sur <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations" target="_blank">codeur.com</a></p>
   </section>
 </template>
 <script>

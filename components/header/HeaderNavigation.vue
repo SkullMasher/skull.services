@@ -1,25 +1,49 @@
 <template>
   <nav
-    class="max-w-xl mx-0.5 sm:mx-auto flex lg:flex-col relative -top-11 sm:-top-20 lg:-top-24 justify-evenly lg:items-end items-center font-bold transform-gpu -rotate-6 sm:text-xl sm:tracking-widest relative"
+    class="max-w-xl mx-2 sm:mx-auto mt-4 mb-10 flex justify-between items-center font-bold transform-gpu sm:text-xl sm:tracking-widest"
   >
+    <HeaderLogo />
     <nuxtLink
       to="/services"
-      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200 lg:hidden top-4 right-24"
+      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
     >
       services
     </nuxtLink>
     <nuxtLink
       to="/portfolio"
-      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200 lg:hidden top-20 right-24"
+      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
     >
       portfolio
     </nuxtLink>
     <nuxtLink
       to="/contact"
-      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200 lg:hidden"
+      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
     >
       contact
     </nuxtLink>
-    <HeaderLogo />
+    <button
+      v-show="$colorMode.value === 'light'"
+      @click="$colorMode.preference = 'dark'"
+      class=""
+    >
+      <moon class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />
+    </button>
+    <button
+      v-show="$colorMode.value === 'dark'"
+      @click="$colorMode.preference = 'light'"
+      class=""
+    >
+      <sun class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
+    </button>
   </nav>
 </template>
+
+<script>
+import Vue from 'vue'
+import Moon from "~/assets/img/moon.svg?inline";
+import Sun from "~/assets/img/sun.svg?inline";
+
+export default Vue.extend({
+  components: { Moon, Sun }
+})
+</script>

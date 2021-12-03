@@ -1,27 +1,11 @@
 <template>
-  <header class="relative halos-light dark:halos-dark pb-24 transition duration-500">
-    <button
-      v-show="$colorMode.value === 'light'"
-      @click="$colorMode.preference = 'dark'"
-      class="absolute z-10 top-8 right-8 md:top-16 md:right-16 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
-    >
-      <moon class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />
-    </button>
-    <button
-      v-show="$colorMode.value === 'dark'"
-      @click="$colorMode.preference = 'light'"
-      class="absolute z-10 top-8 right-8 md:top-16 md:right-16 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
-    >
-      <sun class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
-    </button>
-    <div class="max-w-screen-2xl mx-auto lg:flex lg:pb-10 lg:pt-24">
-      <div>
-        <HeaderHeroImage />
-        <HeaderNavigation />
-      </div>
-      <div class="lg:mb-0 xl:mt-8 relative max-w-xl mx-auto px-5 lg:flex flex-col">
-        <HeaderTagline />
-        <HeaderCallToAction />
+  <header class="relative transition duration-500">
+    <div>
+      <HeaderNavigation />
+      <div class="lg:mb-0 xl:mt-8 relative lg:flex mx-5 flex-col">
+        <div class="mb-6 sm:mb-14 max-w-5xl mx-auto">
+          <h1 class="text-4xl sm:text-5xl font-thin leading-relaxed tracking-wide" v-html="title"></h1>
+        </div>
       </div>
     </div>
   </header>
@@ -34,5 +18,6 @@ import Sun from "~/assets/img/sun.svg?inline";
 
 export default Vue.extend({
   components: { Moon, Sun },
+  props: ['title']
 })
 </script>

@@ -1,80 +1,93 @@
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
-    <Header />
+    <Header title="Liste des <strong>services</strong> et <strong>prestations</strong>" />
     <main>
-      <section class="max-w-4xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
-        <h2 class="text-2xl sm:text-4xl mb-5">Performance Wordpress</h2>
-        <div class="sm:grid grid-cols-3 gap-16">
-          <div
-            class="max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl"
-          >
-            <div class="flex items-center mb-5">
-              <div
-                class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
-              >
-                <img src="~assets/skullmasher.svg" class="w-12 h-12" />
+      <section class="group">
+        <div class="max-w-5xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
+          <h2 class="text-2xl sm:text-4xl mb-5 flex items-center mb-8">
+            <svg-lightning class="mr-4 rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
+            <span>Performance Wordpress</span>
+          </h2>
+          <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
+            <div
+              class="col-span-2 max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 -rotate-2 group-hover:-rotate-1 transition-transform duration-700 transform-gpu shadow-2xl"
+            >
+              <div class="flex items-center mb-5">
+                <div
+                  class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
+                >
+                  <img src="~assets/skullmasher.svg" width="50" height="50" />
+                </div>
+                <div>
+                  <p class="">Florian Ledru</p>
+                  <p class="text-sm">skullmasher.io</p>
+                </div>
               </div>
               <div>
-                <p class="">Florian Ledru</p>
-                <p class="text-sm">skullmasher.io</p>
+                <h4 class="mb-2">Performance Wordpress</h4>
+                <div class="max-w-xs mb-5 text-sm space-y-2">
+                  <p>Instalation et configuration d'un cache</p>
+                  <p>Réduire et concatener les Javascript, CSS, HTML</p>
+                  <p>Optimisation automatique des images</p>
+                  <p>Préchargé les fichiers de police</p>
+                </div>
+                <p class="mr-10 text-right text-2xl font-bold">200 €</p>
               </div>
             </div>
-            <div class="">
-              <h4 class="mb-2">Performance Wordpress</h4>
-              <p class="max-w-xs mb-5 text-sm">
-                Instalation et configuration d'un cache
-              </p>
-              <p class="mr-10 text-right text-2xl font-bold">50 €</p>
+            <div class="col-span-3">
+              <p class="mb-5">Mon site est lent et j'ai besoin de l'optimiser rapidement pour améliorer mon score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.</p>
+              <ul class="ml-10 mb-7 list-disc space-y-1">
+                <li class="font-bold">0 plugins payant, pas de paiement mensuel</li>
+                <li>Optimisation automatique des images</li>
+                <li>Mise en cache</li>
+                <li>Minification des HTML, CSS et Javascript</li>
+                <li>Chargement diféré des script et images</li>
+              </ul>
+              <p class="text-4xl mb-7 font-bold tracking-wider">200 €</p>
+              <button class="btn">Contacter maintenant</button>
             </div>
-          </div>
-          <div class="col-span-2">
-            <p class="mb-5">Mon site est lent et j'ai besoin de l'optimiser rapidement pour améliorer mon score Google Page Speed.</p>
-            <ul class="ml-10 mb-5 list-disc space-y-1">
-              <li>0 plugins payant, pas de paiement mensuel</li>
-              <li>Optimisation automatique des images</li>
-              <li>Mise en cache</li>
-              <li>Minification des HTML, CSS et Javascript</li>
-              <li>Chargement diféré des script et images.</li>
-            </ul>
-            <p class="text-4xl mb-5">150 €</p>
-            <button class="btn">Contacter maintenant</button>
           </div>
         </div>
       </section>
-      <section class="max-w-4xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
-        <h2 class="text-2xl sm:text-4xl mb-5">Intégration responsive de maquette</h2>
-        <div class="sm:grid grid-cols-3 gap-16">
-          <div
-            class="max-w-sm mx-3 sm:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl"
-          >
-            <div class="flex items-center mb-5">
-              <div
-                class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
-              >
-                <img src="~assets/skullmasher.svg" class="w-12 h-12" />
+      <section class="group">
+        <div class="max-w-5xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
+          <h2 class="text-2xl sm:text-4xl mb-5 flex items-center mb-8">
+            <svg-code class="mr-4 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700" />
+            <span>Intégration responsive de maquette</span>
+          </h2>
+          <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
+            <div
+              class="col-span-2 max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 transform-gpu rotate-1 group-hover:rotate-2 duration-700 shadow-2xl"
+            >
+              <div class="flex items-center mb-5">
+                <div
+                  class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
+                >
+                  <img src="~assets/skullmasher.svg" width="50" height="50" />
+                </div>
+                <div>
+                  <p class="">Florian Ledru</p>
+                  <p class="text-sm">skullmasher.io</p>
+                </div>
               </div>
               <div>
-                <p class="">Florian Ledru</p>
-                <p class="text-sm">skullmasher.io</p>
+                <h4 class="mb-2">Intégration responsive</h4>
+                <div class="max-w-xs mb-5 text-sm space-y-2">
+                  <p>Intégration responsive d'une page d'accueil à partir de maquette Figma en HTML, CSS et Javascript</p>
+                </div>
+                <p class="mr-10 text-right text-2xl font-bold">350 €</p>
               </div>
             </div>
-            <div class="ml-5">
-              <h4 class="mb-2">Intervention urgente Wordpress</h4>
-              <p class="max-w-xs mb-5 text-sm">
-                Désactivation d'un plugin qui empeche le chargement du site.
-              </p>
-              <p class="mr-10 text-right text-2xl font-bold">50 €</p>
+            <div class="col-span-3">
+              <p class="mb-5">Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animation qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.</p>
+              <ul class="ml-10 mb-5 list-disc space-y-1">
+                <li>Email</li>
+                <li>Javascript, React, Vue, Next.js, Nuxt</li>
+                <li>PHP, Wordpress, Laravel, Symphony, Slim</li>
+              </ul>
+              <p class="text-4xl mb-5">À partir 350 €</p>
+              <button class="btn">Demander un devis</button>
             </div>
-          </div>
-          <div class="col-span-2">
-            <p class="mb-5">Intégration responsive mobile first de maquettes pour tous type de framework avec animation qui font <em>WOOSH</em>.</p>
-            <ul class="ml-10 mb-5 list-disc space-y-1">
-              <li>Wordpress</li>
-              <li>React / Next.js</li>
-              <li>Vue / Nuxt</li>
-            </ul>
-            <p class="text-4xl mb-5">À partir 300 €</p>
-            <button class="btn">Envoyer mes maquettes</button>
           </div>
         </div>
       </section>
@@ -82,3 +95,31 @@
     <Footer />
   </div>
 </template>
+
+<script>
+import Vue from 'vue'
+import SvgLightning from "~/assets/img/lightning.svg?inline";
+import SvgCode from "~/assets/img/code.svg?inline";
+
+export default Vue.extend({
+  components: { SvgLightning, SvgCode },
+  data() {
+    return {
+      title: 'Services et prestations',
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: '%s - Florian Ledru',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Liste des services et prestations de Florian Ledru, le freelance full-stack aux services des PME, Agence Web, Startup.'
+        }
+      ]
+    }
+  }
+})
+</script>
