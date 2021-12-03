@@ -2,43 +2,65 @@
   <div>
     <form @submit.prevent="checkform">
       <div class="max-w-2xl mx-auto sm:grid grid-cols-5 gap-8 mb-5">
-        <div class="col-span-2">
+        <div class="col-span-2" :class="{ 'opacity-50': isSendmailSuccess }">
           <div class="mb-5">
             <label class="form-label" for="email">Votre adresse mail</label>
-            <input class="form-input" type="mail" id="email" required>
+            <input class="form-input" type="email" id="email" :disabled="isSendmailSuccess" required maxlength="80">
           </div>
           <div class="mb-5">
             <label class="form-label" for="subject">Sujet de la demande</label>
-            <input class="form-input" type="text" id="subject" maxlength="100" required>
+            <input class="form-input" type="text" id="subject" maxlength="80" :disabled="isSendmailSuccess" required>
           </div>
         </div>
         <div class="col-span-3 mb-5">
           <div>
             <label class="form-label" for="message">Votre message</label>
-            <textarea class="form-input mb-5" id="message" maxlength="1666" rows="5" required />
+            <textarea class="form-input mb-5" id="message" maxlength="1666" rows="5" :class="{ 'opacity-50': isSendmailSuccess }" :disabled="isSendmailSuccess" required/>
           </div>
-          <input type="submit" class="btn flex ml-auto" value="Envoyer un email">
+          <input type="submit" class="mb-4 btn flex ml-auto" value="Envoyer un email" :class="{ 'opacity-50': isSendmailSuccess }" :disabled="isSendmailSuccess">
+          <div class="flex justify-end">
+            <p v-show="isSendmailSuccess" class="toast--success">Méssage envoyé <SvgCheckCircle /></p>
+            <p v-show="isSendmailError" class="toast--error">Méssage non envoyé <SvgCheckCircle /></p>
+          </div>
         </div>
       </div>
-
     </form>
-    <p>Debug: {{debug}}</p>
   </div>
 </template>
 <script>
   import Vue from 'vue'
-  import ArrowRight from "~/assets/img/arrow-right.svg?inline";
+  import SvgCheckCircle from "~/assets/img/check-circle.svg?inline";
 
   export default Vue.extend({
-    components: { ArrowRight },
+    components: { SvgCheckCircle },
     data: () => ({
       debug: 'topkek',
+      isSendmailSuccess: false,
+      isSendmailError: false,
     }),
     methods: {
       // Ask the server to create a payment intent & complete the payment
-      async checkform() {
-        const baseURL = `${this.$nuxt.context.$config.baseURL}/api`
-        this.debug = baseURL
+      async checkform(e) {
+        const formInputs = {
+          email: e.target.email.value,
+          subject: e.target.subject.value,
+          message: e.target.message.value
+        }
+
+        const api = `${this.$nuxt.context.$config.baseURL}/api/formchecker`
+        const formcheckerOptions = {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formInputs),
+        }
+
+        const fetchFormchecker = await fetch(api, formcheckerOptions)
+        const formcheckerResult = await fetchFormchecker.json()
+        if (formcheckerResult.success) {
+          this.isSendmailSuccess = true
+        } else {
+          this.isSendmailFalse = true
+        }
       }
     }
   })

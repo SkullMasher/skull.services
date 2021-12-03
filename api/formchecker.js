@@ -1,14 +1,15 @@
 import express from 'express'
+import bodyParser from 'body-parser'
 
 const app = express()
+app.use(bodyParser.json())
 
-const formchecker = async (req, res) => {
-  const {method, body} = req
-  console.log(method, body)
+const formchecker = (req, res) => {
+  console.log(req.body)
 
-  res.json(body)
+  res.json({"success": "Contact form was sent"})
 }
 
-app.get('/formchecker', formchecker)
+app.post('/formchecker', formchecker)
 
 module.exports = app
