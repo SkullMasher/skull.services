@@ -42,7 +42,7 @@
     </div>
     <NuxtLink
       to="/services"
-      class="inline-block py-3 px-6 ml-12 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg"
+      class="btn--outline"
     >
       Consulter les services <ArrowRight class="w-6 h-6 inline" />
     </NuxtLink>

@@ -4,7 +4,15 @@
 
 @layer components {
   .btn {
-    @apply inline-block mb-6 py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200;
+    @apply inline-block py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200;
+  }
+
+  .btn--outline {
+    @apply inline-block py-3 px-6 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg;
+  }
+
+  .btn--ghost {
+    @apply inline-block py-3 px-6 uppercase font-bold tracking-wider text-elegiac dark:text-indigo-100 hover:ring-2 ring-inset ring-elegiac dark:ring-indigo-100 rounded-lg transition-shadow;
   }
 
   /* Halos of light used on the index header */
