@@ -3,7 +3,7 @@
     <h2 class="text-3xl mx-5 mb-12 text-left lg:text-center font-light">
       Recommandé par les entreprises locales et les agences web
     </h2>
-    <div class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto pb-10 grid grid-flow-col grid-cols-recommendation gap-5 xl:gap-10 2xl:gap-20 overflow-x-auto overscroll-x-contain scroll-snap-x-proximity">
+    <div class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto mb-10 pb-10 grid grid-cols-recommendation grid-flow-col gap-5 xl:gap-10 2xl:gap-20 overflow-x-auto overscroll-x-contain scroll-snap-x-proximity">
       <div>
         <p class="mb-5 scroll-snap-align-start">
           Florian est très réactif et très disponible. Notre entreprise fait
@@ -58,6 +58,7 @@
         </div>
       </div>
     </div>
+    <p class="max-w-screen-md mx-auto px-5">Voir d'autres recommandations sur <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations">codeur.com</a></p>
   </section>
 </template>
 <script>
