@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .btn {
+    @apply inline-block mb-6 py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200;
+  }
+
   /* Halos of light used on the index header */
   .halos-dark {
     background:
@@ -12,7 +16,7 @@
       radial-gradient(50% 50% at 10% 50%,hsla(165.6, 75.3%, 62%, 0.25) 0%, rgba(255, 255, 255, 0) 100%),
       radial-gradient(100% 100% at 100% 0%, hsla(216, 62.1%, 25%, 1) 0%, rgba(23, 66, 130, 0) 100%),
       theme('colors.elegiac.DEFAULT');
-  }²
+  }
 
   .halos-light {
     background:
