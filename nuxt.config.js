@@ -1,9 +1,15 @@
 export default {
-  server: { port: 3001 },
+  server: {
+    port: 3001,
+    timing: {
+      total: true, // tracks the whole time spent on server-side rendering
+    },
+  },
+
   render: {
     asyncScripts : true,
     static: {
-      maxAge: 60 * 60 * 24 * 365 * 1000,
+      maxAge: '1y',
     },
   },
   modern: true,
@@ -29,6 +35,16 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
+
+  //Server Middleware https://nuxtjs.org/docs/configuration-glossary/configuration-servermiddleware/
+  serverMiddleware: {
+    '/api': '~/api/formchecker.js',
+  },
+
+  // https://nuxtjs.org/blog/moving-from-nuxtjs-dotenv-to-runtime-config
+  publicRuntimeConfig: {
+    baseURL: process.env.BASE_URL || 'http://localhost:3001',
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
