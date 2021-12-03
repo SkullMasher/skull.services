@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="max-w-xs mx-3 xs:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl"
+      class="max-w-xs mx-3 xs:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl group-hover:-rotate-1 transition-transform duration-700"
     >
       <div class="flex items-center mb-5">
         <div
