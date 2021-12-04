@@ -13,9 +13,9 @@
           </div>
         </div>
         <div class="col-span-3 mb-5">
-          <div>
+          <div :class="{ 'opacity-50': isSendmailSuccess }">
             <label class="form-label" for="message">Votre message</label>
-            <textarea class="form-input mb-5" id="message" maxlength="1666" rows="5" :class="{ 'opacity-50': isSendmailSuccess }" :disabled="isSending || isSendmailSuccess" required/>
+            <textarea class="form-input mb-5" id="message" maxlength="1666" rows="5" :disabled="isSending || isSendmailSuccess" required/>
           </div>
           <button
             type="submit"

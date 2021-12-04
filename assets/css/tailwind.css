@@ -5,7 +5,7 @@
 @layer components {
   /* Buttons */
   .btn {
-    @apply inline-block py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow transition-colors text-gray-200;
+    @apply inline-block py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow-lg transition-colors text-gray-200;
   }
 
   .btn--outline {
@@ -26,11 +26,11 @@
   }
 
   .toast--success {
-    @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-green-600 text-indigo-100;
+    @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-green-600 text-indigo-100 shadow-lg;
   }
 
   .toast--error {
-    @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-red-500 text-indigo-100;
+    @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-red-500 text-indigo-100 shadow-lg;
   }
 
 
