@@ -101,6 +101,7 @@
               <MainQuoteNow />
               <MainContactForm />
             </div>
+            <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fin promotionnel. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
           </div>
         </div>
       </section>
@@ -119,6 +120,7 @@ export default Vue.extend({
   data() {
     return {
       title: 'Services et prestations',
+      formSubject: '',
     }
   },
   head() {
