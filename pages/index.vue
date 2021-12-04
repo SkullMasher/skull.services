@@ -5,7 +5,7 @@
       <MainAtYourService />
       <MainRecommended />
       <MainShortAboutMe />
-      <section class="group pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
+      <section id="contact" class="group pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
         <div class="mx-5">
           <div class="max-w-5xl mx-auto">
             <h2 class="mb-10 text-3xl">
