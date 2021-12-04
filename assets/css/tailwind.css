@@ -29,6 +29,10 @@
     @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-green-600 text-indigo-100 shadow-lg;
   }
 
+  .toast--warning {
+    @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-yellow-600 text-indigo-100 shadow-lg;
+  }
+
   .toast--error {
     @apply inline-block font-bold uppercase px-4 py-2 rounded-lg bg-red-500 text-indigo-100 shadow-lg;
   }

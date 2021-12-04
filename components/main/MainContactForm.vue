@@ -28,7 +28,7 @@
           </button>
           <div class="flex justify-end">
             <p v-show="isSendmailSuccess" class="toast--success">Méssage envoyé <SvgCheckCircle /></p>
-            <p v-show="isSendmailError" class="toast--error">Méssage non envoyé <SvgCheckCircle /></p>
+            <p v-show="isSendmailError" class="toast--warning">Érreur veuillez réesayer</p>
           </div>
         </div>
       </div>
@@ -43,7 +43,6 @@
   export default Vue.extend({
     components: { SvgCheckCircle, SvgSpinner },
     data: () => ({
-      debug: 'topkek',
       isSending: false,
       isSendmailSuccess: false,
       isSendmailError: false,
@@ -52,6 +51,8 @@
       // Ask the server to create a payment intent & complete the payment
       async checkform(e) {
         this.isSending = true
+        this.isSendmailError = false
+
         const formInputs = {
           email: e.target.email.value,
           subject: e.target.subject.value,
@@ -70,7 +71,8 @@
         if (formcheckerResult.success) {
           this.isSending = false
           this.isSendmailSuccess = true
-        } else {
+        }
+        if (formcheckerResult.error) {
           this.isSending = false
           this.isSendmailError = true
         }
