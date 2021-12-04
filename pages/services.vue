@@ -44,7 +44,7 @@
                 <li>Chargement diféré des script et images</li>
               </ul>
               <p class="text-4xl mb-7 font-bold tracking-wider">200 €</p>
-              <button class="btn">Contacter maintenant</button>
+              <a href="#contact" class="btn">Contacter maintenant</a>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@
                 <li>PHP, Wordpress, Laravel, Symphony, Slim</li>
               </ul>
               <p class="text-4xl mb-5">À partir 350 €</p>
-              <button class="btn">Demander un devis</button>
+              <a href="#contact" class="btn">Demander un devis</a>
             </div>
           </div>
         </div>
