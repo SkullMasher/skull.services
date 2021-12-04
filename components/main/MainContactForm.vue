@@ -5,19 +5,27 @@
         <div class="col-span-2" :class="{ 'opacity-50': isSendmailSuccess }">
           <div class="mb-5">
             <label class="form-label" for="email">Votre adresse mail</label>
-            <input class="form-input" type="email" id="email" :disabled="isSendmailSuccess" required maxlength="80">
+            <input class="form-input" type="email" id="email" :disabled="isSending || isSendmailSuccess" required maxlength="80">
           </div>
           <div class="mb-5">
             <label class="form-label" for="subject">Sujet de la demande</label>
-            <input class="form-input" type="text" id="subject" maxlength="80" :disabled="isSendmailSuccess" required>
+            <input class="form-input" type="text" id="subject" maxlength="80" :disabled="isSending || isSendmailSuccess" required>
           </div>
         </div>
         <div class="col-span-3 mb-5">
           <div>
             <label class="form-label" for="message">Votre message</label>
-            <textarea class="form-input mb-5" id="message" maxlength="1666" rows="5" :class="{ 'opacity-50': isSendmailSuccess }" :disabled="isSendmailSuccess" required/>
+            <textarea class="form-input mb-5" id="message" maxlength="1666" rows="5" :class="{ 'opacity-50': isSendmailSuccess }" :disabled="isSending || isSendmailSuccess" required/>
           </div>
-          <input type="submit" class="mb-4 btn flex ml-auto" value="Envoyer un email" :class="{ 'opacity-50': isSendmailSuccess }" :disabled="isSendmailSuccess">
+          <button
+            type="submit"
+            class="mb-4 btn flex ml-auto"
+            :class="{ 'opacity-50': isSendmailSuccess }"
+            :disabled="isSending || isSendmailSuccess"
+          >
+            <svg-spinner v-show="isSending" class="h-6 mr-3" />
+            <span>Envoyer un Email</span>
+          </button>
           <div class="flex justify-end">
             <p v-show="isSendmailSuccess" class="toast--success">Méssage envoyé <SvgCheckCircle /></p>
             <p v-show="isSendmailError" class="toast--error">Méssage non envoyé <SvgCheckCircle /></p>
@@ -30,9 +38,10 @@
 <script>
   import Vue from 'vue'
   import SvgCheckCircle from "~/assets/img/check-circle.svg?inline";
+  import SvgSpinner from "~/assets/img/spinner.svg?inline";
 
   export default Vue.extend({
-    components: { SvgCheckCircle },
+    components: { SvgCheckCircle, SvgSpinner },
     data: () => ({
       debug: 'topkek',
       isSending: false,
