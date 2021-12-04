@@ -45,6 +45,10 @@ export default {
   publicRuntimeConfig: {
     baseURL: process.env.BASE_URL || 'http://localhost:3001',
   },
+  privateRuntimeConfig: {
+    mailuser: process.env.MAIL_USER,
+    mailpass: process.env.MAIL_PASS,
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [

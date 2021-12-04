@@ -35,12 +35,14 @@
     components: { SvgCheckCircle },
     data: () => ({
       debug: 'topkek',
+      isSending: false,
       isSendmailSuccess: false,
       isSendmailError: false,
     }),
     methods: {
       // Ask the server to create a payment intent & complete the payment
       async checkform(e) {
+        this.isSending = true
         const formInputs = {
           email: e.target.email.value,
           subject: e.target.subject.value,
@@ -57,9 +59,11 @@
         const fetchFormchecker = await fetch(api, formcheckerOptions)
         const formcheckerResult = await fetchFormchecker.json()
         if (formcheckerResult.success) {
+          this.isSending = false
           this.isSendmailSuccess = true
         } else {
-          this.isSendmailFalse = true
+          this.isSending = false
+          this.isSendmailError = true
         }
       }
     }
