@@ -26,10 +26,10 @@
               <div>
                 <h4 class="mb-2">Performance Wordpress</h4>
                 <div class="max-w-xs mb-5 text-sm space-y-2">
-                  <p>Instalation et configuration d'un cache</p>
-                  <p>Réduire et concatener les Javascript, CSS, HTML</p>
-                  <p>Optimisation automatique des images</p>
-                  <p>Préchargé les fichiers de police</p>
+                  <p>Installer et configurer un cache</p>
+                  <p>Réduire et concaténer les Javascript, CSS, HTML</p>
+                  <p>Optimiser automatiquement les images</p>
+                  <p>Précharger les fichiers de police</p>
                 </div>
                 <p class="mr-10 text-right text-2xl font-bold">200 €</p>
               </div>
@@ -41,7 +41,7 @@
                 <li>Optimisation automatique des images</li>
                 <li>Mise en cache</li>
                 <li>Minification des HTML, CSS et Javascript</li>
-                <li>Chargement diféré des script et images</li>
+                <li>Chargement différé des scripts et images</li>
               </ul>
               <p class="text-4xl mb-7 font-bold tracking-wider">200 €</p>
               <a href="#contact" class="btn">Contacter maintenant</a>

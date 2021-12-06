@@ -27,8 +27,8 @@
             class="link-pretty"
           >
             le code source de ce site
-          </a>
-          vous remarquez que je n'ai pas utilisé wordpress.
+          </a>,
+          vous remarquerez que je n'ai pas utilisé wordpress.
         </p>
         <p>Ce site n'utilise pas de cookie &#127850;, car il fait un régime keto &#129361;.</p>
       </div>

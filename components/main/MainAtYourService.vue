@@ -11,32 +11,32 @@
         <h3
           class="pt-16 sm:pt-20 pb-3 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
-          Corriger un bug sur mon site
+          Corriger un bug
         </h3>
         <h3
           class="pt-3 sm:pt-4 pb-4 sm:pb-6 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
-          Booster la vitesse de mon site
+          Booster la vitesse de votre site
         </h3>
         <h3
           class="pt-3 sm:pt-4 pb-4 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
-          Améliorer ma visibilité sur Google
+          Améliorer votre visibilité sur Google
         </h3>
         <h3
           class="pt-3 sm:pt-4 pb-4 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
-          Développement sur mesure
+          Développer sur mesure
         </h3>
         <h3
           class="pt-3 sm:pt-4 pb-5 sm:pb-6 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
-          Intervenir sur mon serveur linux
+          Intervenir sur votre serveur linux
         </h3>
         <h3
           class="pt-3 sm:pt-5 pb-20 sm:pb-28 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
-          Un freelance pour mon Agence
+          Un freelance pour votre Agence
         </h3>
       </div>
     </div>
