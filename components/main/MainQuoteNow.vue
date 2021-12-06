@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="max-w-xs mx-3 xs:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform -rotate-3 shadow-2xl group-hover:-rotate-1 transition-transform duration-700"
+      class="max-w-xs mx-3 xs:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform shadow-2xl  transition-transform duration-700"
     >
       <div class="flex items-center mb-5">
         <div
@@ -16,7 +16,10 @@
       </div>
       <div class="ml-5">
         <h4 class="mb-2">{{title || 'Intervention urgente wordpress'}}</h4>
-        <p class="max-w-xs mb-5 text-sm">{{item || 'Désactivation d\'un plugin qui empêche le chargement du site'}}</p>
+
+        <div class="mb-5 space-y-2">
+          <p class="max-w-xs text-sm" v-for="item in items" :key="item.id">{{item || 'Désactivation d\'un plugin qui empêche le chargement du site'}}</p>
+        </div>
         <p class="mr-10 text-right text-2xl font-bold">{{price || '50 €'}}</p>
       </div>
     </div>
@@ -28,6 +31,6 @@
 
   export default Vue.extend({
     components: { ArrowRight },
-    props: ['title', 'item', 'price'],
+    props: ['title', 'items', 'price'],
   })
 </script>

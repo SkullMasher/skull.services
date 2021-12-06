@@ -2,38 +2,121 @@
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header title="Liste des <strong>services</strong> et <strong>prestations</strong>" />
     <main>
-      <section class="group">
-        <div class="max-w-5xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
+      <section class="group mb-20 px-5">
+        <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
-            <svg-lightning class="mr-4 rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
+            <div class="mr-4">
+              <svg-responsive class="group-hover:scale-110 transition-all duration-700 transform-gpu" />
+            </div>
+            <h2 class="text-2xl sm:text-4xl">Créer un site performant visible et fonctionel</h2>
+          </div>
+          <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
+            <MainQuoteNow
+              class="col-span-2 rotate-2 group-hover:-rotate-1 transform transition-transform duration-700"
+              title="Site vitrine complet"
+              :items="[
+                'Site vitrine 3 pages performant avec wordpress',
+                'Mon magasin visible sur google maps avec mes horraires',
+                'Formation 1h: comment manipuler son site web'
+              ]"
+              price="1500 €"
+            />
+            <div class="col-span-3">
+              <p>Un site web est un commercial qui ne dors jamais.</p>
+              <p class="mb-5">Posséder un site avec des informations clairement présenté est important pour avoir des clients déjà informé avant de vous appeller. De plus, il faut être visible par Google ou les autres moteurs de recherches.</p>
+              <ul class="ml-10 mb-7 list-disc space-y-1">
+                <li><strong>Vente en ligne</strong> (e-commerce) ou <strong>site vitrine</strong></li>
+                <li>Ajout de vos informations sur Google</li>
+                <li>Référencement local</li>
+                <li>Site rapide et agréable</li>
+              </ul>
+              <p class="text-4xl mb-7 font-bold tracking-wider">À partir 1500 €</p>
+              <a
+                href="#contact"
+                class="btn"
+                @click="setForm(
+                  'Site vitrine complet',
+                  'Demande de réalisation de site web',
+                  'Site vitrine complet',
+                  ['Site vitrine wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site'],
+                  '1500 €',
+                )"
+              >
+                  Deviser maintenant
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="group mb-20 px-5">
+        <div class="max-w-5xl mx-auto text-lg">
+          <div class="flex items-center mb-8">
+            <div class="mr-4">
+              <svg-apppro class="text-purple-500 group-hover:text-pink-500 group-hover:scale-110 transition-all duration-700 transform-gpu" />
+            </div>
+            <h2 class="text-2xl sm:text-4xl">Application et programme sur mesure</h2>
+          </div>
+          <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
+            <MainQuoteNow
+              class="col-span-2 -rotate-1 group-hover:-rotate-3 transform transition-transform duration-700"
+              title="Automatiser l'envoie d'un rapport"
+              :items="[
+                'Interface de gestion des documents',
+                'Importation des fichiers excel',
+                'Transformation et édition facile',
+                'Téléchargement du document au format PDF',
+              ]"
+              price="2700 €"
+            />
+            <div class="col-span-3">
+              <p>Et si vous automatisiez une tache redondante de votre quotidien ?</p>
+              <p class="mb-5">Transformation et génération de document automatique sur téléphonne, tablette et ordinateur.</p>
+              <ul class="ml-10 mb-7 list-disc space-y-1">
+                <li>Gestion des utlisateurs</li>
+                <li>Affichage et changement des donnée à partir de template</li>
+                <li>Importation et exportation PDF, excel, word</li>
+                <li>Envois automatique d'email</li>
+                <li>Sauvegarde et stockage</li>
+                <li>Fonctionnement hors ligne</li>
+              </ul>
+              <p class="text-4xl mb-7 font-bold tracking-wider">À partir 2700 €</p>
+              <a
+                href="#contact"
+                class="btn"
+                @click="setForm(
+                  'Appplication sur mesure',
+                  'Demande de conception d\'application sur mesure',
+                  'Automatiser l\'envoie d\'un rapport',
+                  ['Portail d\'administration des documents', 'Editions des documents après importation', 'Génération automatique au format PDF'],
+                  '2700 €',
+                )"
+              >
+                  Deviser maintenant
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="group mb-20 px-5">
+        <div class="max-w-5xl mx-auto text-lg">
+          <div class="flex items-center mb-8">
+            <div class="mr-4">
+              <svg-lightning class="rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
+            </div>
             <h2 class="text-2xl sm:text-4xl">Performance Wordpress</h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
-            <div
-              class="col-span-2 max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 -rotate-2 group-hover:-rotate-1 transition-transform duration-700 transform-gpu shadow-2xl"
-            >
-              <div class="flex items-center mb-5">
-                <div
-                  class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
-                >
-                  <img src="~assets/skullmasher.svg" width="50" height="50" />
-                </div>
-                <div>
-                  <p class="">Florian Ledru</p>
-                  <p class="text-sm">skullmasher.io</p>
-                </div>
-              </div>
-              <div>
-                <h4 class="mb-2">Performance Wordpress</h4>
-                <div class="max-w-xs mb-5 text-sm space-y-2">
-                  <p>Installer et configurer un cache</p>
-                  <p>Réduire et concaténer les Javascript, CSS, HTML</p>
-                  <p>Optimiser automatiquement les images</p>
-                  <p>Précharger les fichiers de police</p>
-                </div>
-                <p class="mr-10 text-right text-2xl font-bold">200 €</p>
-              </div>
-            </div>
+            <MainQuoteNow
+              class="col-span-2 -rotate-2 group-hover:-rotate-1 transform transition-transform duration-700"
+              title="Performance Wordpress"
+              :items="[
+                'Installer et configurer un cache',
+                'Réduire et concaténer les Javascript, CSS, HTML',
+                'Optimiser automatiquement les images',
+                'Précharger les fichiers de police',
+              ]"
+              price="200 €"
+            />
             <div class="col-span-3">
               <p class="mb-5">Mon site est lent et j'ai besoin de l'optimiser rapidement pour améliorer mon score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.</p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
@@ -51,7 +134,7 @@
                   'Performances Wordpress',
                   'Demande d\'amélioration des performances wordpress',
                   'Performance Wordpress',
-                  'Caching, minification et optimisation',
+                  ['Caching, minification et optimisation'],
                   '200 €',
                 )"
               >
@@ -61,35 +144,21 @@
           </div>
         </div>
       </section>
-      <section class="group">
-        <div class="max-w-5xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
+      <section class="group mb-20 px-5">
+        <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
             <svg-code class="mr-4 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700" />
             <h2 class="text-2xl sm:text-4xl">Développement responsive de votre maquette</h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
-            <div
-              class="col-span-2 max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 transform-gpu rotate-1 group-hover:rotate-2 duration-700 shadow-2xl"
-            >
-              <div class="flex items-center mb-5">
-                <div
-                  class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
-                >
-                  <img src="~assets/skullmasher.svg" width="50" height="50" />
-                </div>
-                <div>
-                  <p class="">Florian Ledru</p>
-                  <p class="text-sm">skullmasher.io</p>
-                </div>
-              </div>
-              <div>
-                <h4 class="mb-2">Intégration responsive</h4>
-                <div class="max-w-xs mb-5 text-sm space-y-2">
-                  <p>Intégration responsive d'une page d'accueil à partir de maquette Figma en HTML, CSS et Javascript</p>
-                </div>
-                <p class="mr-10 text-right text-2xl font-bold">350 €</p>
-              </div>
-            </div>
+            <MainQuoteNow
+              class="col-span-2 rotate-1 group-hover:rotate-2 transform transition-transform duration-700"
+              title="Intégration responsive"
+              :items="[
+                'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'
+              ]"
+              price="350 €"
+            />
             <div class="col-span-3">
               <p class="mb-5">Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animations qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.</p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
@@ -105,7 +174,7 @@
                   'Developement maquette',
                   'Demande de developement à partir d\'une maquette',
                   'Developement maquette',
-                  'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript',
+                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'],
                   '350 €',
                 )"
               >
@@ -122,7 +191,12 @@
               {{ formTitle }}
             </h2>
             <div class="lg:flex gap-12">
-              <MainQuoteNow :title="quoteTitle" :item="quoteItem" :price="quotePrice" />
+              <MainQuoteNow
+                class="col-span-2 -rotate-1 group-hover:rotate-1 transform transition-transform duration-700"
+                :title="quoteTitle"
+                :items="quoteItems"
+                :price="quotePrice"
+              />
               <MainContactForm :subject="formSubject" />
             </div>
             <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fins promotionnel. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
@@ -138,25 +212,27 @@
 import Vue from 'vue'
 import SvgLightning from "~/assets/img/lightning.svg?inline";
 import SvgCode from "~/assets/img/code.svg?inline";
+import SvgResponsive from "~/assets/img/responsive.svg?inline";
+import SvgApppro from "~/assets/img/apppro.svg?inline";
 
 export default Vue.extend({
-  components: { SvgLightning, SvgCode },
+  components: { SvgLightning, SvgCode, SvgResponsive, SvgApppro },
   data() {
     return {
       formTitle: 'Demander un devis gratuit !',
       title: 'Services et prestations',
       formSubject: '',
       quoteTitle: 'Intervention urgente Wordpress',
-      quoteItem: 'Désactivation d\'un plugin qui empêche le chargement du site.',
+      quoteItems: ['Désactivation d\'un plugin qui empêche le chargement du site.'],
       quotePrice: '50 €',
     }
   },
   methods: {
-    setForm: function (subject, title, qtitle, qitem, qprice) {
+    setForm: function (subject, title, qtitle, qitems, qprice) {
       this.formSubject = subject
       this.formTitle = title
       this.quoteTitle = qtitle
-      this.quoteDescription = qitem
+      this.quoteItems = qitems
       this.quotePrice = qprice
     },
   },

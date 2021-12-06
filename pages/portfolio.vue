@@ -1,3 +1,16 @@
+<!--
+  Titre Page
+  Trié par badge d'itentification du projet
+          Tous les projets
+    wordpress, Vue, React, design,
+    administration système, e-commerce
+    appplication sur mesure
+
+  Projet
+    Photo slider
+    Titre
+    Description avec les fonctionalité
+-->
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header />
@@ -20,7 +33,7 @@
         </section>
         <section>
           <h2>Infinity Graphic</h2>
-          <h3>répondre au besoin d'une agence web</h3>
+          <h3>Répondre au besoin d'une agence web</h3>
           <div><span>wordpress</span> <span>woocommerce</span> <span>performance</span> <span>administration système</span> <span>performance</span> <span>réparation après piratage</span> <span>sécurité</span></div>
           <p>Résoudre les bugs sur une sur une centaine de site, sécurisé des sites pirater.</p>
         </section>
