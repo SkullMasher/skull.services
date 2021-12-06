@@ -207,8 +207,7 @@
   }
 
   .clip-header-image img {
-    aspect-ratio: 8 / 4.2;
-    @apply  bg-indigo-200 dark:bg-elegiac-dark;
+    @apply bg-indigo-200 dark:bg-elegiac-dark;
   }
 
   .hero-img-desktop img {
