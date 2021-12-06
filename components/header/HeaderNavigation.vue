@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="max-w-xl mx-2 sm:mx-auto mt-4 mb-10 flex justify-between items-center font-bold transform-gpu sm:text-xl sm:tracking-widest"
+    class="nav-primary max-w-xl mx-2 sm:mx-auto mt-4 mb-10 flex justify-between items-center font-bold transform-gpu sm:text-xl sm:tracking-widest"
   >
     <button
       v-show="$colorMode.value === 'dark'"
@@ -47,3 +47,9 @@ export default Vue.extend({
   components: { Moon, Sun }
 })
 </script>
+
+<style>
+  .nav-primary .nuxt-link-exact-active {
+    @apply bg-blue-600 ring-8 ring-blue-600 ring-opacity-40 cursor-default;
+  }
+</style>

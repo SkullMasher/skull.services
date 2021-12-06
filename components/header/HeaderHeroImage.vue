@@ -11,6 +11,8 @@
     <nuxt-picture
       src="/florian-skullmasher-ledru-square.jpg"
       class="hero-img-desktop"
+      width="384"
+      height="384"
       sizes="lg:320px xl:384px"
     />
   </div>
