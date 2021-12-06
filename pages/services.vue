@@ -79,7 +79,7 @@
               </div>
             </div>
             <div class="col-span-3">
-              <p class="mb-5">Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animation qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.</p>
+              <p class="mb-5">Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animations qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.</p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
                 <li>Email</li>
                 <li>Javascript, React, Vue, Next.js, Nuxt</li>
@@ -101,7 +101,7 @@
               <MainQuoteNow />
               <MainContactForm />
             </div>
-            <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fin promotionnel. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
+            <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fins promotionnel. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
           </div>
         </div>
       </section>

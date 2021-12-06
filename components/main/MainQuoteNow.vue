@@ -17,7 +17,7 @@
       <div class="ml-5">
         <h4 class="mb-2">Intervention urgente Wordpress</h4>
         <p class="max-w-xs mb-5 text-sm">
-          Désactivation d'un plugin qui empeche le chargement du site.
+          Désactivation d'un plugin qui empêche le chargement du site.
         </p>
         <p class="mr-10 text-right text-2xl font-bold">50 €</p>
       </div>
