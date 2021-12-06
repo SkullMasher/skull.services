@@ -42,7 +42,7 @@
                   '1500 €',
                 )"
               >
-                  Deviser maintenant
+                  Demander un devis
               </a>
             </div>
           </div>
@@ -91,7 +91,7 @@
                   '2700 €',
                 )"
               >
-                  Deviser maintenant
+                  Demander un devis
               </a>
             </div>
           </div>
@@ -138,7 +138,7 @@
                   '200 €',
                 )"
               >
-                  Contacter maintenant
+                  Demander un devis
               </a>
             </div>
           </div>
