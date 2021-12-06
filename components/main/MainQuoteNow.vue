@@ -7,7 +7,7 @@
         <div
           class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
         >
-          <img src="~assets/skullmasher.svg" class="w-12 h-12" />
+          <img src="~assets/skullmasher.svg" width="51" height="51" class="w-12 h-12" />
         </div>
         <div>
           <p class="">Florian Ledru</p>

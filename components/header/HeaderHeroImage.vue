@@ -1,9 +1,8 @@
 <template>
   <div>
-    <figure class="lg:hidden clip-header-image h-48 sm:h-96">
+    <figure class="lg:hidden clip-header-image">
       <nuxt-picture
         src="/florian-skullmasher-ledru.jpg"
-        sizes="xs:100vw sm:100vw md:100vw"
       />
     </figure>
     <nuxt-picture

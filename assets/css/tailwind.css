@@ -206,6 +206,11 @@
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
   }
 
+  .clip-header-image img {
+    aspect-ratio: 8 / 4;
+    @apply  bg-indigo-200 dark:bg-elegiac-dark;
+  }
+
   .hero-img-desktop img {
     @apply w-80 h-80 xl:w-96 xl:h-96 ml-10 xl:ml-16 rounded-full shadow-lg transition-all hidden lg:block transform transform-gpu hover:rotate-3 bg-gray-200;
   }

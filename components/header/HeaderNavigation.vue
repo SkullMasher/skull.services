@@ -2,32 +2,6 @@
   <nav
     class="max-w-xl mx-2 sm:mx-auto mt-4 mb-10 flex justify-between items-center font-bold transform-gpu sm:text-xl sm:tracking-widest"
   >
-    <HeaderLogo />
-    <nuxtLink
-      to="/services"
-      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
-    >
-      services
-    </nuxtLink>
-    <nuxtLink
-      to="/portfolio"
-      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
-    >
-      portfolio
-    </nuxtLink>
-    <a
-      href="#contact"
-      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
-    >
-      contact
-    </a>
-    <button
-      v-show="$colorMode.value === 'light'"
-      @click="$colorMode.preference = 'dark'"
-      class=""
-    >
-      <moon class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />
-    </button>
     <button
       v-show="$colorMode.value === 'dark'"
       @click="$colorMode.preference = 'light'"
@@ -35,6 +9,32 @@
     >
       <sun class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
     </button>
+    <button
+      v-show="$colorMode.value === 'light'"
+      @click="$colorMode.preference = 'dark'"
+      class=""
+    >
+      <moon class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />
+    </button>
+    <a
+      href="#contact"
+      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
+    >
+      contact
+    </a>
+    <nuxtLink
+      to="/portfolio"
+      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
+    >
+      portfolio
+    </nuxtLink>
+    <nuxtLink
+      to="/services"
+      class="-skew-x-12 py-1 px-2 bg-blue-500 hover:bg-blue-600 transform-gpu hover:ring-8 ring-blue-600 shadow-lg ring-opacity-40 transition-all text-gray-200"
+    >
+      services
+    </nuxtLink>
+    <HeaderLogo />
   </nav>
 </template>
 

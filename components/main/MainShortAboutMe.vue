@@ -6,6 +6,8 @@
           src="/florian-skullmasher-ledru-alpilles.jpg"
           class="about-image"
           loading="lazy"
+          width="278"
+          height="278"
           sizes="xs:224px sm:300px md:230px lg:278px"
         />
         <figcaption class="max-w-xs mx-auto text-sm text-center italic">
