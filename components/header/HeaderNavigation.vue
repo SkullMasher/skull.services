@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="nav-primary max-w-xl mx-2 sm:mx-auto mt-4 mb-10 flex justify-between items-center font-bold transform-gpu sm:text-xl sm:tracking-widest"
+    class="nav-primary max-w-xl mx-2 sm:mx-auto mt-4 mb-10 flex sm:flex-row-reverse justify-between items-center font-bold transform-gpu sm:text-xl sm:tracking-widest"
   >
     <button
       v-show="$colorMode.value === 'dark'"
