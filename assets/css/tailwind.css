@@ -204,7 +204,6 @@
 
   .clip-header-image {
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
-    /*@apply bg-indigo-100 dark:bg-elegiac-dark;*/
   }
 
   .hero-img-desktop img {

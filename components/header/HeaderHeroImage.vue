@@ -5,6 +5,7 @@
         src="/florian-skullmasher-ledru.jpg"
         width="1023"
         height="538"
+        sizes="xs:100vw sm:100vw md:100vw"
       />
     </figure>
     <nuxt-picture
