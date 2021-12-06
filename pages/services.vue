@@ -4,10 +4,10 @@
     <main>
       <section class="group">
         <div class="max-w-5xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
-          <h2 class="text-2xl sm:text-4xl mb-5 flex items-center mb-8">
+          <div class="flex items-center mb-8">
             <svg-lightning class="mr-4 rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
-            <span>Performance Wordpress</span>
-          </h2>
+            <h2 class="text-2xl sm:text-4xl">Performance Wordpress</h2>
+          </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <div
               class="col-span-2 max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 -rotate-2 group-hover:-rotate-1 transition-transform duration-700 transform-gpu shadow-2xl"
@@ -44,17 +44,29 @@
                 <li>Chargement différé des scripts et images</li>
               </ul>
               <p class="text-4xl mb-7 font-bold tracking-wider">200 €</p>
-              <a href="#contact" class="btn">Contacter maintenant</a>
+              <a
+                href="#contact"
+                class="btn"
+                @click="setForm(
+                  'Performances Wordpress',
+                  'Demande d\'amélioration des performances wordpress',
+                  'Performance Wordpress',
+                  'Caching, minification et optimisation',
+                  '200 €',
+                )"
+              >
+                  Contacter maintenant
+              </a>
             </div>
           </div>
         </div>
       </section>
       <section class="group">
         <div class="max-w-5xl lg:mx-auto mx-5 mb-20 text-lg mb-20">
-          <h2 class="text-2xl sm:text-4xl mb-5 flex items-center mb-8">
+          <div class="flex items-center mb-8">
             <svg-code class="mr-4 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700" />
-            <span>Intégration responsive de maquette</span>
-          </h2>
+            <h2 class="text-2xl sm:text-4xl">Développement responsive de votre maquette</h2>
+          </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <div
               class="col-span-2 max-w-sm mx-3 sm:mx-auto mb-14 px-4 py-5 bg-gray-200 text-gray-800 transform-gpu rotate-1 group-hover:rotate-2 duration-700 shadow-2xl"
@@ -86,7 +98,19 @@
                 <li>PHP, Wordpress, Laravel, Symphony, Slim</li>
               </ul>
               <p class="text-4xl mb-5">À partir 350 €</p>
-              <a href="#contact" class="btn">Demander un devis</a>
+              <a
+                href="#contact"
+                class="btn"
+                @click="setForm(
+                  'Developement maquette',
+                  'Demande de developement à partir d\'une maquette',
+                  'Developement maquette',
+                  'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript',
+                  '350 €',
+                )"
+              >
+                Demander un devis
+              </a>
             </div>
           </div>
         </div>
@@ -95,11 +119,11 @@
         <div class="mx-5">
           <div class="max-w-5xl mx-auto">
             <h2 class="mb-10 text-3xl">
-              Demander un devis gratuit !
+              {{ formTitle }}
             </h2>
             <div class="lg:flex gap-12">
-              <MainQuoteNow />
-              <MainContactForm />
+              <MainQuoteNow :title="quoteTitle" :item="quoteItem" :price="quotePrice" />
+              <MainContactForm :subject="formSubject" />
             </div>
             <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fins promotionnel. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
           </div>
@@ -119,9 +143,22 @@ export default Vue.extend({
   components: { SvgLightning, SvgCode },
   data() {
     return {
+      formTitle: 'Demander un devis gratuit !',
       title: 'Services et prestations',
       formSubject: '',
+      quoteTitle: 'Intervention urgente Wordpress',
+      quoteItem: 'Désactivation d\'un plugin qui empêche le chargement du site.',
+      quotePrice: '50 €',
     }
+  },
+  methods: {
+    setForm: function (subject, title, qtitle, qitem, qprice) {
+      this.formSubject = subject
+      this.formTitle = title
+      this.quoteTitle = qtitle
+      this.quoteDescription = qitem
+      this.quotePrice = qprice
+    },
   },
   head() {
     return {

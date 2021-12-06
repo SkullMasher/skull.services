@@ -9,7 +9,14 @@
           </div>
           <div class="mb-5">
             <label class="form-label" for="subject">Sujet de la demande</label>
-            <input class="form-input" type="text" id="subject" maxlength="80" :disabled="isSending || isSendmailSuccess" required>
+            <input
+              class="form-input"
+              type="text"
+              id="subject"
+              maxlength="80"
+              :value="subject"
+              :disabled="isSending || isSendmailSuccess" required
+            >
           </div>
         </div>
         <div class="col-span-3 mb-5">
@@ -47,6 +54,7 @@
       isSendmailSuccess: false,
       isSendmailError: false,
     }),
+    props: ['subject'],
     methods: {
       // Ask the server to create a payment intent & complete the payment
       async checkform(e) {

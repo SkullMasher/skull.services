@@ -1,7 +1,6 @@
 <template>
   <div class="flow-root bg-gray-700 text-gray-200">
     <div class="text-gray-200">
-      <HeaderHeroImage />
       <HeaderNavigation />
     </div>
     <div class="mb-14">
@@ -100,6 +99,7 @@ export default Vue.extend({
   mounted() {
     const recommendations: any = document.querySelectorAll('.floating-recommendation')
     console.log(recommendations)
+    this.parallax(recommendations[0])
   },
   methods: {
     /**
