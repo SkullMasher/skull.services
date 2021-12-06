@@ -3,6 +3,8 @@
     <figure class="lg:hidden clip-header-image">
       <nuxt-picture
         src="/florian-skullmasher-ledru.jpg"
+        width="1023"
+        height="538"
       />
     </figure>
     <nuxt-picture
