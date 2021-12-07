@@ -28,7 +28,7 @@
           >
             le code source de ce site
           </a>,
-          vous remarquerez que je n'ai pas utilisé wordpress.
+          vous remarquerez que je n'ai pas utilisé Wordpress.
         </p>
         <p>Ce site n'utilise pas de cookie &#127850;, car il fait un régime keto &#129361;.</p>
       </div>

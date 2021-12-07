@@ -57,7 +57,7 @@
         logo="/logo-auzars-site-noir.webp"
         url="https://www.auzars.com/"
       >
-        <p>Transformation du thème original wordpress pour simplifier l'achat et la personalisation des produits. Présentation clair des options disponible pour changer le produit en fonction de sa dimension ou du cadre choisis par l'utilisateur.</p>
+        <p>Transformation du thème original Wordpress pour simplifier l'achat et la personalisation des produits. Présentation clair des options disponible pour changer le produit en fonction de sa dimension ou du cadre choisis par l'utilisateur.</p>
         <p>Depuis le début de notre colaboration, l'ensemble des mesures prise ont permis de réussir la transition d'une entreprise local vers la vente en ligne, qui représente maintenant une partie du chifre d'affaire mensuel.</p>
       </MainProject>
       <MainProject
@@ -97,7 +97,7 @@
         url="https://www.sebservicesauto.fr/"
       >
         <p>Site vitrine complet assurant une très bonne présance en ligne, face à la concurance. Peu de visite mais un fort très fort taux de conversion sous la forme d'apell téléphonique, grace à un référencement localisé sur la zone d'activité de l'entreprise.</p>
-        <p>Le site web de seb et son référencement sur google maps lui apporte un flu constant de nouveaux client, très rapidement fidélisé et heureux de trouver une alternative aux garages automobile classique.</p>
+        <p>Le site web de seb et son référencement sur Google Maps lui apporte un flu constant de nouveaux client, très rapidement fidélisé et heureux de trouver une alternative aux garages automobile classique.</p>
       </MainProject>
       <section id="contact" class="group pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
         <div class="mx-5">

@@ -1,6 +1,6 @@
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
-    <Header title="Liste des <strong>services</strong> et <strong>prestations</strong>" />
+    <Header title="<strong>Services</strong> et <strong>prestations</strong>" />
     <main>
       <section class="group mb-20 px-5">
         <div class="max-w-5xl mx-auto text-lg">
@@ -15,22 +15,22 @@
               class="col-span-2 rotate-2 group-hover:-rotate-1 transform transition-transform duration-700"
               title="Site vitrine complet"
               :items="[
-                'Site vitrine 3 pages performant avec wordpress',
-                'Visibilité sur google maps avec figuration des horraires',
-                'Formation 1h: comment manipuler son site web'
+                'Site vitrine 3 pages performant avec Wordpress',
+                'Visibilité sur google maps avec figuration des horraire',
+                'Formation 1h : comment manipuler son site web'
               ]"
               price="1500 €"
             />
             <div class="col-span-3">
-              <p>Un site web est un commercial qui ne dors jamais.</p>
-              <p class="mb-5">Posséder un site avec des informations clairement présenté est important pour avoir des clients déjà informé avant de vous appeller. De plus, il faut être visible par Google ou les autres moteurs de recherches.</p>
+              <p>Un site web est un commercial qui ne dort jamais.</p>
+              <p class="mb-5">Posséder un site avec des informations clairement présentées est important pour avoir des clients déjà informés avant de vous apeller. De plus, il faut être visible de Google ou des autres moteurs de recherches.</p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
                 <li><strong>Vente en ligne</strong> (e-commerce) ou <strong>site vitrine</strong></li>
                 <li>Ajout de vos informations sur Google</li>
                 <li>Référencement local</li>
                 <li>Site rapide et agréable</li>
               </ul>
-              <p class="text-4xl mb-7 font-bold tracking-wider">À partir 1500 €</p>
+              <p class="text-4xl mb-7 font-bold tracking-wider">À partir de 1500 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -38,7 +38,7 @@
                   'Site vitrine complet',
                   'Demande de réalisation de site web',
                   'Site vitrine complet',
-                  ['Site vitrine wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site'],
+                  ['Site vitrine Wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site'],
                   '1500 €',
                 )"
               >
@@ -59,7 +59,7 @@
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
               class="col-span-2 -rotate-1 group-hover:-rotate-3 transform transition-transform duration-700"
-              title="Automatiser l'envoie d'un rapport"
+              title="Automatiser l'envoi d'un rapport"
               :items="[
                 'Interface de gestion des documents',
                 'Importation des fichiers excel',
@@ -70,16 +70,16 @@
             />
             <div class="col-span-3">
               <p>Et si vous automatisiez une tache redondante de votre quotidien ?</p>
-              <p class="mb-5">Transformation et génération de document automatique sur téléphonne, tablette et ordinateur.</p>
+              <p class="mb-5">Transformation et génération de document automatique sur téléphone, tablette et ordinateur.</p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
                 <li>Gestion des utlisateurs</li>
-                <li>Affichage et changement des donnée à partir de template</li>
-                <li>Importation et exportation PDF, excel, word</li>
-                <li>Envois automatique d'email</li>
+                <li>Affichage et changement des données à partir de template</li>
+                <li>Importation et exportation PDF, Excel, Word</li>
+                <li>Envoi automatique d'email</li>
                 <li>Sauvegarde et stockage</li>
                 <li>Fonctionnement hors ligne</li>
               </ul>
-              <p class="text-4xl mb-7 font-bold tracking-wider">À partir 2700 €</p>
+              <p class="text-4xl mb-7 font-bold tracking-wider">À partir de 2700 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -132,7 +132,7 @@
                 class="btn"
                 @click="setForm(
                   'Performances Wordpress',
-                  'Demande d\'amélioration des performances wordpress',
+                  'Demande d\'amélioration des performances Wordpress',
                   'Performance Wordpress',
                   ['Caching, minification et optimisation'],
                   '200 €',
@@ -166,7 +166,7 @@
                 <li>Javascript, React, Vue, Next.js, Nuxt</li>
                 <li>PHP, Wordpress, Laravel, Symphony, Slim</li>
               </ul>
-              <p class="text-4xl mb-5">À partir 350 €</p>
+              <p class="text-4xl mb-5">À partir de 350 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -199,7 +199,7 @@
               />
               <MainContactForm :subject="formSubject" />
             </div>
-            <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fins promotionnel. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
+            <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fins promotionnelles. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
           </div>
         </div>
       </section>
