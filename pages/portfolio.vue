@@ -15,7 +15,7 @@
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header title="<strong>Portfolio</strong>, création et référence" />
     <main>
-      <section>
+      <section class="mb-20">
         <div class="max-w-4xl mx-auto">
           <div class="flex justify-center mb-4">
             <button class="badge--active">
@@ -50,11 +50,34 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>Auzars</h2>
-        <h3>Vendre en ligne les produits d'une entreprise local</h3>
-        <div><span>wordpress</span> <span>woocommerce</span> <span>SEO</span> <span>performance</span> <span>UX</span> <span>UI</span></div>
-        <p>Design sur mesure pour simplifier l'achat et la personalisation des produits. Booster la vitesse des pages et le référencement.</p>
+      <section class="mb-20 max-w-7xl mx-auto">
+        <div class="mx-5">
+          <h2 class="mb-5 text-2xl sm:text-4xl">Auzars - Vendre en ligne les produits d'une entreprise local</h2>
+          <div class="flex gap-4 flex-wrap mb-5">
+            <span class="badge--outline">wordpress</span>
+            <span class="badge--outline">E-commerce</span>
+            <span class="badge--outline">référencement SEO</span>
+            <span class="badge--outline">Design UI/UX</span>
+          </div>
+          <div>
+            <div class="md:grid grid-cols-2 gap-4">
+              <div class="text-lg">
+                <p>Transformation du thème original wordpress pour simplifier l'achat et la personalisation des produits. Présentation clair des options disponible pour changer le produit en fonction de sa dimension ou du cadre choisis par l'utilisateur.</p>
+                <p>Depuis le début de notre colaboration, l'ensemble des mesures prise ont permis de réussir la transition d'une entreprise local vers la vente en ligne, qui représente maintenant une partie du chifre d'affaire mensuel.</p>
+              </div>
+              <div class="flex flex-col gap-4 justify-center items-center">
+                <nuxt-picture
+                  src="/logo-auzars-site-noir.webp"
+                  class="mb-5"
+                  width="180"
+                  height="49"
+                  loading="lazy"
+                />
+                <a class="btn" href="https://www.auzars.com/" target="_blank">Visiter Auzars</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section>
         <h2>Infinity Graphic</h2>
