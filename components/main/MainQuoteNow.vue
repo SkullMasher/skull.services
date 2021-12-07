@@ -18,7 +18,7 @@
         <h4 class="mb-2">{{title || 'Intervention urgente wordpress'}}</h4>
 
         <div class="mb-5 space-y-2">
-          <p class="max-w-xs text-sm" v-for="item in items" :key="item.id">{{item || 'Désactivation d\'un plugin qui empêche le chargement du site'}}</p>
+          <p class="max-w-xs text-sm" v-for="item in items" :key="item.id">{{item}}</p>
         </div>
         <p class="mr-10 text-right text-2xl font-bold">{{price || '50 €'}}</p>
       </div>
