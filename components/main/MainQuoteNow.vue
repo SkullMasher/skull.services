@@ -1,11 +1,11 @@
 <template>
   <div>
     <div
-      class="max-w-xs mx-3 xs:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 transform shadow-2xl  transition-transform duration-700"
+      class="max-w-xs mx-3 xs:mx-auto mb-14 pl-2 pr-2 py-5 bg-gray-200 text-gray-800 shadow-2xl"
     >
       <div class="flex items-center mb-5">
         <div
-          class="mr-2 p-1 bg-white rounded-full transform shadow transform-gpu rotate-6 hover:-rotate-12 transition-all"
+          class="mr-2 p-1 bg-white rounded-full transform-gpu shadow transform-gpu rotate-6 hover:-rotate-12 transition-transform"
         >
           <img src="~assets/skullmasher.svg" width="51" height="51" class="w-12 h-12" />
         </div>

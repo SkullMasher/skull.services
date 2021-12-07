@@ -1,5 +1,5 @@
 <template>
-  <header class="relative transition duration-500">
+  <header class="relative transition duration-500 pt-4 relative halos-light dark:halos-dark">
     <div>
       <HeaderNavigation />
       <div class="lg:mb-0 xl:mt-8 relative lg:flex mx-5 flex-col">

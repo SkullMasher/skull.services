@@ -1,5 +1,5 @@
 <template>
-  <header class="relative halos-light dark:halos-dark pb-16 lg:pb-0 transition duration-500">
+  <header class="relative halos-light-homepage dark:halos-dark-homepage pb-16 lg:pb-0 transition duration-500">
     <button
       v-show="$colorMode.value === 'light'"
       @click="$colorMode.preference = 'dark'"

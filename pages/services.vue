@@ -16,7 +16,7 @@
               title="Site vitrine complet"
               :items="[
                 'Site vitrine 3 pages performant avec wordpress',
-                'Mon magasin visible sur google maps avec mes horraires',
+                'Visibilité sur google maps avec figuration des horraires',
                 'Formation 1h: comment manipuler son site web'
               ]"
               price="1500 €"
@@ -118,7 +118,7 @@
               price="200 €"
             />
             <div class="col-span-3">
-              <p class="mb-5">Mon site est lent et j'ai besoin de l'optimiser rapidement pour améliorer mon score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.</p>
+              <p class="mb-5">Votre site est lent et vous avez  besoin de l'optimiser rapidement pour améliorer votre score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.</p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
                 <li class="font-bold">0 plugins payant, pas de paiement mensuel</li>
                 <li>Optimisation automatique des images</li>
