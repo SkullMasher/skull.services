@@ -18,33 +18,33 @@
       <section>
         <div class="max-w-4xl mx-auto">
           <div class="flex justify-center mb-4">
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full bg-elegiac dark:bg-indigo-100 text-indigo-100 dark:text-elegiac transition shadow-lg">
+            <button class="badge--active">
               Tous les projets
             </button>
           </div>
           <div class="flex gap-4 flex-wrap justify-between">
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               wordpress
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               Vue
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               React
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               design
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               e-commerce
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               appplication sur mesure
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               référencement SEO
             </button>
-            <button class="inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg">
+            <button class="badge--outline">
               administration système
             </button>
           </div>

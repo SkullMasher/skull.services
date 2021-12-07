@@ -22,6 +22,15 @@
     @apply inline-block py-3 px-6 uppercase font-bold tracking-wider text-elegiac dark:text-indigo-100 hover:ring-2 ring-inset ring-elegiac dark:ring-indigo-100 rounded-lg transition-shadow;
   }
 
+  /* Badge */
+  .badge--outline {
+    @apply inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg;
+  }
+
+  .badge--active {
+    @apply inline-block py-2 px-5 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-full bg-elegiac dark:bg-indigo-100 text-indigo-100 dark:text-elegiac transition shadow-lg;
+  }
+
   /* Form */
   .form-label {
     @apply block mb-3 font-bold tracking-wide;
