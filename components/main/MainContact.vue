@@ -6,7 +6,10 @@
         Demander un devis gratuit !
       </h2>
       <div class="lg:flex gap-12">
-        <MainQuoteNow :items="['Désactivation d\'un plugin qui empêche le chargement du site']" />
+        <MainQuoteNow
+          class="-rotate-1 group-hover:rotate-1 transform transition-transform duration-700"
+          :items="['Désactivation d\'un plugin qui empêche le chargement du site']"
+        />
         <MainContactForm />
       </div>
     </div>

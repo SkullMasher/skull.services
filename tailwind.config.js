@@ -39,7 +39,11 @@ module.exports = {
       },
       animation: {
         'skew': 'skew 3s cubic-bezier(.68,-0.55,.27,1.55) infinite',
-        'wiggle': 'wiggle 2s cubic-bezier(.68,-0.55,.27,1.55) infinite',
+        'wiggle': 'wiggle 2s ease-in-out infinite',
+        'float-slower': 'float 10s ease-in-out infinite',
+        'float-slow': 'float 8s ease-in-out infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'float-fast': 'float 4s ease-in-out infinite',
       },
       keyframes: {
         skew: {
@@ -48,7 +52,12 @@ module.exports = {
         },
         wiggle: {
          '0%, 100%': { transform: 'rotate(-3deg)' },
-         '50%': { transform: 'rotate(3deg)' },
+         '50%': { transform: 'rotate(3deg)' }
+        },
+        float: {
+          '0%': { transform: 'translatey(0px)' },
+          '50%': { transform: 'translatey(-30px)' },
+          '100%': { transform: 'translatey(0px)' }
         }
       },
     },
