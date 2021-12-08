@@ -1,5 +1,5 @@
 <template>
-  <footer class="flow-root bg-gray-200 dark:bg-gray-800 pt-10 pb-10 md:pt-10 md:pb-10 pl-5 pr-5">
+  <footer class="flow-root bg-gray-200 dark:bg-gray-800 pt-10 pb-10 md:pt-10 md:pb-10 pl-5 pr-5 transition duration-500">
     <p class="text-center uppercase mb-10">Numéro siren : 793553488</p>
     <div class="lg:flex max-w-screen-lg mx-auto">
       <div class="max-w-3xl mx-auto mb-10 space-y-5">

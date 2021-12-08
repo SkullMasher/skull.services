@@ -88,19 +88,7 @@
         <p>Site vitrine complet assurant une très bonne présence en ligne, face à la concurrence. Peu de visites mais un très fort taux de conversion sous la forme d'appels téléphoniques, grace à un référencement localisé sur la zone d'activité de l'entreprise.</p>
         <p>Le site web de Seb et son référencement sur Google Maps lui apporte un flux constant de nouveaux clients très rapidement fidélisés et heureux de trouver une alternative aux garages automobiles classiques.</p>
       </MainProject>
-      <section id="contact" class="group pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
-        <div class="mx-5">
-          <div class="max-w-5xl mx-auto">
-            <h2 class="mb-10 text-3xl">
-              Demander un devis gratuit !
-            </h2>
-            <div class="lg:flex gap-12">
-              <MainQuoteNow :items="['Désactivation d\'un plugin qui empêche le chargement du site']" />
-              <MainContactForm />
-            </div>
-          </div>
-        </div>
-      </section>
+      <MainContact />
     </main>
     <Footer />
   </div>
