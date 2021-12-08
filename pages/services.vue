@@ -23,7 +23,7 @@
             />
             <div class="col-span-3">
               <p>Un site web est un commercial qui ne dort jamais.</p>
-              <p class="mb-5">Posséder un site avec des informations clairement présentées est important pour avoir des clients déjà informés avant de vous apeller. De plus, il faut être visible de Google ou des autres moteurs de recherches.</p>
+              <p class="mb-5">Posséder un site avec des informations clairement présentées est important pour avoir des clients déjà informés avant de vous appeler. De plus, il faut être visible de Google ou des autres moteurs de recherches.</p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
                 <li><strong>Vente en ligne</strong> (e-commerce) ou <strong>site vitrine</strong></li>
                 <li>Ajout de vos informations sur Google</li>
