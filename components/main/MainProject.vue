@@ -30,6 +30,6 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  props: ['name', 'title', 'tags', 'logo', 'url'],
+  props: ['name', 'title', 'tags', 'logo', 'logoWidth', 'logoHeight', 'url'],
 })
 </script>

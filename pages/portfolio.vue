@@ -55,6 +55,8 @@
         title="Auzars - Vendre en ligne les produits d'une entreprise locale"
         :tags="['wordpress', 'e-commerce', 'référencement SEO', 'design UI/UX']"
         logo="/logo-auzars-site-noir.webp"
+        logoWidth="180"
+        logoHeight="49"
         url="https://www.auzars.com/"
       >
         <p>Transformation du thème original Wordpress pour simplifier l'achat et la personnalisation des produits. Présentation claire des options disponibles pour changer le produit en fonction de sa dimension ou du cadre choisi par l'utilisateur.</p>
@@ -93,7 +95,7 @@
         :tags="['design UI/UX', 'wordpress', 'référencement SEO']"
         logo="/logo-seb-services-auto.png"
         logoWidth="300"
-        logoHeight="104"
+        logoHeight="100"
         url="https://www.sebservicesauto.fr/"
       >
         <p>Site vitrine complet assurant une très bonne présence en ligne, face à la concurrence. peu de visites mais un très fort taux de conversion sous la forme d'appels téléphoniques, grace à un référencement localisé sur la zone d'activité de l'entreprise.</p>
