@@ -95,7 +95,7 @@
               Demander un devis gratuit !
             </h2>
             <div class="lg:flex gap-12">
-              <MainQuoteNow />
+              <MainQuoteNow :items="['Désactivation d\'un plugin qui empêche le chargement du site']" />
               <MainContactForm />
             </div>
           </div>
