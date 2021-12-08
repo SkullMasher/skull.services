@@ -16,7 +16,7 @@
               title="Site vitrine complet"
               :items="[
                 'Site vitrine 3 pages performant avec Wordpress',
-                'Visibilité sur Google Maps avec figuration des horraires',
+                'Visibilité sur Google Maps avec figuration des horaires',
                 'Formation 1h : comment manipuler son site web'
               ]"
               price="1500 €"
