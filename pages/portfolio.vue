@@ -116,3 +116,41 @@
     <Footer />
   </div>
 </template>
+
+<script>
+import Vue from 'vue'
+
+export default Vue.extend({
+  data() {
+    return {
+      title: 'Portfolio, création et référence',
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: '%s - Florian Ledru',
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Portfolio d'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système."
+        },
+        { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io/portfolio' },
+        { hid: 'og:title', name: 'og:title', content: "Portfolio d'un freelance full stack - Florian Ledru" },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            "Portfolio d'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système.",
+        },
+        { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/portfolio' },
+        { hid: 'twitter:title', property: 'twitter:title', content: "Portfolio d'un freelance full stack - Florian Ledru" },
+        { hid: 'twitter:description', property: 'twitter:description', content: "Portfolio d'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système." },
+      ]
+    }
+  }
+})
+</script>
