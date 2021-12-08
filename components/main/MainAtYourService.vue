@@ -1,5 +1,6 @@
 <template>
-  <section class="flex flex-col items-center mb-24">
+  <section class="relative flex flex-col items-center mb-24">
+
     <div class="text-lg">
       <h2 class="max-w-md mx-5 sm:mx-auto text-3xl font-light leading-normal">
         <span class="font-medium">Un seul interlocuteur</span> pour vos problèmes informatiques

@@ -1,16 +1,3 @@
-<!--
-  Titre Page - OK
-  Trié par badge d'itentification du projet
-          Tous les projets
-    wordpress, Vue, React, design,
-    administration système, e-commerce
-    appplication sur mesure, référencement SEO
-
-  Projet
-    Photo slider
-    Titre
-    Description avec les fonctionalité
--->
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header title="<strong>Portfolio</strong>, création et référence" />
@@ -29,7 +16,7 @@
             <button class="badge--outline">
               Vue
             </button>
-            <button class="badge--outline">
+            <button class="badge--outline hidden">
               React
             </button>
             <button class="badge--outline">
@@ -38,8 +25,8 @@
             <button class="badge--outline">
               E-commerce
             </button>
-            <button class="badge--outline">
-              Appplication sur mesure
+            <button class="badge--outline hidden">
+              Appplication
             </button>
             <button class="badge--outline">
               Référencement SEO
@@ -60,11 +47,11 @@
         url="https://www.auzars.com/"
       >
         <p>Transformation du thème original Wordpress pour simplifier l'achat et la personnalisation des produits. Présentation claire des options disponibles pour changer le produit en fonction de sa dimension ou du cadre choisi par l'utilisateur.</p>
-        <p>Depuis le début de notre collaboration, l'ensemble des mesures prises ont permis de réussir la transition d'une entreprise locale vers la vente en ligne, qui représente maintenant une partie du chiffre d'affaire mensuel.</p>
+        <p>Depuis le début de notre collaboration, l'ensemble des mesures prises a permis de réussir la transition d'une entreprise locale vers la vente en ligne, qui représente maintenant une partie du chiffre d'affaire mensuel.</p>
       </MainProject>
       <MainProject
         name="Infinity Graphic"
-        title="Infinity Graphic - Répondre au besoin d'une agence web"
+        title="Infinity Graphic - Répondre aux besoins d'une agence web"
         :tags="['wordpress', 'e-commerce', 'administration système']"
         logo="/logo-infinity-graphic.png"
         logoWidth="300"
@@ -73,7 +60,7 @@
       >
         <p>Mon profil complète parfaitement les compétences de l'agence pour corriger les bugs les plus tenaces et améliorer la sécurité des sites.</p>
         <p>Mes compétences variées, du design jusqu'au serveur me permettent d'intervenir rapidement sur toute la chaîne qui constitue les problèmes de votre agence web avec ses projets informatiques.</p>
-        <p>Venant également d'une agence web, je peux guider votre agence à faire les bon choix technologiques en fonction des besoins et rester rentable dans vos coûts de développement.</p>
+        <p>Venant également d'une agence web, je peux guider votre agence à faire les bons choix technologiques en fonction des besoins et rester rentable dans vos coûts de développement.</p>
       </MainProject>
       <MainProject
         name="Heartless Gaming"
@@ -98,7 +85,7 @@
         logoHeight="100"
         url="https://www.sebservicesauto.fr/"
       >
-        <p>Site vitrine complet assurant une très bonne présence en ligne, face à la concurrence. peu de visites mais un très fort taux de conversion sous la forme d'appels téléphoniques, grace à un référencement localisé sur la zone d'activité de l'entreprise.</p>
+        <p>Site vitrine complet assurant une très bonne présence en ligne, face à la concurrence. Peu de visites mais un très fort taux de conversion sous la forme d'appels téléphoniques, grace à un référencement localisé sur la zone d'activité de l'entreprise.</p>
         <p>Le site web de Seb et son référencement sur Google Maps lui apporte un flux constant de nouveaux clients très rapidement fidélisés et heureux de trouver une alternative aux garages automobiles classiques.</p>
       </MainProject>
       <section id="contact" class="group pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">

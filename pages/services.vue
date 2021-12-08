@@ -8,7 +8,7 @@
             <div class="mr-4">
               <svg-responsive class="group-hover:scale-110 transition-all duration-700 transform-gpu" />
             </div>
-            <h2 class="text-2xl sm:text-4xl">Créer un site performant visible et fonctionel</h2>
+            <h2 class="text-2xl sm:text-4xl">Créer un site performant visible et fonctionnel</h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
@@ -16,7 +16,7 @@
               title="Site vitrine complet"
               :items="[
                 'Site vitrine 3 pages performant avec Wordpress',
-                'Visibilité sur google maps avec figuration des horraire',
+                'Visibilité sur Google Maps avec figuration des horraires',
                 'Formation 1h : comment manipuler son site web'
               ]"
               price="1500 €"
@@ -62,7 +62,7 @@
               title="Automatiser l'envoi d'un rapport"
               :items="[
                 'Interface de gestion des documents',
-                'Importation des fichiers excel',
+                'Importation des fichiers Excel',
                 'Transformation et édition facile',
                 'Téléchargement du document au format PDF',
               ]"
