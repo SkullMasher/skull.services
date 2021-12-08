@@ -25,7 +25,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          "Votre entreprise a besoin de visibilités pour vendre à l'air du numérique. Je fourni des solution informatique simple et économique pour vous accompagner."
+          "Votre entreprise a besoin de visibilités pour vendre sur internet. Je réalise des sites web et applications simple et ergonomique pour vous accompagner."
       },
       { hid: 'og:locale', name: 'og:locale', content: 'fr_FR' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
@@ -36,7 +36,7 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content:
-          "Votre entreprise a besoin de visibilités pour vendre à l'air du numérique. Je fourni des solution informatique simple et économique pour vous accompagner.",
+          "Votre entreprise a besoin de visibilités pour vendre sur internet. Je réalise des sites web et applications simple et ergonomique pour vous accompagner.",
       },
       {
         hid: 'og:image',
@@ -45,6 +45,13 @@ export default {
       },
       { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
       { hid: 'og:image:height', property: 'og:image:height', content: '630' },
+      { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:domain', property: 'twitter:domain', content: 'skullmasher.io' },
+      { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/' },
+      { hid: 'twitter:title', property: 'twitter:title', content: 'Florian Ledru - Informaticien freelance au service des PME' },
+      { hid: 'twitter:description', property: 'twitter:description', content: 'Votre entreprise a besoin de visibilités pour vendre sur internet. Je réalise des sites web et applications simple et ergonomique pour vous accompagner.' },
+      { hid: 'twitter:image', property: 'twitter:image', content: 'https://skullmasher.io/og-image.jpg' },
+
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
