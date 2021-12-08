@@ -241,11 +241,38 @@ export default Vue.extend({
       title: this.title,
       titleTemplate: '%s - Florian Ledru',
       meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: 'Liste des services et prestations de Florian Ledru, le freelance full-stack aux services des PME, Agence Web, Startup.'
-        }
+          content:
+            "Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web."
+        },
+        { hid: 'og:locale', name: 'og:locale', content: 'fr_FR' },
+        { hid: 'og:type', name: 'og:type', content: 'website' },
+        { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io/services' },
+        { hid: 'og:title', name: 'og:title', content: 'Services et prestations - Florian Ledru' },
+        { hid: 'og:site_name', name: 'og:title', content: 'Florian Ledru - Informaticien freelance au service des PME' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            "Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web.",
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://skullmasher.io/og-image.jpg',
+        },
+        { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
+        { hid: 'og:image:height', property: 'og:image:height', content: '630' },
+        { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
+        { hid: 'twitter:domain', property: 'twitter:domain', content: 'skullmasher.io' },
+        { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/services' },
+        { hid: 'twitter:title', property: 'twitter:title', content: 'Services et prestations - Florian Ledru' },
+        { hid: 'twitter:description', property: 'twitter:description', content: "Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web." },
+        { hid: 'twitter:image', property: 'twitter:image', content: 'https://skullmasher.io/og-image.jpg' },
       ]
     }
   }
