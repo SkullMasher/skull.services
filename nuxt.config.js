@@ -5,7 +5,6 @@ export default {
       total: true, // tracks the whole time spent on server-side rendering
     },
   },
-
   render: {
     asyncScripts : true,
     static: {
@@ -18,11 +17,34 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Informaticien freelance au service des PME - Florian Ledru',
+    title: 'Florian Ledru - Informaticien freelance au service des PME',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Informaticien freelance au service des PME' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          "Votre entreprise a besoin de visibilités pour vendre à l'air du numérique. Je fourni des solution informatique simple et économique pour vous accompagner."
+      },
+      { hid: 'og:locale', name: 'og:locale', content: 'fr_FR' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io' },
+      { hid: 'og:title', name: 'og:title', content: 'Florian Ledru - Informaticien freelance au service des PME' },
+      { hid: 'og:site_name', name: 'og:title', content: 'Florian Ledru - Informaticien freelance au service des PME' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          "Votre entreprise a besoin de visibilités pour vendre à l'air du numérique. Je fourni des solution informatique simple et économique pour vous accompagner.",
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://skullmasher.io/og-image.jpg',
+      },
+      { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '630' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
