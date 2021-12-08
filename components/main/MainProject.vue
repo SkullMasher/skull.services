@@ -3,7 +3,7 @@
   <div class="mx-5">
     <h2 class="mb-5 text-2xl sm:text-4xl">{{title}}</h2>
     <div class="flex gap-4 flex-wrap mb-5">
-      <span class="badge--active" v-for="tag in tags" key="tag.id">{{tag}}</span>
+      <span class="pills" v-for="tag in tags" key="tag.id">{{tag}}</span>
     </div>
     <div>
       <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 gap-5">
