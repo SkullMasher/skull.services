@@ -14,7 +14,6 @@
       width="384"
       height="384"
       sizes="lg:320px xl:384px"
-      loading="lazy"
     />
   </div>
 </template>
