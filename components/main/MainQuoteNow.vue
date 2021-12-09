@@ -7,7 +7,13 @@
         <div
           class="mr-2 p-1 bg-white rounded-full transform-gpu shadow transform-gpu rotate-6 hover:-rotate-12 transition-transform"
         >
-          <img src="~assets/skullmasher.svg" width="51" height="51" class="w-12 h-12" />
+        <nuxt-picture
+          src="~assets/skullmasher.svg"
+          width="51"
+          height="51"
+          class="w-12 h-12"
+          loading="lazy"
+        />
         </div>
         <div>
           <p class="">Florian Ledru</p>
