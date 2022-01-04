@@ -127,7 +127,12 @@
                   'Performances Wordpress',
                   'Demande d\'amélioration des performances Wordpress',
                   'Performance Wordpress',
-                  ['Caching, minification et optimisation']
+                  [
+                    'Installer et configurer un cache',
+                    'Réduire et concaténer les Javascript, CSS, HTML',
+                    'Optimiser automatiquement les images',
+                    'Précharger les fichiers de police'
+                  ]
                 )"
               >
                   Demander un devis
@@ -176,33 +181,33 @@
       <section class="group mb-20 px-5">
         <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
-            <svg-server class="mr-4 group-hover:text-green-400 transition-all duration-700 group-hover:animate-bounce" />
+            <svg-server class="mr-4 text-indigo-600 group-hover:text-green-500 transition-all duration-700" />
             <h2 class="text-2xl sm:text-4xl">Administration système</h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
               class="col-span-2 rotate-1 group-hover:rotate-2 transform transition-transform duration-700"
-              title="Intégration responsive"
+              title="Installation serveur web Debian"
               :items="[
-                'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'
+                'Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS'
               ]"
             />
             <div class="col-span-3">
               <p class="mb-5">Vos données sont elle régulièrement sauvegardé ? Un serveur installé dans votre boutique permet d'accéder rapidement à vos factures et de se rendre indépendant du cloud tout en réduisant les coups mensuels.</p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
-                <li>Instalation complète de serveur pour site web et applications</li>
+                <li>Installation complète de serveur pour site web et applications</li>
                 <li>Sécurisation HTTPS</li>
-                <li>Pare feu et filtre de spam</li>
+                <li>Pare-feu et filtre de spam</li>
                 <li class="font-bold">Sécurisation, nettoyage et récupération des données après piratage</li>
               </ul>
               <a
                 href="#contact"
                 class="btn"
                 @click="setForm(
-                  'Developement maquette',
-                  'Demande de developement à partir d\'une maquette',
-                  'Developement maquette',
-                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript']
+                  'Administrateur systèmes',
+                  'Installation serveur web Nginx',
+                  'Installation serveur',
+                  ['Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS']
                 )"
               >
                 Demander un devis
