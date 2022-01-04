@@ -22,11 +22,9 @@
       </div>
       <div class="ml-5">
         <h4 class="mb-2">{{title || 'Intervention urgente Wordpress'}}</h4>
-
         <div class="mb-5 space-y-2">
           <p class="max-w-xs text-sm" v-for="item in items" :key="item.id">{{item}}</p>
         </div>
-        <p class="mr-10 text-right text-2xl font-bold">{{price || '50 €'}}</p>
       </div>
     </div>
   </div>
@@ -37,6 +35,6 @@
 
   export default Vue.extend({
     components: { ArrowRight },
-    props: ['title', 'items', 'price'],
+    props: ['title', 'items'],
   })
 </script>

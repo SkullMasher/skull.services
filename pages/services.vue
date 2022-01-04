@@ -19,7 +19,6 @@
                 'Visibilité sur Google Maps avec figuration des horaires',
                 'Formation 1h : comment manipuler son site web'
               ]"
-              price="1500 €"
             />
             <div class="col-span-3">
               <p>Un site web est un commercial qui ne dort jamais.</p>
@@ -29,8 +28,8 @@
                 <li>Ajout de vos informations sur Google</li>
                 <li>Référencement local</li>
                 <li>Site rapide et agréable</li>
+                <li>Design sur mesure</li>
               </ul>
-              <p class="text-4xl mb-7 font-bold tracking-wider">À partir de 1500 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -38,8 +37,7 @@
                   'Site vitrine complet',
                   'Demande de réalisation de site web',
                   'Site vitrine complet',
-                  ['Site vitrine Wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site'],
-                  '1500 €',
+                  ['Site vitrine Wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site']
                 )"
               >
                   Demander un devis
@@ -66,7 +64,6 @@
                 'Transformation et édition facile',
                 'Téléchargement du document au format PDF',
               ]"
-              price="2700 €"
             />
             <div class="col-span-3">
               <p>Et si vous automatisiez une tache redondante de votre quotidien ?</p>
@@ -79,7 +76,6 @@
                 <li>Sauvegarde et stockage</li>
                 <li>Fonctionnement hors ligne</li>
               </ul>
-              <p class="text-4xl mb-7 font-bold tracking-wider">À partir de 2700 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -87,8 +83,7 @@
                   'Appplication sur mesure',
                   'Demande de conception d\'application sur mesure',
                   'Automatiser l\'envoie d\'un rapport',
-                  ['Portail d\'administration des documents', 'Editions des documents après importation', 'Génération automatique au format PDF'],
-                  '2700 €',
+                  ['Portail d\'administration des documents', 'Editions des documents après importation', 'Génération automatique au format PDF']
                 )"
               >
                   Demander un devis
@@ -115,7 +110,6 @@
                 'Optimiser automatiquement les images',
                 'Précharger les fichiers de police',
               ]"
-              price="200 €"
             />
             <div class="col-span-3">
               <p class="mb-5">Votre site est lent et vous avez  besoin de l'optimiser rapidement pour améliorer votre score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.</p>
@@ -126,7 +120,6 @@
                 <li>Minification des HTML, CSS et Javascript</li>
                 <li>Chargement différé des scripts et images</li>
               </ul>
-              <p class="text-4xl mb-7 font-bold tracking-wider">200 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -134,8 +127,7 @@
                   'Performances Wordpress',
                   'Demande d\'amélioration des performances Wordpress',
                   'Performance Wordpress',
-                  ['Caching, minification et optimisation'],
-                  '200 €',
+                  ['Caching, minification et optimisation']
                 )"
               >
                   Demander un devis
@@ -157,16 +149,14 @@
               :items="[
                 'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'
               ]"
-              price="350 €"
             />
             <div class="col-span-3">
               <p class="mb-5">Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animations qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.</p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
-                <li>Email</li>
-                <li>Javascript, React, Vue, Next.js, Nuxt</li>
-                <li>PHP, Wordpress, Laravel, Symphony, Slim</li>
+                <li>Template email responsive</li>
+                <li>Reproduction de page à l'identique sans framework</li>
+                <li>Intégration React, Vue, Laravel, Symphony etc.</li>
               </ul>
-              <p class="text-4xl mb-5">À partir de 350 €</p>
               <a
                 href="#contact"
                 class="btn"
@@ -174,8 +164,45 @@
                   'Developement maquette',
                   'Demande de developement à partir d\'une maquette',
                   'Developement maquette',
-                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'],
-                  '350 €',
+                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript']
+                )"
+              >
+                Demander un devis
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="group mb-20 px-5">
+        <div class="max-w-5xl mx-auto text-lg">
+          <div class="flex items-center mb-8">
+            <svg-server class="mr-4 group-hover:text-green-400 transition-all duration-700 group-hover:animate-bounce" />
+            <h2 class="text-2xl sm:text-4xl">Administration système</h2>
+          </div>
+          <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
+            <MainQuoteNow
+              class="col-span-2 rotate-1 group-hover:rotate-2 transform transition-transform duration-700"
+              title="Intégration responsive"
+              :items="[
+                'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'
+              ]"
+            />
+            <div class="col-span-3">
+              <p class="mb-5">Vos données sont elle régulièrement sauvegardé ? Un serveur installé dans votre boutique permet d'accéder rapidement à vos factures et de se rendre indépendant du cloud tout en réduisant les coups mensuels.</p>
+              <ul class="ml-10 mb-5 list-disc space-y-1">
+                <li>Instalation complète de serveur pour site web et applications</li>
+                <li>Sécurisation HTTPS</li>
+                <li>Pare feu et filtre de spam</li>
+                <li class="font-bold">Sécurisation, nettoyage et récupération des données après piratage</li>
+              </ul>
+              <a
+                href="#contact"
+                class="btn"
+                @click="setForm(
+                  'Developement maquette',
+                  'Demande de developement à partir d\'une maquette',
+                  'Developement maquette',
+                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript']
                 )"
               >
                 Demander un devis
@@ -195,7 +222,6 @@
                 class="col-span-2 -rotate-1 group-hover:rotate-1 transform transition-transform duration-700"
                 :title="quoteTitle"
                 :items="quoteItems"
-                :price="quotePrice"
               />
               <MainContactForm :subject="formSubject" />
             </div>
@@ -214,26 +240,25 @@ import SvgLightning from "~/assets/img/lightning.svg?inline";
 import SvgCode from "~/assets/img/code.svg?inline";
 import SvgResponsive from "~/assets/img/responsive.svg?inline";
 import SvgApppro from "~/assets/img/apppro.svg?inline";
+import SvgServer from "~/assets/img/serversecurity.svg?inline";
 
 export default Vue.extend({
-  components: { SvgLightning, SvgCode, SvgResponsive, SvgApppro },
+  components: { SvgLightning, SvgCode, SvgResponsive, SvgApppro, SvgServer },
   data() {
     return {
       formTitle: 'Demander un devis gratuit !',
       title: 'Services et prestations',
       formSubject: '',
       quoteTitle: 'Intervention urgente Wordpress',
-      quoteItems: ['Désactivation d\'un plugin qui empêche le chargement du site.'],
-      quotePrice: '50 €',
+      quoteItems: ['Désactivation d\'un plugin qui empêche le chargement du site.']
     }
   },
   methods: {
-    setForm: function (subject, title, qtitle, qitems, qprice) {
+    setForm: function (subject, title, qtitle, qitems) {
       this.formSubject = subject
       this.formTitle = title
       this.quoteTitle = qtitle
       this.quoteItems = qitems
-      this.quotePrice = qprice
     },
   },
   head() {
