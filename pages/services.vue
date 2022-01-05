@@ -204,7 +204,7 @@
                 href="#contact"
                 class="btn"
                 @click="setForm(
-                  'Administrateur systèmes',
+                  'Administration système',
                   'Installation serveur web Nginx',
                   'Installation serveur',
                   ['Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS']
