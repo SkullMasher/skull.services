@@ -29,6 +29,7 @@
                 <li>Référencement local</li>
                 <li>Site rapide et agréable</li>
                 <li>Design sur mesure</li>
+                <li>Graphisme</li>
               </ul>
               <a
                 href="#contact"
@@ -193,12 +194,12 @@
               ]"
             />
             <div class="col-span-3">
-              <p class="mb-5">Vos données sont elle régulièrement sauvegardé ? Un serveur installé dans votre boutique permet d'accéder rapidement à vos factures et de se rendre indépendant du cloud tout en réduisant les coups mensuels.</p>
+              <p class="mb-5">Vos données sont elle régulièrement sauvegardées ? Un serveur installé dans votre boutique permet d'accéder rapidement à vos factures et vous rend indépendant du cloud tout en réduisant vos coûts fixes mensuels.</p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
                 <li>Installation complète de serveur pour site web et applications</li>
                 <li>Sécurisation HTTPS</li>
                 <li>Pare-feu et filtre de spam</li>
-                <li class="font-bold">Sécurisation, nettoyage et récupération des données après piratage</li>
+                <li class="font-bold">Sécurisation, nettoyage et récupération des données</li>
               </ul>
               <a
                 href="#contact"
