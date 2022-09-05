@@ -5821,10 +5821,10 @@ expand-template@^2.0.3:
   resolved "https://registry.yarnpkg.com/expand-template/-/expand-template-2.0.3.tgz#6e14b3fcee0f3a6340ecb57d2e8918692052a47c"
   integrity sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==
 
-express-rate-limit@^6.0.4:
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-6.0.4.tgz#1f3d663e8d640be1c8c5e1ad2fb55a7d7a7b118c"
-  integrity sha512-TratTfxxTAFb6ZUAxPIigqhcS0e7ql9XDTorjD+SihV5ua5h6agoKyr45iKM6m5OzTppesh9o/RCuvf5eTiwCw==
+express-rate-limit@^6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-6.6.0.tgz#3bbc2546540d327b1b0bfa9ab5f1b2c49075af98"
+  integrity sha512-HFN2+4ZGdkQOS8Qli4z6knmJFnw6lZed67o6b7RGplWeb1Z0s8VXaj3dUgPIdm9hrhZXTRpCTHXA0/2Eqex0vA==
 
 express-slow-down@^1.4.0:
   version "1.4.0"
