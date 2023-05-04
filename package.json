@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "@unocss/nuxt": "^0.51.4",
-    "nuxt": "^3.4.0"
+    "nuxt": "^3.4.3"
   }
 }
