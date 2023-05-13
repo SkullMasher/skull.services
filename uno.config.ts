@@ -6,9 +6,9 @@ export default defineConfig({
     {
       getCSS: ({ theme }) => `
         body {
-          font-family: Heebo;
+          font-family: Heebo, system-ui, sans-serif;
         }
-      `
-    }
-  ]
+      `,
+    },
+  ],
 })
