@@ -1,5 +1,9 @@
 <template>
-  <header class="flow-root bg-black">
-    <h1 class="text-2xl text-red-500">topkek</h1>
-  </header>
+  <h1>topkek</h1>
+  <p>test</p>
 </template>
+<style>
+body {
+  font-family: Heebo;
+}
+</style>
