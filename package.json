@@ -11,5 +11,8 @@
   "devDependencies": {
     "@unocss/nuxt": "^0.51.4",
     "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.51.12"
   }
 }

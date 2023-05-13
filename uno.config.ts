@@ -2,5 +2,13 @@
 import { defineConfig } from 'unocss'
 
 export default defineConfig({
-  // ...UnoCSS options
+  preflights: [
+    {
+      getCSS: ({ theme }) => `
+        body {
+          font-family: Heebo;
+        }
+      `
+    }
+  ]
 })
