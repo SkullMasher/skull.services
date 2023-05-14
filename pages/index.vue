@@ -1,9 +1,12 @@
-<script>
-const topkek = 'topkek'
-const arr = [1, 2, 3]
-</script>
-
 <template>
-  <h1>topkek</h1>
-  <p>test</p>
+  <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
+    <HeaderHomepage />
+    <main>
+      <MainAtYourService />
+      <MainRecommended />
+      <MainShortAboutMe />
+      <MainContact />
+    </main>
+    <Footer />
+  </div>
 </template>
