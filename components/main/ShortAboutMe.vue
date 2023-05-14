@@ -3,20 +3,17 @@
     <div class="max-w-5xl lg:mx-auto md:flex gap-8 mx-5 mb-20 text-lg">
       <figure class="mb-10 w-4/5 md:w-1/3 mx-auto">
         <nuxt-picture
-          src="/florian-skullmasher-ledru-alpilles.jpg"
+          src="/img/florian-ledru-2023.jpg"
           class="about-image"
           loading="lazy"
           width="278"
           height="278"
           sizes="xs:224px sm:300px md:230px lg:278px"
         />
-        <figcaption class="max-w-xs mx-auto text-sm text-center italic">
-          Photo non professionnelle durant une randonnée au parc naturel des Alpilles en juin 2021
-        </figcaption>
       </figure>
       <div class="w-full md:w-2/3">
         <h2 class="mb-6 text-3xl">
-          Geek nomade &nbsp;!
+          Geek nomade&nbsp;!
         </h2>
         <div class="ml-5 mb-10">
           <p class="mb-5">

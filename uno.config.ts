@@ -4,6 +4,36 @@ import transformerDirectives from '@unocss/transformer-directives'
 
 export default defineConfig({
   transformers: [transformerDirectives()],
+  rules: [
+    [/^halos-(.*)$/, ([className, classModifier], { theme }) => {
+      const darkHalosCSS = {
+        background: `
+          radial-gradient(30% 30% at 0% 10%, hsla(266, 45.6%, 65%, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(100% 100% at 100% 0%, hsl(234.5, 89.5%, 73.9%, 0.2) 0%, rgba(23, 66, 130, 0) 100%),
+          radial-gradient(60% 30% at 70% 15%, hsla(223, 36%, 80%, 0.2) 0%, hsla(222.2, 60%, 75%, 0.2) 51.04%, rgba(0, 0, 0, 0) 100%),
+          radial-gradient(50% 70% at 50% 50%, hsla(180, 50%, 50%, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(50% 50% at 10% 50%, hsla(30, 60%, 60%, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+          ${theme.colors.elegiac.DEFAULT}
+        `,
+      }
+
+      const lightHalosCSS = {
+        background: `
+          radial-gradient(30% 30% at 0% 10%, hsla(266.3, 45.6%, 65%, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(100% 100% at 100% 0%, hsl(234.5, 89.5%, 73.9%, 0.2) 0%, rgba(23, 66, 130, 0) 100%),
+          radial-gradient(60% 30% at 70% 15%, hsla(223, 36%, 80%, 0.3) 0%, hsla(222.2, 60%, 75%, 0.3) 51.04%, rgba(0, 0, 0, 0) 100%),
+          radial-gradient(50% 70% at 50% 50%, hsla(180, 50%, 50%, 0.2) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(50% 50% at 10% 50%,hsla(30, 60%, 60%, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+          ${theme.colors.indigo['50']}
+        `,
+      }
+
+      if (classModifier === 'light')
+        return lightHalosCSS
+
+      if (classModifier === 'dark')
+        return darkHalosCSS
+    }],
+  ],
   shortcuts: {
     'btn': 'inline-block py-3 px-6 bg-blue-500 hover:bg-blue-600 rounded-lg uppercase font-bold tracking-wider shadow-lg transition-colors text-gray-200',
     'btn--outline': 'inline-block py-3 px-6 uppercase font-bold tracking-wider ring-2 ring-inset ring-elegiac dark:ring-gray-200 rounded-lg hover:bg-elegiac dark:hover:bg-indigo-100 hover:text-indigo-100 dark:hover:text-elegiac transition shadow-lg',
@@ -27,8 +57,9 @@ export default defineConfig({
     },
   },
   preflights: [{
-    getCSS: () => `
+    getCSS: ({ theme }) => `
+    html { scroll-behavior: smooth; }
     body { font-family: Heebo, system-ui, sans-serif; }
-  `,
+    `,
   }],
 })
