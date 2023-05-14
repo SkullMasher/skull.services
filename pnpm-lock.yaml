@@ -18,6 +18,9 @@ devDependencies:
   '@unocss/nuxt':
     specifier: ^0.51.4
     version: 0.51.8(postcss@8.4.23)(vite@4.3.4)(webpack@5.82.0)
+  '@unocss/transformer-directives':
+    specifier: ^0.51.12
+    version: 0.51.12
   eslint:
     specifier: ^8.40.0
     version: 8.40.0
@@ -844,11 +847,11 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/kit-edge@3.5.0-28066965.d077c10c:
-    resolution: {integrity: sha512-aREcHnPVgIMr5iYz5aMiybIAgQv+FnbKnQ0QgnaxVYkTifAneMgGHjsxk6IUWz0HDFJYyVlRW9NRCtl1cUB2OQ==}
+  /@nuxt/kit-edge@3.5.0-28067784.ebbda2cb:
+    resolution: {integrity: sha512-/j6D4f73Muiw0kUuI9JzKXWpyfUqcfOETZHys/5aJVYDrEFcMYOWNyAg1Q14NVanZg/Bhti6sY0sDoQ/y1Y/Ww==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge@3.5.0-28066965.d077c10c
+      '@nuxt/schema': /@nuxt/schema-edge@3.5.0-28067784.ebbda2cb
       c12: 1.4.1
       consola: 3.1.0
       defu: 6.1.2
@@ -898,8 +901,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/schema-edge@3.5.0-28066965.d077c10c:
-    resolution: {integrity: sha512-iERShgSX8w0uHB1xgD8JmvnFs5SFkrFIrmiNgHlvf2rNxXLr88YKp3R4cSG7Rn0JIGRno+tmPm2BS17JKqBj6Q==}
+  /@nuxt/schema-edge@3.5.0-28067784.ebbda2cb:
+    resolution: {integrity: sha512-NcYu6r/8p1ub9LQgmncapjr8WkGmZNT3pIv0+R7CjUjyfQDj9WcguLLyryFzcooMvyQvNToJ42H7JGbl70NmMg==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       defu: 6.1.2
@@ -1450,6 +1453,10 @@ packages:
       unconfig: 0.3.7
     dev: true
 
+  /@unocss/core@0.51.12:
+    resolution: {integrity: sha512-H8mLy6ZKu9nGZe5jlHhLPIVwh2G3cCDSBGl5aIZJFI1qpmDC+Zb3iueBGigNpX75IzkjaGKZiK1WUWq8TShjtA==}
+    dev: true
+
   /@unocss/core@0.51.8:
     resolution: {integrity: sha512-myHRKBphEN3h0OnsUhg2JaFKjFGfqF/jmmzZCCMNU5UmxbheZomXANNLYXVgEP6LHvd4xAF0DEzrOBcDPLf0HQ==}
     dev: true
@@ -1592,6 +1599,13 @@ packages:
     resolution: {integrity: sha512-aSyUDjYGUX1qplby0wt9BcBwMsmKzIDyOkp3DBTlAfBjWbxes8ZytjutIzOMos1CrrHTuB/omCT9apG2JAbgDA==}
     dependencies:
       '@unocss/core': 0.51.8
+    dev: true
+
+  /@unocss/transformer-directives@0.51.12:
+    resolution: {integrity: sha512-xC1s7BQ2KwiLv2ChsvszELnQYo9DXOpunCkZerjZJm8ptCQJ3D+Zo1HM1C+asc4L4tIZ7BATzhQRGGlpsd37fw==}
+    dependencies:
+      '@unocss/core': 0.51.12
+      css-tree: 2.3.1
     dev: true
 
   /@unocss/transformer-directives@0.51.8:
@@ -5153,7 +5167,7 @@ packages:
       vue-svg-loader:
         optional: true
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge@3.5.0-28066965.d077c10c
+      '@nuxt/kit': /@nuxt/kit-edge@3.5.0-28067784.ebbda2cb
       '@vue/compiler-sfc': 3.2.47
       svgo: 3.0.2
     transitivePeerDependencies:

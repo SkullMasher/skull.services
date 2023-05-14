@@ -4,25 +4,22 @@
       Numéro siren : 793553488
     </p>
     <div class="lg:flex max-w-screen-lg mx-auto">
-      <div class="max-w-3xl mx-auto mb-10 space-y-5">
-        <div>
-          <p v-show="$colorMode.value === 'light'">
-            Deviens un vrai hacker et appuie sur la lune pour activer le
-            <em class="text-black">dark mode</em>.
-            <button @click="$colorMode.preference = 'dark'">
-              <SvgoMoon class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 opacity-75 hover:opacity-100 moon-shine" />
-            </button>
-          </p>
-          <p v-show="$colorMode.value === 'dark'">
-            Appuie sur le soleil pour activer le
-            <em class="text-white">light mode</em>
-            et t'exploser les yeux !
-            <button @click="$colorMode.preference = 'light'">
-              <SvgoSun class="w-8 md:w-10 ml-2 inline-block cursor-pointer transform transition duration-500 hover:-rotate-180 opacity-75 hover:opacity-100 sun-shine" />
-            </button>
-          </p>
+      <div class="max-w-3xl mx-auto">
+        <div class="flex gap-3 items-center mb-3">
+          <div>
+            <p v-show="$colorMode.value === 'light'">
+              Deviens un vrai hacker et appuie sur la lune pour activer le
+              <em class="text-black">dark mode</em>.
+            </p>
+            <p v-show="$colorMode.value === 'dark'">
+              Appuie sur le soleil pour activer le
+              <em class="text-white">light mode</em>
+              et t'exploser les yeux !
+            </p>
+          </div>
+          <ColorModeSwitch />
         </div>
-        <p>
+        <p class="mb-4">
           Si vous regardez
           <a
             href="https://github.com/SkullMasher/skull.services"

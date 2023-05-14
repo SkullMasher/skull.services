@@ -17,4 +17,23 @@ import '@unocss/reset/tailwind.css'
   src: url(~/assets/fonts/heebo.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+.link-pretty {
+  @apply relative z-0 inline-block overflow-hidden align-bottom;
+  transition: color .015s ease;
+}
+
+.link-pretty::before {
+  @apply absolute top-0 w-full h-full;
+  content: "";
+  z-index: -1;
+  transform: translateY(calc(100% - 2px));
+  background-image: linear-gradient(60deg,theme('colors.blue.500'),theme('colors.blue.600'));
+  transition: transform .15s ease;
+}
+
+.link-pretty:hover::before {
+  transform: translateY(0);
+  transition: transform .15s ease;
+}
 </style>

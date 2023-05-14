@@ -1,7 +1,9 @@
 // uno.config.ts
 import { defineConfig } from 'unocss'
+import transformerDirectives from '@unocss/transformer-directives'
 
 export default defineConfig({
+  transformers: [transformerDirectives()],
   theme: {
     colors: {
       elegiac: {
@@ -11,13 +13,9 @@ export default defineConfig({
       },
     },
   },
-  preflights: [
-    {
-      getCSS: ({ theme }) => `
-        body {
-          font-family: Heebo, system-ui, sans-serif;
-        }
-      `,
-    },
-  ],
+  preflights: [{
+    getCSS: () => `
+    body { font-family: Heebo, system-ui, sans-serif; }
+  `,
+  }],
 })

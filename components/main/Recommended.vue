@@ -3,9 +3,9 @@
     <h2 class="text-3xl mx-5 mb-12 text-left lg:text-center font-light">
       Recommandé par les entreprises locales et les agences web
     </h2>
-    <div class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto mb-10 pb-10 grid grid-cols-recommendation grid-flow-col gap-5 xl:gap-10 2xl:gap-20 overflow-x-auto overscroll-x-contain scroll-snap-x-proximity">
+    <div class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto mb-10 pb-10 grid grid-cols-recommendation grid-flow-col gap-5 xl:gap-10 2xl:gap-20 overflow-x-auto overscroll-x-contain snap-x snap-proximity snap-start">
       <div>
-        <p class="mb-5 scroll-snap-align-start">
+        <p class="mb-5 snap-start">
           Florian est très réactif et très disponible. Notre entreprise fait
           systématiquement appel à ses services qualifiés ! Il fait partie de notre
           équipe.
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div>
-        <p class="mb-5 scroll-snap-align-start">
+        <p class="mb-5 snap-start">
           5 ans d'échanges, de corrections, d'évolutions, de propositions pertinentes, au service de ma vitrine. Il reste en veille, débloque les situations compliquées et urgentes afin que tout fonctionne parfaitement. Flo est mon partenaire... Merci beaucoup pour ton dévouement.
         </p>
         <div>
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div>
-        <p class="mb-5 scroll-snap-align-start">
+        <p class="mb-5 snap-start">
           Toujours un plaisir de travailler avec Florian avec qui tout devient possible&nbsp;! Efficace et professionnel, à l’écoute de toutes les demandes, Florian cerne parfaitement vos besoins et contraintes et planche pour vous apporter des solutions.
         </p>
         <div>

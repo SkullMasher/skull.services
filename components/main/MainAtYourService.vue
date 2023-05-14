@@ -12,7 +12,6 @@
       <div
         class="mx-5 sm:mx-0 sm:mb-0 relative sm:text-2xl sm:tracking-wider font-light"
       >
-        <SvgoServiceLine class="service-line" />
         <h3
           class="pt-16 sm:pt-20 pb-3 sm:pb-5 pl-3 pl-10 sm:pl-28 sm:pr-28 transition-all text-neon duration-700 ease-out transform-gpu hover:scale-110 font-bold"
         >
@@ -53,3 +52,18 @@
     </NuxtLink>
   </section>
 </template>
+
+<style>
+
+  .text-neon {
+    backface-visibility: hidden;
+  }
+
+  .text-neon:hover {
+    text-shadow:
+      0 0 20px theme('colors.indigo.300'),
+      0 0 30px theme('colors.indigo.300'),
+      0 0 40px theme('colors.indigo.300'),
+      0 0 50px theme('colors.indigo.300');
+  }
+</style>
