@@ -1,6 +1,6 @@
 <template>
-  <section id="contact" class="group pt-20 pb-20 text-lg bg-indigo-200 dark:bg-elegiac-dark transition duration-500 clippath-contactbloc">
-    <div class="mx-5">
+  <section id="contact" class="group text-lg bg-indigo-200 dark:bg-elegiac-dark transition duration-500">
+    <div class="mx-5 pt-20 pb-20 clippath-contactbloc">
       <div class="max-w-5xl mx-auto">
         <h2 class="mb-10 text-3xl">
           Demander un devis gratuit !
