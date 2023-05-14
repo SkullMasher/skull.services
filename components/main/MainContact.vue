@@ -1,7 +1,7 @@
 <template>
-  <section id="contact" class="group text-lg bg-indigo-200 dark:bg-elegiac-dark transition duration-500">
-    <div class="mx-5 pt-20 pb-20 clippath-contactbloc">
-      <div class="max-w-5xl mx-auto">
+  <section id="contact" class="group text-lg transition duration-500 contact-shadow">
+    <div class="bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
+      <div class="max-w-5xl mx-5 sm:mx-auto pt-20 pb-20">
         <h2 class="mb-10 text-3xl">
           Demander un devis gratuit !
         </h2>
@@ -19,6 +19,10 @@
 
 <style>
   .clippath-contactbloc {
-      clip-path: polygon(39.38% 2%, 57.48% 3%, 77.22% 4%, 100% 0%, 100% 100%, 0px 100%, 0px 1%, 18.75% 4.09%);
-    }
+    clip-path: polygon(39.38% 2%, 57.48% 3%, 77.22% 4%, 100% 0%, 100% 100%, 0px 100%, 0px 1%, 18.75% 4.09%);
+  }
+
+  .contact-shadow {
+    filter: drop-shadow(0px -0.2em 0.3em rgba(0, 0, 0, 0.3));
+  }
 </style>

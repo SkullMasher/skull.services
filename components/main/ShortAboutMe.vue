@@ -25,7 +25,7 @@
               Engagé auprès des PME depuis 2019, j'apporte mes 10 années d'expertise informatique pour apporter <strong>des solutions qui font gagné du temps, de l'argent et de la santé mental</strong>.
             </p>
             <p>
-              Les sociétés qui me font confiance bénificie d'un référant technique pour tout les projets ou problématique informatique quelle pourrait rencontrer.
+              <NuxtLink to="/portfolio" class="link-pretty">Les sociétés</NuxtLink> qui me font confiance bénificie d'un référant technique pour tout les projets ou problématique informatique quelle pourrait rencontrer.
             </p>
           </div>
           <h2 class="mb-6 text-3xl">Consultant dévellopeur</h2>
