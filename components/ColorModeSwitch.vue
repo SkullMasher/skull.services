@@ -2,14 +2,14 @@
   <div>
     <button
       v-show="$colorMode.value === 'dark'"
-      class=""
+      class="bg-transparent"
       @click="$colorMode.preference = 'light'"
     >
       <SvgoSun class="w-8 sm:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
     </button>
     <button
       v-show="$colorMode.value === 'light'"
-      class=""
+      class="bg-transparent"
       @click="$colorMode.preference = 'dark'"
     >
       <SvgoMoon class="w-8 sm:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />

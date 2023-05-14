@@ -11,13 +11,7 @@ defineProps(['title', 'items'])
         <div
           class="mr-2 p-1 bg-white rounded-full transform-gpu shadow transform-gpu rotate-6 hover:-rotate-12 transition-transform"
         >
-          <nuxt-picture
-            src="~assets/skullmasher.svg"
-            width="51"
-            height="51"
-            class="w-12 h-12"
-            loading="lazy"
-          />
+          <SvgoSkullmasher class="w-12 h-12" />
         </div>
         <div>
           <p class="">

@@ -54,8 +54,7 @@
 </template>
 
 <style>
-
-  .text-neon {
+.text-neon {
     backface-visibility: hidden;
   }
 
