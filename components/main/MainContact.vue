@@ -16,3 +16,8 @@
     </div>
   </section>
 </template>
+<style>
+  .clippath-contactbloc {
+      clip-path: polygon(39.38% 2%, 57.48% 3%, 77.22% 4%, 100% 0%, 100% 100%, 0px 100%, 0px 1%, 18.75% 4.09%);
+    }
+</style>
