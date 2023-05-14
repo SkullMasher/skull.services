@@ -3,7 +3,9 @@ import '@unocss/reset/tailwind.css'
 </script>
 
 <template>
-  <NuxtPage />
+  <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
+    <NuxtPage />
+  </div>
 </template>
 
 <style>

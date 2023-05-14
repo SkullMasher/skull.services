@@ -1,21 +1,19 @@
 <script setup>
   const colorMode = useColorMode()
-
-  console.log(colorMode.preference)
 </script>
 
 <template>
   <header class="relative halos-light-homepage dark:halos-dark-homepage pb-16 lg:pb-0 transition duration-500">
     <button
-      v-show="$colorMode.value === 'light'"
-      @click="$colorMode.preference = 'dark'"
+      v-show="colorMode.value === 'light'"
+      @click="colorMode.preference = 'dark'"
       class="absolute z-10 top-8 right-8 md:top-16 md:right-16 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
     >
       <SvgoMoon class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />
     </button>
     <button
-      v-show="$colorMode.value === 'dark'"
-      @click="$colorMode.preference = 'light'"
+      v-show="colorMode.value === 'dark'"
+      @click="colorMode.preference = 'light'"
       class="absolute z-10 top-8 right-8 md:top-16 md:right-16 lg:top-10 lg:right-20 opacity-100 hover:opacity-100"
     >
       <SvgoSun class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
