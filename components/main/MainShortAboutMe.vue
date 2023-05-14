@@ -15,7 +15,9 @@
         </figcaption>
       </figure>
       <div class="w-full md:w-2/3">
-        <h2 class="mb-6 text-3xl">Geek nomade &nbsp;!</h2>
+        <h2 class="mb-6 text-3xl">
+          Geek nomade &nbsp;!
+        </h2>
         <div class="ml-5 mb-10">
           <p class="mb-5">
             Actuellement, j'opère exclusivement en ligne depuis
@@ -41,6 +43,7 @@
     </div>
   </section>
 </template>
+
 <style>
 .about-image img {
   @apply shadow-lg ring-4 rounded-full mb-5 mx-auto hover:ring-8 ring-elegiac-light hover:ring-elegiac dark:ring-gray-100 hover:dark:ring-indigo-200 ring-opacity-80 hover:ring-opacity-100 transition-all transform transform-gpu hover:-rotate-2;

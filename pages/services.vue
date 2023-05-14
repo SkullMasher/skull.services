@@ -1,14 +1,55 @@
+<script>
+const formTitle = ref('Demander un devis gratuit !')
+const formSubject = ref('')
+const quoteTitle = ref('Intervention urgente Wordpress')
+const quoteItems = ref(['Désactivation d\'un plugin qui empêche le chargement du site.'])
+
+/* head() {
+    return {
+      title: this.title,
+      titleTemplate: '%s - Florian Ledru',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web.',
+        },
+        { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io/services' },
+        { hid: 'og:title', name: 'og:title', content: 'Services et prestations - Florian Ledru' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web.',
+        },
+        { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/services' },
+        { hid: 'twitter:title', property: 'twitter:title', content: 'Services et prestations - Florian Ledru' },
+        { hid: 'twitter:description', property: 'twitter:description', content: 'Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web.' },
+      ],
+    }
+  }, */
+function setForm(subject, title, qtitle, qitems) {
+  formSubject.value(subject)
+  formTitle.value(title)
+  quoteTitle.value(qtitle)
+  quoteItems.value(qitems)
+}
+</script>
+
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
-    <Header title="<strong>Services</strong> et <strong>prestations</strong>" />
+    <Header title="<strong>Services</strong> & <strong>prestations</strong>" />
     <main>
       <section class="group mb-20 px-5">
         <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
             <div class="mr-4">
-              <svg-responsive class="group-hover:scale-110 transition-all duration-700 transform-gpu" />
+              <SvgoResponsive class="group-hover:scale-110 transition-all duration-700 transform-gpu" />
             </div>
-            <h2 class="text-2xl sm:text-4xl">Créer un site performant visible et fonctionnel</h2>
+            <h2 class="text-2xl sm:text-4xl">
+              Créer un site performant visible et fonctionnel
+            </h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
@@ -17,12 +58,14 @@
               :items="[
                 'Site vitrine 3 pages performant avec Wordpress',
                 'Visibilité sur Google Maps avec figuration des horaires',
-                'Formation 1h : comment manipuler son site web'
+                'Formation 1h : comment manipuler son site web',
               ]"
             />
             <div class="col-span-3">
               <p>Un site web est un commercial qui ne dort jamais.</p>
-              <p class="mb-5">Posséder un site avec des informations clairement présentées est important pour avoir des clients déjà informés avant de vous appeler. De plus, il faut être visible de Google ou des autres moteurs de recherches.</p>
+              <p class="mb-5">
+                Posséder un site avec des informations clairement présentées est important pour avoir des clients déjà informés avant de vous appeler. De plus, il faut être visible de Google ou des autres moteurs de recherches.
+              </p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
                 <li><strong>Vente en ligne</strong> (e-commerce) ou <strong>site vitrine</strong></li>
                 <li>Ajout de vos informations sur Google</li>
@@ -38,10 +81,10 @@
                   'Site vitrine complet',
                   'Demande de réalisation de site web',
                   'Site vitrine complet',
-                  ['Site vitrine Wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site']
+                  ['Site vitrine Wordpress', 'Référencement local SEO', 'Formation de 1h l\'utilisation de mon site'],
                 )"
               >
-                  Demander un devis
+                Demander un devis
               </a>
             </div>
           </div>
@@ -51,9 +94,11 @@
         <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
             <div class="mr-4">
-              <svg-apppro class="text-purple-500 group-hover:text-pink-500 group-hover:scale-110 transition-all duration-700 transform-gpu" />
+              <SvgoApppro class="text-purple-500 group-hover:text-pink-500 group-hover:scale-110 transition-all duration-700 transform-gpu" />
             </div>
-            <h2 class="text-2xl sm:text-4xl">Application et programme sur mesure</h2>
+            <h2 class="text-2xl sm:text-4xl">
+              Application et programme sur mesure
+            </h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
@@ -68,7 +113,9 @@
             />
             <div class="col-span-3">
               <p>Et si vous automatisiez une tache redondante de votre quotidien ?</p>
-              <p class="mb-5">Transformation et génération de document automatique sur téléphone, tablette et ordinateur.</p>
+              <p class="mb-5">
+                Transformation et génération de document automatique sur téléphone, tablette et ordinateur.
+              </p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
                 <li>Gestion des utlisateurs</li>
                 <li>Affichage et changement des données à partir de template</li>
@@ -84,10 +131,10 @@
                   'Appplication sur mesure',
                   'Demande de conception d\'application sur mesure',
                   'Automatiser l\'envoie d\'un rapport',
-                  ['Portail d\'administration des documents', 'Editions des documents après importation', 'Génération automatique au format PDF']
+                  ['Portail d\'administration des documents', 'Editions des documents après importation', 'Génération automatique au format PDF'],
                 )"
               >
-                  Demander un devis
+                Demander un devis
               </a>
             </div>
           </div>
@@ -97,9 +144,11 @@
         <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
             <div class="mr-4">
-              <svg-lightning class="rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
+              <SvgoLightning class="rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
             </div>
-            <h2 class="text-2xl sm:text-4xl">Performance Wordpress</h2>
+            <h2 class="text-2xl sm:text-4xl">
+              Performance Wordpress
+            </h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
@@ -113,9 +162,13 @@
               ]"
             />
             <div class="col-span-3">
-              <p class="mb-5">Votre site est lent et vous avez  besoin de l'optimiser rapidement pour améliorer votre score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.</p>
+              <p class="mb-5">
+                Votre site est lent et vous avez  besoin de l'optimiser rapidement pour améliorer votre score <a class="link-pretty" href="https://pagespeed.web.dev/">Google Page Speed</a>.
+              </p>
               <ul class="ml-10 mb-7 list-disc space-y-1">
-                <li class="font-bold">0 plugins payant, pas de paiement mensuel</li>
+                <li class="font-bold">
+                  0 plugins payant, pas de paiement mensuel
+                </li>
                 <li>Optimisation automatique des images</li>
                 <li>Mise en cache</li>
                 <li>Minification des HTML, CSS et Javascript</li>
@@ -132,11 +185,11 @@
                     'Installer et configurer un cache',
                     'Réduire et concaténer les Javascript, CSS, HTML',
                     'Optimiser automatiquement les images',
-                    'Précharger les fichiers de police'
-                  ]
+                    'Précharger les fichiers de police',
+                  ],
                 )"
               >
-                  Demander un devis
+                Demander un devis
               </a>
             </div>
           </div>
@@ -145,19 +198,23 @@
       <section class="group mb-20 px-5">
         <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
-            <svg-code class="mr-4 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700" />
-            <h2 class="text-2xl sm:text-4xl">Développement responsive de votre maquette</h2>
+            <SvgoCode class="mr-4 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700" />
+            <h2 class="text-2xl sm:text-4xl">
+              Développement responsive de votre maquette
+            </h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
               class="col-span-2 rotate-1 group-hover:rotate-2 transform transition-transform duration-700"
               title="Intégration responsive"
               :items="[
-                'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'
+                'Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript',
               ]"
             />
             <div class="col-span-3">
-              <p class="mb-5">Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animations qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.</p>
+              <p class="mb-5">
+                Intégration responsive mobile first de maquettes pour votre événement, campagne email ou une page de votre site web. Compris avec des animations qui font <span class="inline-block animate-skew font-bold text-xl">WOOOOOOOSH</span> et Pixel Perfect si vous le souhaitez.
+              </p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
                 <li>Template email responsive</li>
                 <li>Reproduction de page à l'identique sans framework</li>
@@ -170,7 +227,7 @@
                   'Developement maquette',
                   'Demande de developement à partir d\'une maquette',
                   'Developement maquette',
-                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript']
+                  ['Intégration responsive d\'une page d\'accueil à partir de maquette Figma en HTML, CSS et Javascript'],
                 )"
               >
                 Demander un devis
@@ -182,24 +239,30 @@
       <section class="group mb-20 px-5">
         <div class="max-w-5xl mx-auto text-lg">
           <div class="flex items-center mb-8">
-            <svg-server class="mr-4 text-indigo-600 group-hover:text-green-500 transition-all duration-700" />
-            <h2 class="text-2xl sm:text-4xl">Administration système</h2>
+            <SvgoServerSecurity class="mr-4 text-indigo-600 group-hover:text-green-500 transition-all duration-700" />
+            <h2 class="text-2xl sm:text-4xl">
+              Administration système
+            </h2>
           </div>
           <div class="sm:grid grid-cols-5 gap-8 md:gap-16">
             <MainQuoteNow
               class="col-span-2 rotate-1 group-hover:rotate-2 transform transition-transform duration-700"
               title="Installation serveur web Debian"
               :items="[
-                'Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS'
+                'Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS',
               ]"
             />
             <div class="col-span-3">
-              <p class="mb-5">Vos données sont elle régulièrement sauvegardées ? Un serveur installé dans votre boutique permet d'accéder rapidement à vos factures et vous rend indépendant du cloud tout en réduisant vos coûts fixes mensuels.</p>
+              <p class="mb-5">
+                Vos données sont elle régulièrement sauvegardées ? Un serveur installé dans votre boutique permet d'accéder rapidement à vos factures et vous rend indépendant du cloud tout en réduisant vos coûts fixes mensuels.
+              </p>
               <ul class="ml-10 mb-5 list-disc space-y-1">
                 <li>Installation complète de serveur pour site web et applications</li>
                 <li>Sécurisation HTTPS</li>
                 <li>Pare-feu et filtre de spam</li>
-                <li class="font-bold">Sécurisation, nettoyage et récupération des données</li>
+                <li class="font-bold">
+                  Sécurisation, nettoyage et récupération des données
+                </li>
               </ul>
               <a
                 href="#contact"
@@ -208,7 +271,7 @@
                   'Administration système',
                   'Installation serveur web Nginx',
                   'Installation serveur',
-                  ['Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS']
+                  ['Installation et configuration de Nginx', 'Système de monitoring netdata', 'Configuration pare-feu', 'Protection HTTPS'],
                 )"
               >
                 Demander un devis
@@ -231,7 +294,9 @@
               />
               <MainContactForm :subject="formSubject" />
             </div>
-            <p class="text-sm max-w-lg">Votre mail ne sera pas utilisé à des fins promotionnelles. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.</p>
+            <p class="text-sm max-w-lg">
+              Votre mail ne sera pas utilisé à des fins promotionnelles. En vue de notre collaboration j'enregistre votre contact pour communiquer plus facilement. Envoyez-moi un message pour effectuer une suppression.
+            </p>
           </div>
         </div>
       </section>
@@ -239,58 +304,3 @@
     <Footer />
   </div>
 </template>
-
-<script>
-import Vue from 'vue'
-import SvgLightning from "~/assets/img/lightning.svg?inline";
-import SvgCode from "~/assets/img/code.svg?inline";
-import SvgResponsive from "~/assets/img/responsive.svg?inline";
-import SvgApppro from "~/assets/img/apppro.svg?inline";
-import SvgServer from "~/assets/img/serversecurity.svg?inline";
-
-export default Vue.extend({
-  components: { SvgLightning, SvgCode, SvgResponsive, SvgApppro, SvgServer },
-  data() {
-    return {
-      formTitle: 'Demander un devis gratuit !',
-      title: 'Services et prestations',
-      formSubject: '',
-      quoteTitle: 'Intervention urgente Wordpress',
-      quoteItems: ['Désactivation d\'un plugin qui empêche le chargement du site.']
-    }
-  },
-  methods: {
-    setForm: function (subject, title, qtitle, qitems) {
-      this.formSubject = subject
-      this.formTitle = title
-      this.quoteTitle = qtitle
-      this.quoteItems = qitems
-    },
-  },
-  head() {
-    return {
-      title: this.title,
-      titleTemplate: '%s - Florian Ledru',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            "Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web."
-        },
-        { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io/services' },
-        { hid: 'og:title', name: 'og:title', content: 'Services et prestations - Florian Ledru' },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content:
-            "Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web.",
-        },
-        { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/services' },
-        { hid: 'twitter:title', property: 'twitter:title', content: 'Services et prestations - Florian Ledru' },
-        { hid: 'twitter:description', property: 'twitter:description', content: "Sites web et applications simple et ergonomique pour votre société. Je suis également disponible pour votre agence web." },
-      ]
-    }
-  }
-})
-</script>

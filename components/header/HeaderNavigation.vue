@@ -4,15 +4,15 @@
   >
     <button
       v-show="$colorMode.value === 'dark'"
-      @click="$colorMode.preference = 'light'"
       class=""
+      @click="$colorMode.preference = 'light'"
     >
       <SvgoSun class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-180 sun-shine" />
     </button>
     <button
       v-show="$colorMode.value === 'light'"
-      @click="$colorMode.preference = 'dark'"
       class=""
+      @click="$colorMode.preference = 'dark'"
     >
       <SvgoMoon class="w-8 md:w-10 inline-block cursor-pointer transform transition duration-500 hover:rotate-45 moon-shine" />
     </button>

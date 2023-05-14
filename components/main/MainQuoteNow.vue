@@ -1,3 +1,7 @@
+<script setup>
+defineProps(['title', 'items'])
+</script>
+
 <template>
   <div>
     <div
@@ -7,28 +11,33 @@
         <div
           class="mr-2 p-1 bg-white rounded-full transform-gpu shadow transform-gpu rotate-6 hover:-rotate-12 transition-transform"
         >
-        <nuxt-picture
-          src="~assets/skullmasher.svg"
-          width="51"
-          height="51"
-          class="w-12 h-12"
-          loading="lazy"
-        />
+          <nuxt-picture
+            src="~assets/skullmasher.svg"
+            width="51"
+            height="51"
+            class="w-12 h-12"
+            loading="lazy"
+          />
         </div>
         <div>
-          <p class="">Florian Ledru</p>
-          <p class="text-sm">skullmasher.io</p>
+          <p class="">
+            Florian Ledru
+          </p>
+          <p class="text-sm">
+            skullmasher.io
+          </p>
         </div>
       </div>
       <div class="ml-5">
-        <h4 class="mb-2">{{title || 'Intervention urgente Wordpress'}}</h4>
+        <h4 class="mb-2">
+          {{ title || 'Intervention urgente Wordpress' }}
+        </h4>
         <div class="mb-5 space-y-2">
-          <p class="max-w-xs text-sm" v-for="item in items" :key="item.id">{{item}}</p>
+          <p v-for="item in items" :key="item.id" class="max-w-xs text-sm">
+            {{ item }}
+          </p>
         </div>
       </div>
     </div>
   </div>
 </template>
-<script setup>
-  defineProps(['title', 'items'])
-</script>

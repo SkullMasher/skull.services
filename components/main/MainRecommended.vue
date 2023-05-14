@@ -11,7 +11,9 @@
           équipe.
         </p>
         <div>
-          <p class="text-2xl font-light italic">Stéphane Médina</p>
+          <p class="text-2xl font-light italic">
+            Stéphane Médina
+          </p>
           <p class="mb-1">
             <a class="link-pretty" href="https://infinitygraphic.fr" target="_blank">
               Infinity Graphic
@@ -28,7 +30,9 @@
           5 ans d'échanges, de corrections, d'évolutions, de propositions pertinentes, au service de ma vitrine. Il reste en veille, débloque les situations compliquées et urgentes afin que tout fonctionne parfaitement. Flo est mon partenaire... Merci beaucoup pour ton dévouement.
         </p>
         <div>
-          <p class="text-2xl font-light italic">Sebastien Philippe</p>
+          <p class="text-2xl font-light italic">
+            Sebastien Philippe
+          </p>
           <p class="mb-1">
             <a class="link-pretty" href="https://www.sebservicesauto.fr/" target="_blank">
               Seb Services Auto
@@ -45,7 +49,9 @@
           Toujours un plaisir de travailler avec Florian avec qui tout devient possible&nbsp;! Efficace et professionnel, à l’écoute de toutes les demandes, Florian cerne parfaitement vos besoins et contraintes et planche pour vous apporter des solutions.
         </p>
         <div>
-          <p class="text-2xl font-light italic">Yohan Antoine</p>
+          <p class="text-2xl font-light italic">
+            Yohan Antoine
+          </p>
           <p class="mb-1">
             <a class="link-pretty" href="https://infinitygraphic.fr" target="_blank">
               Auzars
@@ -58,6 +64,8 @@
         </div>
       </div>
     </div>
-    <p class="max-w-screen-md mx-auto px-5">Voir d'autres recommandations sur <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations" target="_blank">codeur.com</a></p>
+    <p class="max-w-screen-md mx-auto px-5">
+      Voir d'autres recommandations sur <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations" target="_blank">codeur.com</a>
+    </p>
   </section>
 </template>

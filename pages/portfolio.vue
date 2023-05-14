@@ -1,3 +1,35 @@
+<script>
+// const title = ref('Portfolio, création et référence')
+// export default Vue.extend({
+//   head() {
+//     return {
+//       title: this.title,
+//       titleTemplate: '%s - Florian Ledru',
+//       meta: [
+//         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+//         {
+//           hid: 'description',
+//           name: 'description',
+//           content:
+//             'Portfolio d\'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système.',
+//         },
+//         { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io/portfolio' },
+//         { hid: 'og:title', name: 'og:title', content: 'Portfolio d\'un freelance full stack - Florian Ledru' },
+//         {
+//           hid: 'og:description',
+//           name: 'og:description',
+//           content:
+//             'Portfolio d\'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système.',
+//         },
+//         { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/portfolio' },
+//         { hid: 'twitter:title', property: 'twitter:title', content: 'Portfolio d\'un freelance full stack - Florian Ledru' },
+//         { hid: 'twitter:description', property: 'twitter:description', content: 'Portfolio d\'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système.' },
+//       ],
+//     }
+//   },
+// })
+</script>
+
 <template>
   <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
     <Header title="<strong>Portfolio</strong>, création et référence" />
@@ -42,8 +74,8 @@
         title="Auzars - Vendre en ligne les produits d'une entreprise locale"
         :tags="['wordpress', 'e-commerce', 'référencement SEO', 'design UI/UX']"
         logo="/logo-auzars-site-noir.webp"
-        logoWidth="180"
-        logoHeight="49"
+        logo-width="180"
+        logo-height="49"
         url="https://www.auzars.com/"
       >
         <p>Transformation du thème original Wordpress pour simplifier l'achat et la personnalisation des produits. Présentation claire des options disponibles pour changer le produit en fonction de sa dimension ou du cadre choisi par l'utilisateur.</p>
@@ -54,8 +86,8 @@
         title="Infinity Graphic - Répondre aux besoins d'une agence web"
         :tags="['wordpress', 'e-commerce', 'administration système']"
         logo="/logo-infinity-graphic.png"
-        logoWidth="300"
-        logoHeight="103"
+        logo-width="300"
+        logo-height="103"
         url="https://infinitygraphic.fr/"
       >
         <p>Mon profil complète parfaitement les compétences de l'agence pour corriger les bugs les plus tenaces et améliorer la sécurité des sites.</p>
@@ -65,10 +97,10 @@
       <MainProject
         name="Heartless Gaming"
         title="Heartless Gaming - Apprentissage par la passion"
-        :tags="['design UI/UX','Vue', 'administration système']"
+        :tags="['design UI/UX', 'Vue', 'administration système']"
         logo="/logo-heartless-gaming.png"
-        logoWidth="300"
-        logoHeight="104"
+        logo-width="300"
+        logo-height="104"
         url="https://heartlessgaming.com/"
       >
         <p>Fatigué de ne pas trouver de serveurs de jeux et un espace de communication, un groupe de gamers décide de se lancer dans l'aventure de l'auto-hébergement.</p>
@@ -81,8 +113,8 @@
         title="Seb Services Auto - Démarrer sa société avec la bonne visibilité"
         :tags="['design UI/UX', 'wordpress', 'référencement SEO']"
         logo="/logo-seb-services-auto.png"
-        logoWidth="300"
-        logoHeight="100"
+        logo-width="300"
+        logo-height="100"
         url="https://www.sebservicesauto.fr/"
       >
         <p>Site vitrine complet assurant une très bonne présence en ligne, face à la concurrence. Peu de visites mais un très fort taux de conversion sous la forme d'appels téléphoniques, grace à un référencement localisé sur la zone d'activité de l'entreprise.</p>
@@ -93,41 +125,3 @@
     <Footer />
   </div>
 </template>
-
-<script>
-import Vue from 'vue'
-
-export default Vue.extend({
-  data() {
-    return {
-      title: 'Portfolio, création et référence',
-    }
-  },
-  head() {
-    return {
-      title: this.title,
-      titleTemplate: '%s - Florian Ledru',
-      meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            "Portfolio d'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système."
-        },
-        { hid: 'og:url', name: 'og:url', content: 'https://skullmasher.io/portfolio' },
-        { hid: 'og:title', name: 'og:title', content: "Portfolio d'un freelance full stack - Florian Ledru" },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content:
-            "Portfolio d'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système.",
-        },
-        { hid: 'twitter:url', property: 'twitter:url', content: 'https://skullmasher.io/portfolio' },
-        { hid: 'twitter:title', property: 'twitter:title', content: "Portfolio d'un freelance full stack - Florian Ledru" },
-        { hid: 'twitter:description', property: 'twitter:description', content: "Portfolio d'un freelance full stack affichant des prestations de design UI/UX, Wordpress, React, Vue, référencement SEO, administration système." },
-      ]
-    }
-  }
-})
-</script>

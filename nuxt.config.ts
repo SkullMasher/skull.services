@@ -4,9 +4,12 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-svgo',
     '@nuxtjs/color-mode',
-    '@nuxt/image-edge'
+    '@nuxt/image-edge',
   ],
   colorMode: {
-    classSuffix: ''
-  }
+    classSuffix: '',
+  },
+  svgo: {
+    defaultImport: 'component',
+  },
 })
