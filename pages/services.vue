@@ -1,4 +1,4 @@
-<script>
+<script setup>
 const formTitle = ref('Demander un devis gratuit !')
 const formSubject = ref('')
 const quoteTitle = ref('Intervention urgente Wordpress')
@@ -29,7 +29,9 @@ const quoteItems = ref(['Désactivation d\'un plugin qui empêche le chargement 
       ],
     }
   }, */
+
 function setForm(subject, title, qtitle, qitems) {
+  console.log(`topkek`)
   formSubject.value(subject)
   formTitle.value(title)
   quoteTitle.value(qtitle)
@@ -39,7 +41,7 @@ function setForm(subject, title, qtitle, qitems) {
 
 <template>
   <Header>
-    <HeaderPageTitle title="<strong>Services</strong> & <strong>prestations</strong>" />
+    <HeaderPageTitle title="<strong>Services</strong> & <strong>Prestations</strong>" />
   </Header>
   <main>
     <section class="group mb-20 px-5">
