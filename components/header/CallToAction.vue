@@ -1,6 +1,6 @@
 <template>
-  <div class="sm:flex">
-    <div class="sm:mr-4">
+  <div class="flex flex-col sm:flex-row gap-4">
+    <div>
       <NuxtLink
         to="/services"
         class="btn"

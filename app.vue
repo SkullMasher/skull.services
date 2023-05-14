@@ -3,7 +3,7 @@ import '@unocss/reset/tailwind-compat.css'
 </script>
 
 <template>
-  <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500">
+  <div class="flow-root bg-indigo-100 text-gray-800 dark:bg-elegiac dark:text-gray-200 transition duration-500 halos">
     <NuxtPage />
   </div>
 </template>
@@ -35,5 +35,15 @@ import '@unocss/reset/tailwind-compat.css'
 .link-pretty:hover::before {
   transform: translateY(0);
   transition: transform .15s ease;
+}
+
+.halos {
+  background:
+    radial-gradient(30% 30% at 0% 10%, hsla(266.3, 45.6%, 65%, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(23% 50% at 50% 50%, hsla(194.5, 76.1%, 50%, 0.15) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(60% 30% at 70% 15%, hsla(223, 36%, 80%, 0.3) 0%, hsla(222.2, 60%, 75%, 0.3) 51.04%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(50% 50% at 10% 50%,hsla(30, 60%, 60%, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(100% 100% at 100% 0%, hsl(234.5, 89.5%, 73.9%, 0.2) 0%, rgba(23, 66, 130, 0) 100%),
+    theme('colors.indigo.100');
 }
 </style>
