@@ -13,7 +13,7 @@
         to="/portfolio"
         class="btn--ghost"
       >
-        Voir le portfolio <SvgoArrowRight class="w-6 h-6 inline" />
+        Voir le portfolio <SvgoArrowRight class="inline" />
       </NuxtLink>
     </div>
   </div>

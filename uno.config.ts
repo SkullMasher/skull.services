@@ -8,11 +8,11 @@ export default defineConfig({
     [/^halos-(.*)$/, ([className, classModifier], { theme }) => {
       const darkHalosCSS = {
         background: `
-          radial-gradient(30% 30% at 0% 10%, hsla(266, 45.6%, 65%, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
-          radial-gradient(100% 100% at 100% 0%, hsl(234.5, 89.5%, 73.9%, 0.2) 0%, rgba(23, 66, 130, 0) 100%),
-          radial-gradient(60% 30% at 70% 15%, hsla(223, 36%, 80%, 0.2) 0%, hsla(222.2, 60%, 75%, 0.2) 51.04%, rgba(0, 0, 0, 0) 100%),
-          radial-gradient(50% 70% at 50% 50%, hsla(180, 50%, 50%, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
-          radial-gradient(50% 50% at 10% 50%, hsla(30, 60%, 60%, 0.2) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(35% 40% at 7vw 60%, hsla(266.3, 45.6%, 49%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(30% 20% at 75% 30%, hsla(194.5, 76%, 50%, 0.5) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(60% 40% at 0% 12%,hsla(165, 75%, 62%, 0.3) 0%, rgba(255, 255, 255, 0) 100%),
+          radial-gradient(50% 20% at 50vw 0%, hsla(260, 80%, 50%, 0.5) 0%, rgba(0, 0, 0, 0) 100%),
+          radial-gradient(100% 100% at 100% 0%, hsla(216, 62%, 25%, 1) 0%, rgba(23, 66, 130, 0) 100%),
           ${theme.colors.elegiac.DEFAULT}
         `,
       }
