@@ -5,7 +5,7 @@ import transformerDirectives from '@unocss/transformer-directives'
 export default defineConfig({
   transformers: [transformerDirectives()],
   rules: [
-    [/^halos-(.*)$/, ([className, classModifier], { theme }) => {
+    [/^halos-(.*)$/, ([, classModifier], { theme }) => {
       const darkHalosCSS = {
         background: `
           radial-gradient(35% 40% at 7vw 60%, hsla(266.3, 45.6%, 49%, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
@@ -55,11 +55,45 @@ export default defineConfig({
         dark: 'hsl(214, 45%, 25%)',
       },
     },
+    animation: {
+      keyframes: {
+        skew: '{0%, 100% { transform: skewX(0deg) } 50% { transform: skewX(-25deg) }}',
+        wiggle: '{0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(3deg) }}',
+        float: '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
+        'float-slower': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
+        'float-slow': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
+        'float-fast': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
+      },
+      durations: {
+        'skew': '3s',
+        'wiggle': '2s',
+        'float-slower': '10s',
+        'float-slow': '8s',
+        'float': '6s',
+        'float-fast': '4s',
+      },
+      timingFns: {
+        'skew': 'cubic-bezier(.68,-0.55,.27,1.55)',
+        'wiggle': 'ease-in-out',
+        'float-slower': 'ease-in-out',
+        'float-slow': 'ease-in-out',
+        'float': 'ease-in-out',
+        'float-fast': 'ease-in-out',
+      },
+      counts: {
+        'skew': 'infinite',
+        'wiggle': 'infinite',
+        'float-slower': 'infinite',
+        'float-slow': 'infinite',
+        'float': 'infinite',
+        'float-fast': 'infinite',
+      },
+    },
   },
   preflights: [{
-    getCSS: ({ theme }) => `
-    html { scroll-behavior: smooth; }
-    body { font-family: Heebo, system-ui, sans-serif; }
+    getCSS: () => `
+      html { scroll-behavior: smooth; }
+      body { font-family: Heebo, system-ui, sans-serif; }
     `,
   }],
 })

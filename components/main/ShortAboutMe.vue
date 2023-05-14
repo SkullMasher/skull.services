@@ -16,7 +16,9 @@
           </figcaption>
         </figure>
         <div class="w-full md:w-2/3">
-          <h2 class="mb-6 text-3xl">Geek nomade&nbsp;!</h2>
+          <h2 class="mb-6 text-3xl">
+            Geek nomade&nbsp;!
+          </h2>
           <div class="ml-5 mb-10 space-y-5">
             <p>
               Actuellement en plein centre de Nancy, je me déplace en fonction de vos besoins, le plus souvent à Paris.
@@ -25,14 +27,20 @@
               Engagé auprès des PME depuis 2019, j'apporte mes 10 années d'expertise informatique pour apporter <strong>des solutions qui font gagné du temps, de l'argent et de la santé mental</strong>.
             </p>
             <p>
-              <NuxtLink to="/portfolio" class="link-pretty">Les sociétés</NuxtLink> qui me font confiance bénificie d'un référant technique pour tout les projets ou problématique informatique quelle pourrait rencontrer.
+              <NuxtLink to="/portfolio" class="link-pretty">
+                Les sociétés
+              </NuxtLink> qui me font confiance bénificie d'un référant technique pour tout les projets ou problématique informatique quelle pourrait rencontrer.
             </p>
           </div>
-          <h2 class="mb-6 text-3xl">Consultant dévellopeur</h2>
+          <h2 class="mb-6 text-3xl">
+            Consultant dévellopeur
+          </h2>
           <div class="ml-5 mb-10 space-y-5">
             <p>Chaque année, je participe à des missions de plusieurs mois en tant que Chef d'équipe frontend (Tech Lead Front).</p>
             <p>Mon profil polivalant, dont l'expertise permet d'intervenir aussi comme designer UX/UI, Administrateur Système, Devops... Représente l'intermédiaire idéal entre les develloppeurs et le reste de la hierarchie pour coller à la deadline.</p>
-            <NuxtLink to="CV-Florian-Ledru-Freelance-2023.pdf" target="_blank" class="btn--outline">Voir mon CV </NuxtLink>
+            <NuxtLink to="CV-Florian-Ledru-Freelance-2023.pdf" target="_blank" class="btn--outline">
+              Voir mon CV
+            </NuxtLink>
           </div>
         </div>
       </div>
