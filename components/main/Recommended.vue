@@ -1,7 +1,7 @@
 <template>
   <section class="mb-32 recommend-shadow">
     <div class="clippath-recommendation bg-indigo-200 dark:bg-elegiac-dark pt-28 pb-28 text-lg xl:text-xl">
-      <h2 class="text-3xl mx-5 mb-12 text-left lg:text-center font-light">
+      <h2 class="max-w-lg text-3xl mx-5 sm:mx-auto mb-12 text-left sm:text-center font-light">
         Recommandé par les entreprises locales et les agences web
       </h2>
       <div class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto mb-10 pb-10 grid grid-cols-recommendation grid-flow-col gap-5 xl:gap-10 2xl:gap-20 overflow-x-auto overscroll-x-contain snap-x snap-proximity snap-start">
@@ -65,8 +65,8 @@
           </div>
         </div>
       </div>
-      <p class="max-w-screen-md mx-auto px-5">
-        Voir d'autres recommandations sur <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations" target="_blank">codeur.com</a>
+      <p class="max-w-screen-2xl mx-5 xl:mx-10 2xl:mx-auto">
+        Plus de recommandations sur mon profil <a class="link-pretty" href="https://www.codeur.com/-skullmasher/evaluations" target="_blank">codeur.com</a>
       </p>
     </div>
   </section>

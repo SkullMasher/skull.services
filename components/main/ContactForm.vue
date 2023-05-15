@@ -1,13 +1,14 @@
 <script setup>
-let isSending = false
-let isSendmailSuccess = false
-let isSendmailError = false
+defineProps(['subject'])
 
-const subject = ref('')
+const isSending = ref(false)
+const isSendmailSuccess = ref(false)
+const isSendmailError = ref(false)
 
+/*
 async function checkform(e) {
-  isSending = true
-  isSendmailError = false
+  isSending.value = true
+  isSendmailError.value = false
 
   const formInputs = {
     email: e.target.email.value,
@@ -25,14 +26,15 @@ async function checkform(e) {
   const fetchFormchecker = await fetch(api, formcheckerOptions)
   const formcheckerResult = await fetchFormchecker.json()
   if (formcheckerResult.success) {
-    isSending = false
-    isSendmailSuccess = true
+    isSending.value = false
+    isSendmailSuccess.value = true
   }
   if (formcheckerResult.error) {
-    isSending = false
-    isSendmailError = true
+    isSending.value = false
+    isSendmailError.value = true
   }
 }
+*/
 </script>
 
 <template>

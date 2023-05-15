@@ -1,15 +1,15 @@
 <script setup>
 const formTitle = ref('Demander un devis gratuit !')
-const formSubject = ref('topkek')
+const formSubject = ref('')
 const quoteTitle = ref('Intervention urgente Wordpress')
 const quoteItems = ref(['Désactivation d\'un plugin qui empêche le chargement du site.'])
 
 function setForm(subject, title, qtitle, qitems) {
-  console.log([subject, title, qtitle, qitems])
-  formSubject.value(subject)
-  formTitle.value(title)
-  quoteTitle.value(qtitle)
-  quoteItems.value(qitems)
+  formSubject.value = subject
+  formTitle.value = title
+  quoteTitle.value = qtitle
+  quoteItems.value = qitems
+  console.log(formSubject.value)
 }
 
 /* head() {

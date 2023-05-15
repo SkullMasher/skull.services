@@ -2,8 +2,8 @@
   <section id="contact" class="group text-lg transition duration-500 contact-shadow">
     <div class="bg-indigo-200 dark:bg-elegiac-dark clippath-contactbloc">
       <div class="max-w-5xl mx-5 sm:mx-auto pt-20 pb-20">
-        <h2 class="mb-10 text-3xl">
-          Demander un devis gratuit !
+        <h2 class="mb-10 px-2 text-3xl">
+          Contacter Flo - Demander un devis gratuit&nbsp;!
         </h2>
         <div class="lg:flex gap-12">
           <MainQuoteNow
