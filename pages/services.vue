@@ -1,8 +1,16 @@
 <script setup>
 const formTitle = ref('Demander un devis gratuit !')
-const formSubject = ref('')
+const formSubject = ref('topkek')
 const quoteTitle = ref('Intervention urgente Wordpress')
 const quoteItems = ref(['Désactivation d\'un plugin qui empêche le chargement du site.'])
+
+function setForm(subject, title, qtitle, qitems) {
+  console.log([subject, title, qtitle, qitems])
+  formSubject.value(subject)
+  formTitle.value(title)
+  quoteTitle.value(qtitle)
+  quoteItems.value(qitems)
+}
 
 /* head() {
     return {
@@ -29,14 +37,6 @@ const quoteItems = ref(['Désactivation d\'un plugin qui empêche le chargement 
       ],
     }
   }, */
-
-function setForm(subject, title, qtitle, qitems) {
-  console.log(`topkek`)
-  formSubject.value(subject)
-  formTitle.value(title)
-  quoteTitle.value(qtitle)
-  quoteItems.value(qitems)
-}
 </script>
 
 <template>
@@ -46,9 +46,9 @@ function setForm(subject, title, qtitle, qitems) {
   <main>
     <section class="group mb-20 px-5">
       <div class="max-w-5xl mx-auto text-lg">
-        <div class="flex items-center mb-8">
-          <div class="mr-4">
-            <SvgoResponsive class="group-hover:scale-110 transition-all duration-700 transform-gpu" />
+        <div class="flex gap-4 items-center mb-8">
+          <div>
+            <SvgoResponsive class="w-16 group-hover:scale-110 transition-all duration-700 transform-gpu drop-shadow" />
           </div>
           <h2 class="text-2xl sm:text-4xl">
             Créer un site performant visible et fonctionnel
@@ -95,9 +95,9 @@ function setForm(subject, title, qtitle, qitems) {
     </section>
     <section class="group mb-20 px-5">
       <div class="max-w-5xl mx-auto text-lg">
-        <div class="flex items-center mb-8">
-          <div class="mr-4">
-            <SvgoApppro class="text-purple-500 group-hover:text-pink-500 group-hover:scale-110 transition-all duration-700 transform-gpu" />
+        <div class="flex gap-4 items-center mb-8">
+          <div>
+            <SvgoApppro class="w-20 text-purple-500 group-hover:text-pink-500 group-hover:scale-110 transition-all duration-700 transform-gpu drop-shadow" />
           </div>
           <h2 class="text-2xl sm:text-4xl">
             Application et programme sur mesure
@@ -145,9 +145,9 @@ function setForm(subject, title, qtitle, qitems) {
     </section>
     <section class="group mb-20 px-5">
       <div class="max-w-5xl mx-auto text-lg">
-        <div class="flex items-center mb-8">
-          <div class="mr-4">
-            <SvgoLightning class="rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700" />
+        <div class="flex gap-4 items-center mb-8">
+          <div>
+            <SvgoLightning class="w-16 rotate-12 group-hover:rotate-45 text-green-500 sm:text-yellow-500 group-hover:text-green-500 transition-all duration-700 drop-shadow" />
           </div>
           <h2 class="text-2xl sm:text-4xl">
             Performance Wordpress
@@ -200,8 +200,8 @@ function setForm(subject, title, qtitle, qitems) {
     </section>
     <section class="group mb-20 px-5">
       <div class="max-w-5xl mx-auto text-lg">
-        <div class="flex items-center mb-8">
-          <SvgoCode class="mr-4 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700" />
+        <div class="flex gap-4 items-center mb-8">
+          <SvgoCode class="w-16 text-indigo-400 group-hover:text-indigo-500 transition-all duration-700 drop-shadow" />
           <h2 class="text-2xl sm:text-4xl">
             Développement responsive de votre maquette
           </h2>
@@ -241,8 +241,8 @@ function setForm(subject, title, qtitle, qitems) {
     </section>
     <section class="group mb-20 px-5">
       <div class="max-w-5xl mx-auto text-lg">
-        <div class="flex items-center mb-8">
-          <SvgoServerSecurity class="mr-4 text-indigo-600 group-hover:text-green-500 transition-all duration-700" />
+        <div class="flex gap-4 items-center mb-8">
+          <SvgoServerSecurity class="w-16 text-indigo-600 group-hover:text-green-500 transition-all duration-700 drop-shadow" />
           <h2 class="text-2xl sm:text-4xl">
             Administration système
           </h2>
