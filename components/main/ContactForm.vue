@@ -42,7 +42,7 @@ async function checkform(e) {
     <form @submit.prevent="checkform">
       <div class="max-w-2xl mx-auto sm:grid grid-cols-5 gap-8 mb-5">
         <div class="col-span-2" :class="{ 'opacity-50': isSendmailSuccess }">
-          <div class="mb-5">
+          <div class="mb-5 sm:mb-8">
             <label class="form-label" for="email">Votre adresse mail</label>
             <input id="email" class="form-input" type="email" :disabled="isSending || isSendmailSuccess" required maxlength="80">
           </div>
