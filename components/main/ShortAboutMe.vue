@@ -24,7 +24,7 @@
               Actuellement en plein centre de Nancy, je me déplace en fonction de vos besoins, le plus souvent à Paris.
             </p>
             <p>
-              Engagé auprès des PME depuis 2019, j'apporte mes 10 années d'expertise informatique pour apporter <strong>des solutions qui font gagné du temps, de l'argent et de la santé mental</strong>.
+              Engagé auprès des PME depuis 2019, j'apporte mes 10 années d'expertise informatique pour trouver <strong>des solutions qui font gagner du temps, de l'argent et de la santé mental</strong>.
             </p>
             <p>
               <NuxtLink to="/portfolio" class="link-pretty">
