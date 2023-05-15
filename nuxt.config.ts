@@ -12,4 +12,7 @@ export default defineNuxtConfig({
   svgo: {
     defaultImport: 'component',
   },
+  nitro: {
+    preset: 'node_cluster',
+  },
 })

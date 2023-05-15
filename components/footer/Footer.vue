@@ -29,14 +29,22 @@
           </a>,
           vous remarquerez que je n'ai pas utilisé Wordpress.
         </p>
-        <p class="mb-4">Ce site n'utilise pas de cookie &#127850;, car il fait un régime keto &#129361;.</p>
-        <p class="mb-4">Je n'ai pas de réseaux sociaux mais parfois <NuxtLink to="https://youtu.be/nF40HTXmYtQ" target="_blank" class="link-pretty">je fais des vidéos sur internet</NuxtLink>.</p>
-        <p class="">On m'a demandé de mettre une licorne içi ¯\_(ツ)_/¯</p>
+        <p class="mb-4">
+          Ce site n'utilise pas de cookie &#127850;, car il fait un régime keto &#129361;.
+        </p>
+        <p class="mb-4">
+          Je n'ai pas de réseaux sociaux mais parfois <NuxtLink to="https://youtu.be/nF40HTXmYtQ" target="_blank" class="link-pretty">
+            je fais des vidéos sur internet
+          </NuxtLink>.
+        </p>
+        <p class="">
+          On m'a demandé de mettre une licorne içi ¯\_(ツ)_/¯
+        </p>
       </div>
     </div>
     <div class="unicorn-gradient">
       <div class="animate-unicorn">
-        <nuxt-picture src="/img/unicorn.png" width="300" height="217" loading="lazy"></nuxt-picture>
+        <nuxt-picture src="/img/unicorn.png" width="300" height="217" loading="lazy" />
       </div>
     </div>
   </footer>

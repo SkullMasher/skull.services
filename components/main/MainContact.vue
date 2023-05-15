@@ -6,7 +6,7 @@
           <h2 class="text-3xl mb-2">
             Contacter Flo - Demander un devis gratuit
           </h2>
-          <p class="plz-no-spamerino" data-user="nairolf" data-website="oi.rehsamlluks"></p>
+          <p class="plz-no-spamerino" data-user="nairolf" data-website="oi.rehsamlluks" />
         </div>
         <div class="lg:flex gap-12">
           <MainQuoteNow

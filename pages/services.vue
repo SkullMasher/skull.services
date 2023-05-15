@@ -9,7 +9,6 @@ function setForm(subject, title, qtitle, qitems) {
   formTitle.value = title
   quoteTitle.value = qtitle
   quoteItems.value = qitems
-  console.log(formSubject.value)
 }
 
 /* head() {

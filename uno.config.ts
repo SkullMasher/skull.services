@@ -5,7 +5,7 @@ import transformerDirectives from '@unocss/transformer-directives'
 export default defineConfig({
   transformers: [transformerDirectives()],
   rules: [
-    ['text-shadow-sm', { 'text-shadow': '0 0 3px hsla(0, 0%, 0%, 0.5)'}],
+    ['text-shadow-sm', { 'text-shadow': '0 0 3px hsla(0, 0%, 0%, 0.5)' }],
     [/^halos-(.*)$/, ([, classModifier], { theme }) => {
       const darkHalosCSS = {
         background: `
@@ -59,9 +59,9 @@ export default defineConfig({
     },
     animation: {
       keyframes: {
-        skew: '{0%, 100% { transform: skewX(0deg) } 50% { transform: skewX(-25deg) }}',
-        wiggle: '{0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(3deg) }}',
-        float: '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
+        'skew': '{0%, 100% { transform: skewX(0deg) } 50% { transform: skewX(-25deg) }}',
+        'wiggle': '{0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(3deg) }}',
+        'float': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
         'float-slower': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
         'float-slow': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
         'float-fast': '{0%, 100% { transform: translatey(0px) } 50% { transform: translatey(-30px) }}',
