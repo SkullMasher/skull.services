@@ -19,7 +19,7 @@ defineProps(['name', 'title', 'tags', 'logo', 'logoWidth', 'logoHeight', 'url'])
           <div class="flex flex-col gap-5 justify-center items-center col-span-1">
             <nuxt-picture
               :src="logo"
-              class="mb-5 drop-shadow-lg"
+              class="mb-5 drop-shadow-md"
               :width="logoWidth"
               :height="logoHeight"
               loading="lazy"

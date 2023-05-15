@@ -32,44 +32,36 @@
 
 <template>
   <Header>
-    <HeaderPageTitle title="<strong>Portfolio</strong>, création et référence" />
+    <HeaderPageTitle title="<strong>Portfolio</strong>, création & référence" />
   </Header>
   <main>
-    <section class="mb-20 mx-5 hidden">
-      <div class="max-w-4xl mx-auto">
-        <div class="flex justify-center mb-4">
-          <button class="badge--active">
-            Tous les projets
-          </button>
-        </div>
-        <div class="flex gap-4 flex-wrap justify-between">
-          <button class="badge--outline">
-            Wordpress
-          </button>
-          <button class="badge--outline">
-            Vue
-          </button>
-          <button class="badge--outline hidden">
-            React
-          </button>
-          <button class="badge--outline">
-            Design UI/UX
-          </button>
-          <button class="badge--outline">
-            E-commerce
-          </button>
-          <button class="badge--outline hidden">
-            Appplication
-          </button>
-          <button class="badge--outline">
-            Référencement SEO
-          </button>
-          <button class="badge--outline">
-            Administration système
-          </button>
-        </div>
-      </div>
-    </section>
+    <MainProject
+      name="Mon Panier du marché"
+      title="Groupe Dadoun / Mon panier du marché - Moderniser les marchés"
+      :tags="['E-commerce', 'Vue Nuxt 2/3', 'React NextJS', 'Offline First', 'Design UI/UX']"
+      logo="/img/logo-mon-panier-du-marche.svg"
+      logo-width="300"
+      logo-height="85"
+      url="https://www.monpanierdumarche.com/"
+    >
+      <p>Mission de plusieurs mois chez le Groupe Dadoun où nous avons mis en ligne l'application Mon Panier du marché pour acheter les produits du marché en ligne et dynamiser les marché de semaine.</p>
+      <p>Nous avons aussi développé une solution offline first en React pour une application interne.</p>
+      <p>Le Groupe Dadoun utilise toutes mes compétences et me challenge sur des problématiques réel et intéressante.</p>
+      <p>Mon expérience au sein de ce groupe à taille humaine est légendaire et je remercie encore toutes celles et ceux que je rencontre dans les locaux pour l'accueil chaleureux et les moyens qui sont mis à ma disposition pour faire le meilleur travail possible.</p>
+
+    </MainProject>
+    <MainProject
+      name="Ambiance Lumière"
+      title="Ambiance Lumière - Reprendre le controle sur sa présence en ligne"
+      :tags="['Wordpress', 'Référencement SEO', 'Consultant', 'Formation']"
+      logo="/img/logo-ambiance-lumiere.png"
+      logo-width="300"
+      logo-height="103"
+      url="https://www.ambiance-lumiere.com/"
+    >
+      <p>Reprise de l'activité en ligne suite à la version précédente du site qui était hacké. Après récupération du site, nous l'avons réinstallé sur la structure OVH. Nous avons ensuite formé et sensibilisé le personnel à l'utilisation site et à sa maintenance basique.</p>
+      <p>Ils ne sont plus verrouillés chez un seul prestataire et ont une meilleure capacité de réponse en cas de problème. De plus, ils ont maintenant un consultant à disposition pour imaginer la suite de leur projets web.</p>
+    </MainProject>
     <MainProject
       name="Auzars"
       title="Auzars - Vendre en ligne les produits d'une entreprise locale"
