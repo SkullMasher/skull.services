@@ -6,7 +6,7 @@
     <SvgoApppro class="hidden xl:block w-32 h-32 bottom-6 left-8 2xl:left-32 absolute animate-float filter drop-shadow-md text-purple-500 group-hover:text-pink-500 transition-all duration-700 transform-gpu" />
     <SvgoLinux class="hidden lg:block w-16 h-16 -bottom-28 right-1/4 absolute animate-wiggle filter drop-shadow-md" />
     <div class="text-lg">
-      <h2 class="max-w-md mx-5 sm:mx-auto text-3xl font-light leading-normal">
+      <h2 class="max-w-md mx-5 sm:mx-auto text-3xl font-light leading-normal text-shadow-sm">
         <span class="font-medium">Un seul interlocuteur</span> pour vos problèmes informatiques
       </h2>
       <div
@@ -55,14 +55,15 @@
 
 <style>
 .text-neon {
-    backface-visibility: hidden;
-  }
+  backface-visibility: hidden;
+  @apply text-shadow-sm;
+}
 
-  .text-neon:hover {
-    text-shadow:
-      0 0 20px theme('colors.indigo.300'),
-      0 0 30px theme('colors.indigo.300'),
-      0 0 40px theme('colors.indigo.300'),
-      0 0 50px theme('colors.indigo.300');
-  }
+.text-neon:hover {
+  text-shadow:
+    0 0 20px theme('colors.indigo.300'),
+    0 0 30px theme('colors.indigo.300'),
+    0 0 40px theme('colors.indigo.300'),
+    0 0 50px theme('colors.indigo.300');
+}
 </style>
