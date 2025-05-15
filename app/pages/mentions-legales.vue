@@ -65,7 +65,7 @@
           </p>
         </div>
         <p class="mb-2">
-          Vous êtes en droit de refuser la collecte, d'accéder, de rectifier et d'effacer ses données, de déposer une plainte auprès de la CNIL.
+          Vous êtes en droit de refuser la collecte, d'accéder, de rectifier et d'effacer ces données, de déposer une plainte auprès de la CNIL.
         </p>
         <p>Les données ne sont pas destinées à être traité par un pays en dehors de l'Union européenne.</p>
       </div>
