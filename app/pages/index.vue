@@ -5,7 +5,7 @@
         Florian Ledru
       </h2>
       <h1 class="text-4xl">
-        Informaticien <span class="text-accent">freelance</span> au service des <abbr class="text-accent" title="Petites et moyennes entreprises">PME</abbr>
+        Informaticien <span class="text-secondary">freelance</span> au service des <abbr class="text-secondary" title="Petites et moyennes entreprises">PME</abbr>
       </h1>
     </header>
     <main class="mx-auto px-2 max-w-3xl">

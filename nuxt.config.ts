@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils',
     'nuxt-security',
+    '@nuxtjs/seo',
   ],
 
   vite: {
@@ -23,6 +24,13 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/app.css'],
+
+  app: {
+    head: {
+      title: 'Florian Ledru - Informaticien freelance au service des PME', // default fallback title
+      htmlAttrs: { lang: 'fr' },
+    },
+  },
 
   eslint: {
     config: {
