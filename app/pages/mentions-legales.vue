@@ -37,7 +37,7 @@
             Les données sont utilisées suite à un consentement de l'internaute afin d'établir une communication professionnelle.
           </p>
           <p>
-            Les données sont reçues et traitées par Florian Ledru et sont stockés sur l'hébergement fourni par la société OVH SAS.
+            Les données sont reçues et traitées par Florian Ledru et sont stockées sur l'hébergement fourni par la société OVH SAS.
           </p>
         </div>
         <div class="mb-4">
@@ -49,7 +49,7 @@
           </h4>
           <div class="mb-2">
             <p>Il s'agit de la durée nécessaire à la réalisation de l'objectif ayant justifié la collecte/enregistrement des données.</p>
-            <p>Ses données sont conservées 2 ans.</p>
+            <p>Ces données sont conservées 2 ans.</p>
           </div>
           <h4 class="text-lg mb-1">
             Archivage intermédiaire

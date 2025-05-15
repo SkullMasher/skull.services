@@ -57,13 +57,13 @@ async function sendMessage(event) {
       </fieldset>
       <fieldset class="fieldset">
         <legend class="fieldset-legend">
-          Consentement aux traitement des données
+          Consentement au traitement des données
         </legend>
         <label class="label whitespace-normal">
           <input type="checkbox" class="checkbox checkbox-primary" required>
           <div>
-            <p>J'accepte que les informations récoltées dans ce formulaire soit traités à but d'établir une communication professionnelle. Les données ne sont pas revendues à une société tierce.</p>
-            <p>Plus d'info disponible en consultant nos <NuxtLink class="link link-primary" to="/mentions-legales" target="_blank">mentions légales</NuxtLink>.</p>
+            <p>J'accepte que les informations récoltées dans ce formulaire soient traitées dans le but d'établir une communication professionnelle. Les données ne sont pas revendues à une société tierce.</p>
+            <p>Plus d'infos disponibles en consultant nos <NuxtLink class="link link-primary" to="/mentions-legales" target="_blank">mentions légales</NuxtLink>.</p>
           </div>
         </label>
       </fieldset>
