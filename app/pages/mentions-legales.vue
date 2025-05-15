@@ -59,7 +59,7 @@
             <p>Ses données sont conservées 10 ans en application du Code de commerce.</p>
           </div>
           <p>
-            Nous suivont au mieux <NuxtLink class="link link-primary" external to="https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees">
+            Nous suivons au mieux <NuxtLink class="link link-primary" external to="https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees">
               les recommandations de la CNIL
             </NuxtLink> concernant la conservation des données.
           </p>
