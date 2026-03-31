@@ -1,3 +1,0 @@
-[phases.setup]
-# force a specific node version for auto deploy
-nixpkgsArchive = '0873aea2d0da1bcb710732147bb4761213f546e7'
