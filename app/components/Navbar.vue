@@ -6,14 +6,6 @@
     ">
     <ul class="menu menu-horizontal items-center gap-2 text-base">
       <li>
-        <NuxtLink to="/" class="
-            group
-            hover:bg-base-content/10
-          " aria-label="Retour à la page d'accueil" title="Accueil" exact-active-class="bg-base-content/5">
-          Accueil
-        </NuxtLink>
-      </li>
-      <li>
         <ThemeDropdown />
       </li>
     </ul>
