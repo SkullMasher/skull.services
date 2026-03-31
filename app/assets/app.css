@@ -1,12 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@plugin "daisyui" {
+  themes: all;
+}
+
 @theme {
   --font-sans: "Commissioner";
 }
 
 .plz-no-spamerino::before {
-	content: attr(data-website) "@" attr(data-user);
-	direction: rtl;
-	unicode-bidi: bidi-override;
+  content: attr(data-website) "@" attr(data-user);
+  direction: rtl;
+  unicode-bidi: bidi-override;
 }

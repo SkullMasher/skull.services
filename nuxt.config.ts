@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     'nuxt-security',
     '@nuxtjs/seo',
+    '@vueuse/nuxt',
   ],
 
   vite: {

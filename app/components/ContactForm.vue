@@ -14,7 +14,7 @@ async function sendMessage(event) {
     method: 'POST',
     body: formData,
   })
-  console.log(error)
+  console.error(error)
 
   if (error) {
     isError.value = true
@@ -47,10 +47,9 @@ async function sendMessage(event) {
         <legend class="fieldset-legend">
           Votre message
         </legend>
-        <textarea
-          name="message"
-          class="textarea validator h-44 w-full" placeholder="Bonjour, je m'appelle Elisa, j'ai un projet de site e-commerce. Pouvez-vous me rappeler au 06 ** ** ** ** ?" required
-        />
+        <textarea name="message" class="textarea validator h-44 w-full"
+          placeholder="Bonjour, je m'appelle Elisa, j'ai un projet de site e-commerce. Pouvez-vous me rappeler au 06 ** ** ** ** ?"
+          required />
         <div class="validator-hint">
           Veuillez ajouter un message
         </div>
@@ -62,8 +61,10 @@ async function sendMessage(event) {
         <label class="label whitespace-normal">
           <input type="checkbox" class="checkbox checkbox-primary" required>
           <div>
-            <p>J'accepte que les informations récoltées dans ce formulaire soient traitées dans le but d'établir une communication professionnelle. Les données ne sont pas revendues à une société tierce.</p>
-            <p>Plus d'infos disponibles en consultant nos <NuxtLink class="link link-primary" to="/mentions-legales" target="_blank">mentions légales</NuxtLink>.</p>
+            <p>J'accepte que les informations récoltées dans ce formulaire soient traitées dans le but d'établir une
+              communication professionnelle. Les données ne sont pas revendues à une société tierce.</p>
+            <p>Plus d'infos disponibles en consultant nos <NuxtLink class="link link-primary" to="/mentions-legales"
+                target="_blank">mentions légales</NuxtLink>.</p>
           </div>
         </label>
       </fieldset>
