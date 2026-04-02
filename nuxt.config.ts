@@ -49,4 +49,8 @@ export default defineNuxtConfig({
     smtpUser: '',
     smtpPass: '',
   },
+
+  content: {
+    experimental: { sqliteConnector: 'native' },
+  },
 })
