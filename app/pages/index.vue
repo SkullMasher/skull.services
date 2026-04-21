@@ -11,8 +11,12 @@
           Florian Ledru
         </h2>
         <h2>Développement • Hébergement • Design</h2>
-        <NuxtPicture src="/florian-ledru-dev-2026.avif" format="avif, webp" width="300"
-          alt="Florian Ledru détouré avec la main sur le sur le matin" class="absolute bottom-0 right-0 -z-10" />
+        <NuxtPicture
+          src="/florian-ledru-dev-2026.avif"
+          format="avif, webp"
+          width="300"
+          alt="Florian Ledru détouré avec la main sur le sur le matin" class="absolute bottom-0 right-0 -z-10"
+        />
       </header>
       <main class="mx-auto px-2 max-w-3xl">
         <ContactForm />
