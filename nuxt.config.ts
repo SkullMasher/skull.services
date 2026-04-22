@@ -18,7 +18,13 @@ export default defineNuxtConfig({
     'nuxt-security',
     '@nuxtjs/seo',
     '@vueuse/nuxt',
+    'nuxt-svgo',
   ],
+
+  components: [{
+    path: '~/components',
+    pathPrefix: false,
+  }],
 
   vite: {
     plugins: [tailwindcss()],
@@ -26,9 +32,16 @@ export default defineNuxtConfig({
 
   css: ['~/assets/app.css'],
 
+  svgo: {
+    autoImportPath: './assets/svg/',
+    componentPrefix: 'svg',
+    global: false,
+    dts: true,
+  },
+
   app: {
     head: {
-      title: 'Florian Ledru - Informaticien freelance au service des PME', // default fallback title
+      title: 'Florian Ledru - Réduire et simplifier les coûts informatiques des PME', // default fallback title
       htmlAttrs: { lang: 'fr' },
     },
   },

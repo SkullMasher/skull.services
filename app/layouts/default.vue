@@ -1,7 +1,7 @@
 <template>
   <div>
-    <AppHeader />
+    <Navbar />
     <slot />
-    <AppFooter />
+    <Footer />
   </div>
 </template>

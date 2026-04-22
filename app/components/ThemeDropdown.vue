@@ -8,22 +8,28 @@ const currentTheme = useLocalStorage('theme', '')
 <template>
   <div class="dropdown dropdown-center dropdown-bottom p-0">
     <button tabindex="0" role="button" class="group flex items-center gap-x-2 px-3 py-1.5">
-      <Icon name="mdi:palette-swatch-variant" size="1.5em" class="
+      <Icon
+        name="solar:palette-broken" size="1.5em" class="
           transition-transform duration-300
           group-hover:-rotate-45
           group-focus:-rotate-45
-        " />
-      <span class="hidden sm:block">Themes</span>
+        "
+      />
+      <span class="font-semibold">Themes</span>
     </button>
-    <ul tabindex="0" class="
+    <ul
+      tabindex="0" class="
         dropdown-content z-10 max-h-96 w-52 overflow-y-auto rounded-box
         bg-base-300 p-2 shadow-2xl
-      ">
+      "
+    >
       <li v-for="(theme, index) in themes" :key="index">
-        <input v-model="currentTheme" type="radio" name="theme-dropdown"
+        <input
+          v-model="currentTheme" type="radio" name="theme-dropdown"
           :class="{ 'bg-primary': theme === currentTheme, 'text-primary-content': theme === currentTheme }"
           class="theme-controller btn justify-start btn-ghost btn-primary" :aria-label="capitalizeFirstLetter(theme)"
-          :value="theme">
+          :value="theme"
+        >
         <button :data-theme="theme" class="absolute top-2.5 right-3 gap-1 bg-base-100" @click="currentTheme = theme">
           <div class="size-2 rounded-full bg-base-content" />
           <div class="size-2 rounded-full bg-primary" />
