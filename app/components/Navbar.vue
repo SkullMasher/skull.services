@@ -10,7 +10,7 @@
       <li>
         <NuxtLink to="/" class="group">
           <SvgSkullmasher
-            class="size-8 transition-transform duration-300 group-hover:-rotate-12 group-focus:-rotate-12"
+            class="size-6 transition-transform duration-300 group-hover:-rotate-12 group-focus:-rotate-12"
             :font-controlled="false" filled
           />
         </NuxtLink>

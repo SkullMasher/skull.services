@@ -12,11 +12,11 @@
         Développement • Hébergement • Design
       </h2>
     </div>
-    <div class="size-120 transform-gpu blur-2xl absolute bottom-10 -right-20 -z-10 text-secondary">
-      <SvgBlob2 :font-controlled="false" class="animate-[spin_20s_ease-in-out_infinite]" />
+    <div class="size-120 absolute bottom-10 -right-20 -z-10 text-secondary blur-2xl">
+      <SvgBlob2 :font-controlled="false" class="" />
     </div>
-    <div class="size-86 text-accent absolute bottom-0 right-40 -z-10 transform-gpu blur-3xl">
-      <SvgBlob :font-controlled="false" class="animate-[spin_10s_ease-in-out_infinite]" />
+    <div class="size-86 text-accent absolute bottom-0 right-40 -z-10 blur-3xl">
+      <SvgBlob :font-controlled="false" class="" />
     </div>
     <NuxtPicture
       src="/florian-ledru-dev-2026.avif"
