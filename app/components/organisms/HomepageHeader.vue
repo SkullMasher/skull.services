@@ -1,14 +1,14 @@
 <template>
-  <header class="relative mx-auto px-2 pb-106 sm:pb-86 sm:pt-12 border-b-primary-content overflow-hidden">
+  <header class="relative mx-auto px-2 pb-115 sm:pb-86 sm:pt-12 border-b-primary-content overflow-hidden">
     <div class="max-w-xl mx-auto">
-      <h1 class="text-4xl mb-4 font-semibold text-shadow-md/50">
+      <h1 class="text-4xl mb-4 font-semibold text-shadow-md/50 text-shadow-base-100">
         Réduire et simplifier les coûts informatiques des
         <abbr class="" title="Petites et moyennes entreprises">PME</abbr>
       </h1>
-      <h2 class="text-2xl mb-2 text-primary text-shadow-md/50 font-semibold">
+      <h2 class="text-2xl mb-2 text-primary text-shadow-sm/50  text-shadow-base-100 font-semibold">
         Florian Ledru
       </h2>
-      <h2 class="text-shadow-md/85">
+      <h2 class="text-shadow-sm/50 text-shadow-base-300">
         Développement • Hébergement • Design
       </h2>
     </div>
