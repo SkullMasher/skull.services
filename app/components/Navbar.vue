@@ -8,7 +8,7 @@
   >
     <ul class="menu menu-horizontal items-center gap-2 text-base">
       <li>
-        <NuxtLink aria-current="page" to="/" class="group">
+        <NuxtLink to="/" class="group" title="Revenir à la page d'accueil">
           <SvgSkullmasher
             class="size-6 transition-transform duration-300 group-hover:-rotate-12 group-focus:-rotate-12"
             :font-controlled="false" filled
