@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Florian Ledru - Réduire et simplifier les coûts informatiques des PME', // default fallback title
-      htmlAttrs: { lang: 'fr' },
+      htmlAttrs: { lang: 'fr', class: 'scroll-smooth' },
     },
   },
 

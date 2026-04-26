@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex justify-center">
     <Navbar />
-    <slot />
-    <Footer />
   </div>
+  <slot />
+  <Footer />
 </template>
