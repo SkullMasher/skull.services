@@ -1,6 +1,12 @@
 <template>
-  <header class="grid grid-rows-3 h-[max(666px,90vh)]">
+  <header class="grid grid-rows-3 h-[max(666px,90vh)] relative overflow-hidden">
     <div class="-z-10 absolute right-0 top-0 bottom-[60%] left-0 bg-linear-to-b from-base-300 to-base-100" />
+    <div class="absolute bottom-0 -left-5">
+      <SvgAngineDePoitrinePhones class="w-48 text-base-300" :font-controlled="false" />
+    </div>
+    <div class="absolute bottom-0 -right-5">
+      <SvgAngineDePoitrinePhones class="w-48 text-base-300 rotate-180" :font-controlled="false" />
+    </div>
     <div class="flex justify-center items-center relative text-4xl">
       <Icon name="solar:planet-broken" class="absolute top-[30%] left-[7%] text-warning" />
       <Icon name="solar:star-ring-broken" class="absolute top-[50%] right-[8%] text-warning" />
@@ -21,23 +27,8 @@
         <span class="text-6xl uppercase text-primary">COOL</span>
       </h1>
     </div>
-    <div class="flex items-center px-4 max-w-[45ch] mx-auto">
-      <div class="flex flex-col gap-y-4">
-        <div flex flex-col gap-y-2>
-          <p>FLORIAN LEDRU - 14 ans d'éxpériance a réduire et simplifier les coûts informatiques des PME</p>
-        </div>
-        <p>Vue.js • Wordpress • Odoo</p>
-        <div class="flex gap-x-3 items-center">
-          <Icon class="text-4xl text-primary" name="solar:map-point-wave-broken" />
-          <p>Basé a <a href="https://maps.app.goo.gl/PK1Pra9yw7L1z3SR8" class="underline">Nancy</a></p>
-        </div>
-        <div class="flex gap-x-4">
-          <a href="#contact" class="btn btn-soft btn-primary">
-            Me contacter
-            <Icon name="solar:plain-broken" />
-          </a>
-        </div>
-      </div>
+    <div class="flex justify-center items-center">
+      <Icon name="solar:double-alt-arrow-down-broken" class="text-primary text-6xl relative -top-9" />
     </div>
   </header>
 </template>

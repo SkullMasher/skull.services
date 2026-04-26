@@ -2,9 +2,9 @@
   <div>
     <div>
       <HomepageHeader />
-      <div class="my-0 divider bg-linear-to-r from-primary via-secondary to-accent h-0.5" />
     </div>
-    <main class="px-2 py-16">
+    <main class="flex flex-col gap-y-12 px-2 pt-8 pb-16">
+      <About />
       <ContactForm />
     </main>
   </div>
