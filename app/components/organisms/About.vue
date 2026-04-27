@@ -22,12 +22,6 @@
               <Icon class="text-4xl text-primary" name="solar:map-point-wave-broken" />
               <p>Basé a Nancy</p>
             </div>
-            <div class="flex gap-x-4 hidden">
-              <NuxtLink to="#contact" class="btn btn-soft btn-primary">
-                Me contacter
-                <Icon name="solar:plain-broken" />
-              </NuxtLink>
-            </div>
           </div>
         </div>
       </div>
