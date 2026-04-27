@@ -8,12 +8,12 @@
       <SvgAngineDePoitrinePhones class="w-48 text-base-300 rotate-180" :font-controlled="false" />
     </div>
     <div class="flex justify-center items-center relative text-4xl">
-      <Icon name="solar:planet-broken" class="absolute top-[30%] left-[7%] text-warning" />
-      <Icon name="solar:star-ring-broken" class="absolute top-[50%] right-[8%] text-warning" />
-      <Icon name="solar:star-angle-broken" class="absolute top-[27%] right-[25%] text-6xl text-warning" />
-      <Icon name="solar:star-fall-minimalistic-broken" class="absolute bottom-[30%] left-[14%] -rotate-90 text-warning" />
-      <Icon name="solar:star-rings-broken" class="absolute bottom-[14%] right-[23%] text-warning" />
-      <Icon name="solar:rocket-2-broken" class="-rotate-45 top-10 text-6xl text-warning relative" />
+      <Icon name="solar:planet-broken" class="absolute top-[30%] left-[7%] text-warning/40 motion-safe:animate-[pulse_1800ms_ease-in-out_infinite]" />
+      <Icon name="solar:star-ring-broken" class="absolute top-[50%] right-[8%] text-warning/40 motion-safe:animate-[pulse_2s_ease-in-out_infinite]" />
+      <Icon name="solar:star-angle-broken" class="absolute top-[27%] right-[25%] text-6xl text-warning/40 motion-safe:animate-[pulse_2500ms_ease-in-out_infinite]" />
+      <Icon name="solar:star-fall-minimalistic-broken" class="absolute bottom-[30%] left-[14%] -rotate-90 text-warning/40 motion-safe:animate-[pulse_3s_ease-in-out_infinite]" />
+      <Icon name="solar:star-rings-broken" class="absolute bottom-[14%] right-[23%] text-warning/40 motion-safe:animate-[pulse_3s_ease-in-out_infinite]" />
+      <Icon name="solar:rocket-2-broken" class="-rotate-45 top-10 text-6xl text-warning/80 animate-wiggle relative" />
     </div>
     <div>
       <h1 class="text-center text-4xl font-permanent-marker inline-flex flex-col justify-around items-center w-full h-full">
@@ -28,7 +28,9 @@
       </h1>
     </div>
     <div class="flex justify-center items-center">
-      <Icon name="solar:double-alt-arrow-down-broken" class="text-primary text-6xl relative -top-9" />
+      <NuxtLink to="#about">
+        <Icon name="solar:double-alt-arrow-down-broken" class="text-primary text-6xl relative -top-9 animate-pulse" />
+      </NuxtLink>
     </div>
   </header>
 </template>

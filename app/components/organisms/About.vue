@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-center items-center">
+  <div id="about" class="flex flex-col md:flex-row justify-center items-center">
     <div class="max-w-sm mx-2 w-full h-104 flex justify-center items-center relative">
       <img class="absolute -z-10 shadow-lg/50 w-42 top-0 left-5 -rotate-6" src="/florian-ledru-skate-1.avif" alt="Florian Ledru souriant sur un skate éffectuant un virage a gauche">
       <img class="absolute -z-10 shadow-lg/50 w-42 top-0 right-5 rotate-2" src="/florian-ledru-skate-2.avif" alt="Florian Ledru souriant sur un skate éffectuant un virage a droite">
@@ -9,7 +9,7 @@
         :font-controlled="false" filled
       />
     </div>
-    <a href="#contact" class="hover-3d mx-2 cursor-pointer">
+    <NuxtLink to="#contact" class="hover-3d mx-2 cursor-pointer">
       <div class="card w-96 bg-base-200">
         <div class="card-body">
           <h2 class="card-title">
@@ -23,10 +23,10 @@
               <p>Basé a Nancy</p>
             </div>
             <div class="flex gap-x-4 hidden">
-              <a href="#contact" class="btn btn-soft btn-primary">
+              <NuxtLink to="#contact" class="btn btn-soft btn-primary">
                 Me contacter
                 <Icon name="solar:plain-broken" />
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -40,6 +40,6 @@
       <div />
       <div />
       <div />
-    </a>
+    </NuxtLink>
   </div>
 </template>

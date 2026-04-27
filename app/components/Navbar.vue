@@ -19,7 +19,7 @@
         <ThemeDropdown />
       </li>
       <li>
-        <a href="#contact" class="group font-semibold">
+        <NuxtLink to="#contact" class="group font-semibold">
           <Icon
             name="solar:user-hand-up-broken" size="1.5em" class="
                 transition-transform duration-300
@@ -28,7 +28,7 @@
               "
           />
           Contact
-        </a>
+        </NuxtLink>
       </li>
     </ul>
   </nav>
