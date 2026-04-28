@@ -72,10 +72,10 @@ async function sendMessage(event) {
           </div>
         </label>
       </fieldset>
-      <button class="btn btn-primary mt-4">
+      <Button class="btn-primary mt-4">
         <span v-show="isSending" class="loading loading-spinner" />
         Envoyer le message
-      </button>
+      </Button>
       <span class="validator-hint" :class="{ visible: isDirty }">
         <span v-show="isSuccess" class="text-success">Votre message a été envoyé avec succès</span>
         <span v-show="isError" class="text-error">Erreur lors de l'envoi de votre message</span>
